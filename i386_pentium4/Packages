@@ -1,3 +1,27 @@
+Package: 3proxy-servers
+Version: 0.9-devel
+Depends: libc, 3proxy
+License: GPLv2
+Section: opt
+Architecture: i386_pentium4
+Installed-Size: 95419
+Filename: 3proxy-servers_0.9-devel_i386_pentium4.ipk
+Size: 96013
+SHA256sum: 0d794b7359037892b670d1426845e9375cc4fcf31aada924c542ba34d861e1f6
+Description:  3proxy addional servers
+
+Package: 3proxy
+Version: 0.9-devel
+Depends: libc, libpthread, libopenssl1.1
+License: GPLv2
+Section: net
+Architecture: i386_pentium4
+Installed-Size: 103326
+Filename: 3proxy_0.9-devel_i386_pentium4.ipk
+Size: 104169
+SHA256sum: 52811d0b90b2b5eb9f2c3ec30e007b0a2aa546a06e1fa993c722e6d23926f998
+Description:  3APA3A 3proxy tiny proxy servers
+
 Package: adbyby
 Version: 2.7-20200315
 Depends: libc
@@ -91,6 +115,18 @@ Size: 7765
 SHA256sum: 89eb0a2da226cf9774bf6a2cd55d97d120a152c0c6ef2a11ecd63dc9b9073fc4
 Description:  cpulimit
 
+Package: dns-over-https
+Version: 2.3.0-211024.32495
+Depends: libc
+License: MIT
+Section: net
+Architecture: i386_pentium4
+Installed-Size: 4484933
+Filename: dns-over-https_2.3.0-211024.32495_i386_pentium4.ipk
+Size: 4478866
+SHA256sum: 4c95c6db9e7536723ab3668e6838f56574086e97c5d51bc405d15200c64148b5
+Description:  Client and server software to query DNS over HTTPS, using Google DNS-over-HTTPS protocol and IETF DNS-over-HTTPS (RFC 8484).
+
 Package: dns2socks
 Version: 2.1-20200218
 Depends: libc, libpthread
@@ -125,16 +161,39 @@ Size: 38760
 SHA256sum: ab47b5c2de8f15ed76347401f1c776a8a52518cb5da6926ac13310a9443cda4a
 Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
+Package: iptables-mod-ndpi
+Version: flow_info-26911075-3.4-1
+Depends: libc, iptables, iptables-mod-conntrack-extra, kmod-ipt-ndpi
+Section: net
+Architecture: i386_pentium4
+Installed-Size: 11761
+Filename: iptables-mod-ndpi_flow_info-26911075-3.4-1_i386_pentium4.ipk
+Size: 12573
+SHA256sum: ea25eb556327818295fa57e9fa7e3073b80e4cac432a2b7f624ee7d26730cba2
+Description:  nDPI is a ntop-maintained superset of the popular OpenDPI library
+
+Package: lib3proxy
+Version: 0.9-devel
+Depends: libc, 3proxy
+License: GPLv2
+Section: opt
+Architecture: i386_pentium4
+Installed-Size: 54686
+Filename: lib3proxy_0.9-devel_i386_pentium4.ipk
+Size: 55509
+SHA256sum: fdd8f0f84f954c4070bb146b8d00788719275153bbb12b69f39953e64cf926f6
+Description:  3proxy libraries
+
 Package: lua-maxminddb
-Version: 0.2-211024.32495
+Version: 0.2-1
 Depends: libc, lua, libmaxminddb
 License: MIT
 Section: lang
 Architecture: i386_pentium4
-Installed-Size: 2405
-Filename: lua-maxminddb_0.2-211024.32495_i386_pentium4.ipk
-Size: 3151
-SHA256sum: 3e479e1491d4bc2904402ef096995dfc6382c586d81abc1e71333df75a0e8e8b
+Installed-Size: 2402
+Filename: lua-maxminddb_0.2-1_i386_pentium4.ipk
+Size: 3150
+SHA256sum: c6d35153d3eae84e0cb0f0e06725aec36f9b20b05b5af317c725f8846c6b96f2
 Description:  libmaxminddb bindings for lua
 
 Package: luci-app-koolproxyR
@@ -162,15 +221,15 @@ SHA256sum: 03a76aba2224168c22e8204a97570f6f7ca63b7845dd91578348ba803c2ace26
 Description:  microsocks is a Tiny Proxy in C.
 
 Package: naiveproxy
-Version: 96.0.4664.45-1-3
+Version: 96.0.4664.45-1-1
 Depends: libc, libatomic1
 License: BSD 3-Clause
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 2521347
-Filename: naiveproxy_96.0.4664.45-1-3_i386_pentium4.ipk
-Size: 2514368
-SHA256sum: 18604d8ffaf48e6965c26b2514c29909f6f4baee7325e70d74807d237491aacd
+Installed-Size: 2521425
+Filename: naiveproxy_96.0.4664.45-1-1_i386_pentium4.ipk
+Size: 2514290
+SHA256sum: 7b6eeb79c1ddb03c4373cbb0a95a4e911a962bdfe6faec03f7c7a6cdf6e36129
 Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
  censorship resistance and low detectability. Reusing Chrome's stack also
  ensures best practices in performance and security.
@@ -192,18 +251,16 @@ Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching 
  can't be configured to change that behaviour, to prevent the often
  minute-long hangs (or even crashes) that result from stalled dns queries.
 
-Package: qbittorrent
-Version: 4.3.9-1
-Depends: libc, libgcc1, libstdcpp6, rblibtorrent, libopenssl1.1, qt5-core, qt5-network, qt5-xml, zlib
-Provides: qBittorrent
+Package: qBittorrent-Enhanced-Edition
+Version: 4.3.9.10-1
+Depends: libc, libgcc1, libstdcpp6, rblibtorrent, libopenssl1.1, python3, qt5-core, qt5-network, qt5-xml, qt5-sql, zlib
 License: GPL-2.0+
 Section: net
-CPE-ID: cpe:/a:qbittorrent:qbittorrent
 Architecture: i386_pentium4
-Installed-Size: 5934741
-Filename: qbittorrent_4.3.9-1_i386_pentium4.ipk
-Size: 5934590
-SHA256sum: 3c2a09b615c3a799d8dd1eec101fd2d04450125f9ef5f34c81ef5b1708847b40
+Installed-Size: 3996501
+Filename: qBittorrent-Enhanced-Edition_4.3.9.10-1_i386_pentium4.ipk
+Size: 3995950
+SHA256sum: ae03e5253af878ec7a3e4a09da252675c49f15fb132dc44b8a97bb6d4f39374d
 Description:  qBittorrent is a bittorrent client programmed in C++ / Qt that uses
  libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
  It aims to be a good alternative to all other bittorrent clients out
@@ -234,6 +291,18 @@ Size: 517400
 SHA256sum: c4715b0b3370450594df93696fea078a7a68ddd25c9a8b3a8143c0334da43d49
 Description:  This package contains the qt5 network library.
 
+Package: qt5-sql
+Version: 5.15.2-1
+Depends: libc, libgcc1, libstdcpp6, qt5-core
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: i386_pentium4
+Installed-Size: 88411
+Filename: qt5-sql_5.15.2-1_i386_pentium4.ipk
+Size: 89155
+SHA256sum: e584dd77ca52535a1fd272a82774a359421df1650ba046a1d5f84d358910177d
+Description:  This package contains the qt5 sql library.
+
 Package: qt5-xml
 Version: 5.15.2-1
 Depends: libc, libgcc1, libstdcpp6, qt5-core
@@ -247,15 +316,15 @@ SHA256sum: 926369caada6634ce346cb01f0e045fc12ab0673bb5a36ae9727b4fcc3d1fc28
 Description:  This package contains the qt5 xml library.
 
 Package: rblibtorrent
-Version: 1.2.14-2
+Version: 1.2.15-1
 Depends: libc, libgcc1, libstdcpp6, libopenssl1.1, boost, boost-system, boost-chrono, boost-random
 License: BSD
 Section: libs
 Architecture: i386_pentium4
-Installed-Size: 1253684
-Filename: rblibtorrent_1.2.14-2_i386_pentium4.ipk
-Size: 1249342
-SHA256sum: b4f86a04a2d84ffaf08f550774f7e91bee3613ce5cec17901654bd256ead7565
+Installed-Size: 1252920
+Filename: rblibtorrent_1.2.15-1_i386_pentium4.ipk
+Size: 1248617
+SHA256sum: 1f44b48b43650e9e982cac60cb5888f343d0f80b1ec7118d41e8ef2c7d93d6d7
 Description:  Rasterbar libtorrent is a C++ library that aims to be a good alternative to
  all the other bittorrent implementations around. It is a library and not a
  full featured client, although it comes with a working example client.
@@ -272,51 +341,63 @@ SHA256sum: 6edf046a4fe1de60971966e3c65a9e1fcfacf7558ec5ba44d3f3eb6a0009771f
 Description:  This is a modified version of original redsocks. The name is changed to be REDSOCKS2 since this release to distinguish with original redsocks. This variant is useful for anti-GFW (Great Fire Wall).
 
 Package: shadowsocks-rust-sslocal
-Version: 1.12.3-1
+Version: 1.12.4-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 2677107
-Filename: shadowsocks-rust-sslocal_1.12.3-1_i386_pentium4.ipk
-Size: 2670739
-SHA256sum: 9b1252218d4f1ddebf4b5d641c94011c96c393e29bd499d1cc8297892c74ff26
+Installed-Size: 2732365
+Filename: shadowsocks-rust-sslocal_1.12.4-1_i386_pentium4.ipk
+Size: 2725491
+SHA256sum: 2d5bae336a119f88a943dcadd40045e6515702f3acb8571affd57d5f0aefafa3
 Description:  shadowsocks-rust sslocal
 
 Package: shadowsocks-rust-ssmanager
-Version: 1.12.3-1
+Version: 1.12.4-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 1877679
-Filename: shadowsocks-rust-ssmanager_1.12.3-1_i386_pentium4.ipk
-Size: 1873732
-SHA256sum: 68189b0dd5a1fccb240127392bcea4f0751f158b26a8ddb1833763c4c57c5ab8
+Installed-Size: 1880369
+Filename: shadowsocks-rust-ssmanager_1.12.4-1_i386_pentium4.ipk
+Size: 1876150
+SHA256sum: 414bd516f07dcec30d7a094212aa139be41ef929836dfc67dc3d30328d95da3e
 Description:  shadowsocks-rust ssmanager
 
 Package: shadowsocks-rust-ssserver
-Version: 1.12.3-1
+Version: 1.12.4-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 1815426
-Filename: shadowsocks-rust-ssserver_1.12.3-1_i386_pentium4.ipk
-Size: 1811430
-SHA256sum: d22584fed2bb2a762e2e093661ce9be44a0573dfaf902eaaeacbda38e5532d02
+Installed-Size: 1820749
+Filename: shadowsocks-rust-ssserver_1.12.4-1_i386_pentium4.ipk
+Size: 1815423
+SHA256sum: f778c8ea8319b2d8728861e6ea47cc16d6c476186c28d09aee8060ecae2b5a4f
 Description:  shadowsocks-rust ssserver
 
-Package: shadowsocks-rust-ssurl
-Version: 1.12.3-1
+Package: shadowsocks-rust-ssservice
+Version: 1.12.4-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 671929
-Filename: shadowsocks-rust-ssurl_1.12.3-1_i386_pentium4.ipk
-Size: 671547
-SHA256sum: 34c7bff7d951e5ed92f702a2f378d278c08e4cd4cb48c30815260cea949dcece
+Installed-Size: 2906555
+Filename: shadowsocks-rust-ssservice_1.12.4-1_i386_pentium4.ipk
+Size: 2899995
+SHA256sum: 8605b1e6a740951c8834418688461452f0d40a659dc9e404f3aeb713bfa89d41
+Description:  shadowsocks-rust ssservice
+
+Package: shadowsocks-rust-ssurl
+Version: 1.12.4-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: i386_pentium4
+Installed-Size: 672517
+Filename: shadowsocks-rust-ssurl_1.12.4-1_i386_pentium4.ipk
+Size: 672146
+SHA256sum: 1b780e318aa2bad5dc55dbd4b5fd0798d4528141903d9c6191527f7ba340d3ad
 Description:  shadowsocks-rust ssurl
 
 Package: shadowsocksr-libev-ssr-check
@@ -404,14 +485,14 @@ SHA256sum: e5c62debed28551dddd9380e41cb34a023e53ab4bbd95a2d53fc654f65443dc2
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: sms-tool
-Version: 2021-08-24-57a68d07-1
+Version: 2021-12-03-d38898f4-1
 Depends: libc
 Section: utils
 Architecture: i386_pentium4
-Installed-Size: 7257
-Filename: sms-tool_2021-08-24-57a68d07-1_i386_pentium4.ipk
-Size: 8045
-SHA256sum: caa26324bcd5cd42e0805ce3cef8675f122399b1b0e8ec6b08e9525954a5f0b6
+Installed-Size: 7421
+Filename: sms-tool_2021-12-03-d38898f4-1_i386_pentium4.ipk
+Size: 8174
+SHA256sum: 4c64757320eaf731fe7fb460ddd49a54baae8a662bbd590393274339695caf9d
 Description:  SMS Tool for 3G/4G modem
 
 Package: ssocks
@@ -449,14 +530,14 @@ SHA256sum: bbde2f2b41e514dd48b88abd275ef48c43d063ea700142e2da8b1ea6e22ee55c
 Description:  tcping measures the latency of a tcp-connection
 
 Package: trojan-go
-Version: 0.10.6-5
+Version: 0.10.6-1
 Depends: libc
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 3159887
-Filename: trojan-go_0.10.6-5_i386_pentium4.ipk
-Size: 3161265
-SHA256sum: 9c3c2b83485cd487f6dbf646552397d28cbe18ec6d4297220e231376c1c33526
+Installed-Size: 3159676
+Filename: trojan-go_0.10.6-1_i386_pentium4.ipk
+Size: 3161044
+SHA256sum: 0e84336cf5a5c06c2de009d4512b0ae0c4ff3b818a2dcba37d2ad67d1bdff364
 Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
 
 Package: trojan-plus
@@ -484,44 +565,57 @@ SHA256sum: 54c756172b3b6ccd40b60adcabdc5ae52efb1a49197d502dc780dc419914116a
 Description:  An unidentifiable mechanism that helps you bypass GFW
 
 Package: v2ray-core
-Version: 4.43.0-5
+Version: 4.44.0-1
 Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 4453489
-Filename: v2ray-core_4.43.0-5_i386_pentium4.ipk
-Size: 4455182
-SHA256sum: f24b3d7046d5e9b5cd16d409520904b4928f5a99b58c938f965e2a7539dfa6a7
+Installed-Size: 4443510
+Filename: v2ray-core_4.44.0-1_i386_pentium4.ipk
+Size: 4445211
+SHA256sum: b7318371532c7439f0913187794a2cad311e5c4b68ac6bcf514a7619ab1b25ce
 Description:  Project V is a set of network tools that help you to build your own computer network.
  It secures your network connections and thus protects your privacy.
 
 Package: v2ray-ctl
-Version: 4.43.0-5
+Version: 4.44.0-1
 Depends: libc, v2ray-core
 License: MIT
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 4442342
-Filename: v2ray-ctl_4.43.0-5_i386_pentium4.ipk
-Size: 4444015
-SHA256sum: 27d1bb6e690ce02be3330c48005b697866a65d057b280a5c18133a7bd800adce
+Installed-Size: 4052664
+Filename: v2ray-ctl_4.44.0-1_i386_pentium4.ipk
+Size: 4054272
+SHA256sum: 3c39002752911ce19a21ddb942e51c3e0aae04915eb4461943cede705a499fb2
 Description:  Project V is a set of network tools that help you to build your own computer network.
  It secures your network connections and thus protects your privacy.
  
  This includes configuration tool for v2ray-core.
 
 Package: v2ray-plugin
-Version: 4.43.0-2
+Version: 4.44.0-1
 Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 2939074
-Filename: v2ray-plugin_4.43.0-2_i386_pentium4.ipk
-Size: 2940426
-SHA256sum: 5d5fe238f03bd9a951976bc0f842e331ae28c8f4dc0c45aeb01d9ca64e969f45
+Installed-Size: 2939305
+Filename: v2ray-plugin_4.44.0-1_i386_pentium4.ipk
+Size: 2940657
+SHA256sum: 09ad4edeab0b08f5467b5eda471acd371f8c2e8c486befd548b2d4776be56b05
 Description:  SIP003 plugin for shadowsocks, based on v2ray
+
+Package: v2raya
+Version: 1.5.4-211024.32495
+Depends: libc, ca-bundle, iptables-mod-conntrack-extra, iptables-mod-extra, iptables-mod-filter, iptables-mod-tproxy, kmod-ipt-nat6, xray-core
+License: AGPL-3.0-only
+Section: net
+Architecture: i386_pentium4
+Installed-Size: 8916509
+Filename: v2raya_1.5.4-211024.32495_i386_pentium4.ipk
+Size: 8895706
+SHA256sum: 2bd86ef7de660d58f150ba65eb25ee7edcf518b705761b051134127852d5a8a3
+Description:  v2rayA is a V2Ray Linux client supporting global transparent proxy,
+ compatible with SS, SSR, Trojan(trojan-go), PingTunnel protocols.
 
 Package: vlmcsd
 Version: svn1113-3
@@ -536,14 +630,14 @@ SHA256sum: 2001f2f56e3f2cfebab8eb8fcc77227323bfffa1ad9e5312b19e20da73ba2f89
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: xray-plugin
-Version: 1.5.0-4
+Version: 1.5.0-1
 Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 3184593
-Filename: xray-plugin_1.5.0-4_i386_pentium4.ipk
-Size: 3186003
-SHA256sum: 1209409afd2d6f375852f577c17f32f1930755154143c6aab3e9c0e1f9e94a48
+Installed-Size: 3185214
+Filename: xray-plugin_1.5.0-1_i386_pentium4.ipk
+Size: 3186618
+SHA256sum: 5dfd9487fe10c59fc9565eb98134104893440a3ea18624b54418b5f8535f619d
 Description:  SIP003 plugin for Shadowsocks, based on Xray
 
