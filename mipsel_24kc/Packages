@@ -1,3 +1,27 @@
+Package: 3proxy-servers
+Version: 0.9-devel
+Depends: libc, 3proxy
+License: GPLv2
+Section: opt
+Architecture: mipsel_24kc
+Installed-Size: 98517
+Filename: 3proxy-servers_0.9-devel_mipsel_24kc.ipk
+Size: 99195
+SHA256sum: d80ce103eb225e53cef7b6e534f36204bcde34bf34f920b21f0d56b985be0c2b
+Description:  3proxy addional servers
+
+Package: 3proxy
+Version: 0.9-devel
+Depends: libc, libpthread, libopenssl1.1
+License: GPLv2
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 104344
+Filename: 3proxy_0.9-devel_mipsel_24kc.ipk
+Size: 104947
+SHA256sum: c8b048f5adaf390b6499f3addc2733b9a74cbcce6f2c18e62666b767c34ef35e
+Description:  3APA3A 3proxy tiny proxy servers
+
 Package: adbyby
 Version: 2.7-20200315
 Depends: libc
@@ -91,6 +115,18 @@ Size: 7490
 SHA256sum: be023ac1a7803d73022176c2522b190e8b67aa18f2037f342d0daa6a5e475208
 Description:  cpulimit
 
+Package: dns-over-https
+Version: 2.3.0-211024.32495
+Depends: libc
+License: MIT
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 4199103
+Filename: dns-over-https_2.3.0-211024.32495_mipsel_24kc.ipk
+Size: 4192282
+SHA256sum: 1fc5de97b713bcf3c78023ebfb9a449d74bbcf27d048deb688a956c0346d20e4
+Description:  Client and server software to query DNS over HTTPS, using Google DNS-over-HTTPS protocol and IETF DNS-over-HTTPS (RFC 8484).
+
 Package: dns2socks
 Version: 2.1-20200218
 Depends: libc, libpthread
@@ -125,16 +161,39 @@ Size: 32991
 SHA256sum: f6b84fa1f79777f772b149b63a7dee2c12687605813c2084e2f565a74e0d9e5e
 Description:  Utility for converting iptables (REDIRECT/TPROXY) to SOCKS5.
 
+Package: iptables-mod-ndpi
+Version: flow_info-26911075-3.4-1
+Depends: libc, iptables, iptables-mod-conntrack-extra, kmod-ipt-ndpi
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 11130
+Filename: iptables-mod-ndpi_flow_info-26911075-3.4-1_mipsel_24kc.ipk
+Size: 11945
+SHA256sum: 5a4e4fadc59a8aae5fe132317f31d33c951a73893d9ca398394749f6c5011dfc
+Description:  nDPI is a ntop-maintained superset of the popular OpenDPI library
+
+Package: lib3proxy
+Version: 0.9-devel
+Depends: libc, 3proxy
+License: GPLv2
+Section: opt
+Architecture: mipsel_24kc
+Installed-Size: 57629
+Filename: lib3proxy_0.9-devel_mipsel_24kc.ipk
+Size: 58453
+SHA256sum: bd27aed213b2493ff8981a322a376b7aa420692a768c456b5d11bf2ca2c2c1ec
+Description:  3proxy libraries
+
 Package: lua-maxminddb
-Version: 0.2-211024.32495
+Version: 0.2-1
 Depends: libc, lua, libmaxminddb
 License: MIT
 Section: lang
 Architecture: mipsel_24kc
-Installed-Size: 2606
-Filename: lua-maxminddb_0.2-211024.32495_mipsel_24kc.ipk
-Size: 3345
-SHA256sum: 4a76505e2cc15c74139ab8db4e0bb91d6a4a72740e53923719fe6a37f0654ead
+Installed-Size: 2604
+Filename: lua-maxminddb_0.2-1_mipsel_24kc.ipk
+Size: 3336
+SHA256sum: 9b74dbb5430c21de4fbe540cf3a5f14e6ac24dd6d1e647c885a222f580fbc4a8
 Description:  libmaxminddb bindings for lua
 
 Package: luci-app-koolproxyR
@@ -162,15 +221,15 @@ SHA256sum: b8403cd04e9aa23547eb29e39051c5c04840d8815912fb6e10d20b1dac3c0d1f
 Description:  microsocks is a Tiny Proxy in C.
 
 Package: naiveproxy
-Version: 96.0.4664.45-1-3
+Version: 96.0.4664.45-1-1
 Depends: libc, libatomic1
 License: BSD 3-Clause
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 2794835
-Filename: naiveproxy_96.0.4664.45-1-3_mipsel_24kc.ipk
-Size: 2786476
-SHA256sum: 15ee6fdefe57c2d203352b426343d5913f526ac311985177ee57a8df2ea58aaa
+Installed-Size: 2794832
+Filename: naiveproxy_96.0.4664.45-1-1_mipsel_24kc.ipk
+Size: 2786595
+SHA256sum: 29ae4b2e55bec00acd58890e36a66bb0b32150b01effe48f6e52fc0a4f6091f2
 Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
  censorship resistance and low detectability. Reusing Chrome's stack also
  ensures best practices in performance and security.
@@ -192,18 +251,16 @@ Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching 
  can't be configured to change that behaviour, to prevent the often
  minute-long hangs (or even crashes) that result from stalled dns queries.
 
-Package: qbittorrent
-Version: 4.3.9-1
-Depends: libc, libgcc1, libstdcpp6, rblibtorrent, libopenssl1.1, qt5-core, qt5-network, qt5-xml, zlib
-Provides: qBittorrent
+Package: qBittorrent-Enhanced-Edition
+Version: 4.3.9.10-1
+Depends: libc, libgcc1, libstdcpp6, rblibtorrent, libopenssl1.1, python3, qt5-core, qt5-network, qt5-xml, qt5-sql, zlib
 License: GPL-2.0+
 Section: net
-CPE-ID: cpe:/a:qbittorrent:qbittorrent
 Architecture: mipsel_24kc
-Installed-Size: 5905691
-Filename: qbittorrent_4.3.9-1_mipsel_24kc.ipk
-Size: 5905082
-SHA256sum: e33370b812d50f3a17bfbf4903bb3782acd4648426c70accd3d05330b2389f08
+Installed-Size: 3966088
+Filename: qBittorrent-Enhanced-Edition_4.3.9.10-1_mipsel_24kc.ipk
+Size: 3964973
+SHA256sum: 0deaed4f399139e69d7e9cced0fc6d79781cdcee7755ce7dd84f5bd9651c26ce
 Description:  qBittorrent is a bittorrent client programmed in C++ / Qt that uses
  libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
  It aims to be a good alternative to all other bittorrent clients out
@@ -234,6 +291,18 @@ Size: 507144
 SHA256sum: e2848c6e1bd564bdb681eb5503d9ce4e909bdb203beb822008f22d7884c2b1b8
 Description:  This package contains the qt5 network library.
 
+Package: qt5-sql
+Version: 5.15.2-1
+Depends: libc, libgcc1, libstdcpp6, qt5-core
+Section: libs
+CPE-ID: cpe:/a:qt:qt
+Architecture: mipsel_24kc
+Installed-Size: 82626
+Filename: qt5-sql_5.15.2-1_mipsel_24kc.ipk
+Size: 83375
+SHA256sum: fbf0cb60ea6e1c11e20126306e64ad6b75022cb6be62d40bd44b5d408f564c4a
+Description:  This package contains the qt5 sql library.
+
 Package: qt5-xml
 Version: 5.15.2-1
 Depends: libc, libgcc1, libstdcpp6, qt5-core
@@ -247,15 +316,15 @@ SHA256sum: b78840a515d55d30d010f316c0e074ee031b09786987023754e399f13d2c3dbd
 Description:  This package contains the qt5 xml library.
 
 Package: rblibtorrent
-Version: 1.2.14-2
+Version: 1.2.15-1
 Depends: libc, libgcc1, libstdcpp6, libopenssl1.1, boost, boost-system, boost-chrono, boost-random
 License: BSD
 Section: libs
 Architecture: mipsel_24kc
-Installed-Size: 1405580
-Filename: rblibtorrent_1.2.14-2_mipsel_24kc.ipk
-Size: 1399777
-SHA256sum: 1e910a16e1585a5bc0f05d17652ebbd4793018dac73a3d6562a31e09c2aec6c1
+Installed-Size: 1403554
+Filename: rblibtorrent_1.2.15-1_mipsel_24kc.ipk
+Size: 1397645
+SHA256sum: a7ea5cae61b750828352b581c48f12a1952ddd1457c2c81edaee0d6ae019d2b9
 Description:  Rasterbar libtorrent is a C++ library that aims to be a good alternative to
  all the other bittorrent implementations around. It is a library and not a
  full featured client, although it comes with a working example client.
@@ -272,51 +341,63 @@ SHA256sum: f94560710a75d209044df83748a29cb23708eb7ffef8baf5f8559c4b5ae9497a
 Description:  This is a modified version of original redsocks. The name is changed to be REDSOCKS2 since this release to distinguish with original redsocks. This variant is useful for anti-GFW (Great Fire Wall).
 
 Package: shadowsocks-rust-sslocal
-Version: 1.12.3-1
+Version: 1.12.4-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 2712801
-Filename: shadowsocks-rust-sslocal_1.12.3-1_mipsel_24kc.ipk
-Size: 2713877
-SHA256sum: 3b1cdc55796aa390616b074970494d572663beebd498560ce3a890a11e7d9eae
+Installed-Size: 2759771
+Filename: shadowsocks-rust-sslocal_1.12.4-1_mipsel_24kc.ipk
+Size: 2760807
+SHA256sum: fdc11917f950792db7f6783df9ce26857a192778c35b75db10de35c931c76fc7
 Description:  shadowsocks-rust sslocal
 
 Package: shadowsocks-rust-ssmanager
-Version: 1.12.3-1
+Version: 1.12.4-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 1888578
-Filename: shadowsocks-rust-ssmanager_1.12.3-1_mipsel_24kc.ipk
-Size: 1889549
-SHA256sum: 7070e5da41190bb6fbaf45f01c6b3c799141c5f9f3472144f874260021ef3932
+Installed-Size: 1889026
+Filename: shadowsocks-rust-ssmanager_1.12.4-1_mipsel_24kc.ipk
+Size: 1889985
+SHA256sum: 22a7a47988aa4a38467362a2d9da6b8b30e4e93a2b95d6ed4a4b12cc2e813b2e
 Description:  shadowsocks-rust ssmanager
 
 Package: shadowsocks-rust-ssserver
-Version: 1.12.3-1
+Version: 1.12.4-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 1816348
-Filename: shadowsocks-rust-ssserver_1.12.3-1_mipsel_24kc.ipk
-Size: 1817263
-SHA256sum: f0dd179cd86d44c8cf0b285073c4aba9fb7a706f21a965b3196abb97e6570084
+Installed-Size: 1821736
+Filename: shadowsocks-rust-ssserver_1.12.4-1_mipsel_24kc.ipk
+Size: 1822686
+SHA256sum: c53c68e3503c457cc6a82a5ec78a5a7306e7eb71e7b6211e346d4bc1f0d08183
 Description:  shadowsocks-rust ssserver
 
-Package: shadowsocks-rust-ssurl
-Version: 1.12.3-1
+Package: shadowsocks-rust-ssservice
+Version: 1.12.4-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 634246
-Filename: shadowsocks-rust-ssurl_1.12.3-1_mipsel_24kc.ipk
-Size: 635225
-SHA256sum: 34a74c20176aeeb60dba4080e7cae0aebb20d83c4657198599e88a5a61f8299e
+Installed-Size: 3311622
+Filename: shadowsocks-rust-ssservice_1.12.4-1_mipsel_24kc.ipk
+Size: 3284698
+SHA256sum: 5374157ccbba1387386f5ae0775d38a07b0e85768a281f1dbbc98ec2dd2f8296
+Description:  shadowsocks-rust ssservice
+
+Package: shadowsocks-rust-ssurl
+Version: 1.12.4-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 634409
+Filename: shadowsocks-rust-ssurl_1.12.4-1_mipsel_24kc.ipk
+Size: 635397
+SHA256sum: 0fd66deeaf3064063961aa42c28356decb70a358ebe130e9a7045a6da60dedfa
 Description:  shadowsocks-rust ssurl
 
 Package: shadowsocksr-libev-ssr-check
@@ -404,14 +485,14 @@ SHA256sum: 0cf69040dcbfefad69853bf5ed34eb1a1d8a395bd1e4b57509ecfbb9ff00442d
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: sms-tool
-Version: 2021-08-24-57a68d07-1
+Version: 2021-12-03-d38898f4-1
 Depends: libc
 Section: utils
 Architecture: mipsel_24kc
-Installed-Size: 7318
-Filename: sms-tool_2021-08-24-57a68d07-1_mipsel_24kc.ipk
-Size: 8087
-SHA256sum: 73423a085a99b7fb270ff826f658e6e16da33f47cc0b36c9080432daab3d911f
+Installed-Size: 7394
+Filename: sms-tool_2021-12-03-d38898f4-1_mipsel_24kc.ipk
+Size: 8175
+SHA256sum: c49f0905b29a7f928917b1aa291c9b5bf85457bc08a2832aef5aede6f091ff07
 Description:  SMS Tool for 3G/4G modem
 
 Package: ssocks
@@ -449,14 +530,14 @@ SHA256sum: 3d962adc3de3dd24cb7d2c741e27191302075f31a100340fe5dd7a1a948417d9
 Description:  tcping measures the latency of a tcp-connection
 
 Package: trojan-go
-Version: 0.10.6-5
+Version: 0.10.6-1
 Depends: libc
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 2914862
-Filename: trojan-go_0.10.6-5_mipsel_24kc.ipk
-Size: 2916201
-SHA256sum: f6bae234521ede23098e0191cb70ed6a3cb867c3fb64ce47f4560682501a97d1
+Installed-Size: 2915458
+Filename: trojan-go_0.10.6-1_mipsel_24kc.ipk
+Size: 2916796
+SHA256sum: 8f7de3418cacf2ae7c767ec6c3d6ea61d45b9bf3ab260ebd43d3a96d8834381d
 Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
 
 Package: trojan-plus
@@ -484,44 +565,57 @@ SHA256sum: ae29751b50a94df3d2e480413730d5921ae25d70b1746921532ca9c8b14a6d5c
 Description:  An unidentifiable mechanism that helps you bypass GFW
 
 Package: v2ray-core
-Version: 4.43.0-5
+Version: 4.44.0-1
 Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 3764605
-Filename: v2ray-core_4.43.0-5_mipsel_24kc.ipk
-Size: 3766252
-SHA256sum: 4534609790539f67ca097421f19e2e8f10c6416ad2d911f96e2cde7fdf4611c5
+Installed-Size: 3758232
+Filename: v2ray-core_4.44.0-1_mipsel_24kc.ipk
+Size: 3759827
+SHA256sum: 71cd0a2035fb51b745c72758218fa0fa0d465871d332c5b46d61b92d7971280d
 Description:  Project V is a set of network tools that help you to build your own computer network.
  It secures your network connections and thus protects your privacy.
 
 Package: v2ray-ctl
-Version: 4.43.0-5
+Version: 4.44.0-1
 Depends: libc, v2ray-core
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 3757463
-Filename: v2ray-ctl_4.43.0-5_mipsel_24kc.ipk
-Size: 3759035
-SHA256sum: 06560f4cdfc6edaf4b628df61386001b8bf03d4b128c5955358645f5a4453f00
+Installed-Size: 3749214
+Filename: v2ray-ctl_4.44.0-1_mipsel_24kc.ipk
+Size: 3750786
+SHA256sum: 5c1e108522df63cf6d50134647a2c038c67795599f2ef85e052d62086d344a26
 Description:  Project V is a set of network tools that help you to build your own computer network.
  It secures your network connections and thus protects your privacy.
  
  This includes configuration tool for v2ray-core.
 
 Package: v2ray-plugin
-Version: 4.43.0-2
+Version: 4.44.0-1
 Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 2711848
-Filename: v2ray-plugin_4.43.0-2_mipsel_24kc.ipk
-Size: 2713164
-SHA256sum: 887d49bd0c1a30c9824c2ba269d81511958fa4739606f58e686c9eb7d31cbba7
+Installed-Size: 2712728
+Filename: v2ray-plugin_4.44.0-1_mipsel_24kc.ipk
+Size: 2714047
+SHA256sum: 5979c976550e563dafc4225b7bbaa93ab0120e69273093b601b26a7d69520cd6
 Description:  SIP003 plugin for shadowsocks, based on v2ray
+
+Package: v2raya
+Version: 1.5.4-211024.32495
+Depends: libc, ca-bundle, iptables-mod-conntrack-extra, iptables-mod-extra, iptables-mod-filter, iptables-mod-tproxy, kmod-ipt-nat6, xray-core
+License: AGPL-3.0-only
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 8454145
+Filename: v2raya_1.5.4-211024.32495_mipsel_24kc.ipk
+Size: 8430150
+SHA256sum: 05a50aa3ef0e8b9befea4631e652a9f9cd46bcc3301fe2577e0f4901298321c6
+Description:  v2rayA is a V2Ray Linux client supporting global transparent proxy,
+ compatible with SS, SSR, Trojan(trojan-go), PingTunnel protocols.
 
 Package: vlmcsd
 Version: svn1113-3
@@ -536,14 +630,14 @@ SHA256sum: 3ef37c1eb62c093fba7c2cc1e520b6ecf550aa48e4120e7ead3b247a04c463da
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: xray-plugin
-Version: 1.5.0-4
+Version: 1.5.0-1
 Depends: libc, ca-bundle
 License: MIT
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 2938011
-Filename: xray-plugin_1.5.0-4_mipsel_24kc.ipk
-Size: 2939372
-SHA256sum: 3b728e1387be3fa3d56dee5694f661ae8f9c4ad06286b7682c7c077187231bcb
+Installed-Size: 2938887
+Filename: xray-plugin_1.5.0-1_mipsel_24kc.ipk
+Size: 2940247
+SHA256sum: 12b6f34c7713ba1a5685faeca9782bfe82e1cf6a86cb87a3c86eef2b4aeee119
 Description:  SIP003 plugin for Shadowsocks, based on Xray
 
