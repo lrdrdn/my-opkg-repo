@@ -96,7 +96,7 @@ Cara instalasi repository ini, dapat menggunakan 2 cara yaitu
       opkg update
       ```
   
-  3. Jalankan perintah `opkg install nama-paket`, ganti `nama-paket` menjadi nama paket yang ada pada contoh kali ini penulis akan menggunakan paket `luci-app-passwall`
+  3. Jalankan perintah `opkg install nama-paket`, ganti `nama-paket` menjadi nama paket yang ada (contoh kali ini akan menggunakan paket `luci-app-passwall`).
       
       ```
       opkg install luci-app-passwall
