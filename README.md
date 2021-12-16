@@ -89,7 +89,7 @@ Cara instalasi repository ini, dapat menggunakan 2 cara yaitu
   3. Cari nama paket (seperti: `luci-app-passwall`) pada kolom **Filter**
   4. Tekan tombol **Find Package**
  
-### Menggunakan Terminal
+### Install dan Update Paket Menggunakan Terminal
   1. Buka aplikasi terminal yang disuka
   2. Jalankan perintah dibawah ini untuk memperbarui daftar paket yang tersedia di server
       ```
