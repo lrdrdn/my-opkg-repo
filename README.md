@@ -2,6 +2,7 @@
 Install/upgrade paket openclash/passwall/ssr+/modeminfo dll dg mudah. instal paket tinggal opkg update && opkg install atau lewat luci di menu software.
 
 Repository ini mendukung arsitektur dibawah ini:
+
 ```
 aarch64_cortex-a53
 aarch64_cortex-a72
@@ -24,11 +25,14 @@ Cara pakai dan instalasi repository ini, dapat menggunakan 2 cara yaitu
   
   2. Tambahkan tanda # (pagar) di depan baris ```option check_signature```, contoh dibawah ini
   
-      dari tulisan dibawah ini
+      ubah tulisan dibawah ini
+      
       ```
       option check_signature
       ```
+      
       menjadi seperti ini
+      
       ```
       # option check_signature
       ```
@@ -44,16 +48,20 @@ Cara pakai dan instalasi repository ini, dapat menggunakan 2 cara yaitu
 
       ![](https://raw.githubusercontent.com/lrdrdn/my-opkg-repo/main/preview/preview1.gif)
  
-### Menggunakan Terminal/JuiceSSH/Termius/Termux
+### Menggunakan Terminal
+  Berikut ini adalah beberapa aplikasi terminal yang ringan dan sering digunakan:
+  - JuiceSSH
+  - Termius
+  - Termux
   
   Copy paste dibawah di terminal, otomatis akan menyesuaikan tipe arsitektur cpu router
-  
-      ```
-      sed -i 's/option check_signature/# option check_signature/g' /etc/opkg.conf
-      echo "src/gz custom_generic https://raw.githubusercontent.com/lrdrdn/my-opkg-repo/main/generic" >> /etc/opkg/customfeeds.conf
-      echo "src/gz custom_arch https://raw.githubusercontent.com/lrdrdn/my-opkg-repo/main/$(cat /etc/os-release | grep OPENWRT_ARCH | awk -F '"' '{print $2}')" >> /etc/opkg/customfeeds.conf
-     ```
+      
+    ```
+    sed -i 's/option check_signature/# option check_signature/g' /etc/opkg.conf
+    echo "src/gz custom_generic https://raw.githubusercontent.com/lrdrdn/my-opkg-repo/main/generic" >> /etc/opkg/customfeeds.conf
+    echo "src/gz custom_arch https://raw.githubusercontent.com/lrdrdn/my-opkg-repo/main/$(cat /etc/os-release | grep OPENWRT_ARCH | awk -F '"' '{print $2}')" >> /etc/opkg/customfeeds.conf
+    ```
     
-  ![](https://raw.githubusercontent.com/lrdrdn/my-opkg-repo/main/preview/preview2.gif)
+ ![](https://raw.githubusercontent.com/lrdrdn/my-opkg-repo/main/preview/preview2.gif)
     
-  > Catatan: untuk firmware OpenWrt 19.07 masih ada yg harus install manual seperti kcptun-client, xray-core & libcap-bin.
+ > Catatan: untuk firmware OpenWrt 19.07 masih ada yg harus install manual seperti `kcptun-client`, `xray-core` dan `libcap-bin`.
