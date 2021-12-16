@@ -11,6 +11,7 @@ Daftar Isi:
 - [Cara Menambah Repository ke Software Update OpenWrt](#cara-menambah-repository-ke-software-update-openwrt)
 - [Cara Install dan Update Paket](#cara-install-dan-update-paket)
 - [Cara Memeriksa Paket Sudah Terinstal Atau Belum](#cara-memeriksa-paket-sudah-terinstal-atau-belum)
+- [Kredit](#kredit)
 
 ## Daftar Arsitektur
 Repository ini mendukung arsitektur dibawah ini:
