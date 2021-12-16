@@ -15,7 +15,7 @@ x86_64
 ## Cara Pakai
 Cara pakai dan instalasi repository ini, dapat menggunakan 2 cara yaitu
 - [Menggunakan LuCI](#menggunakan-luci)
-- [Menggunakan Terminal](#menggunakan-terminal%2Fjuicessh%2Ftermius%2Ftermux) seperti JuiceSSH/Termius/Termux
+- [Menggunakan Terminal](#menggunakan-terminal/juicessh/termius/termux) seperti JuiceSSH/Termius/Termux
 
 
 ### Menggunakan LuCI
