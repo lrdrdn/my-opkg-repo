@@ -1,11 +1,16 @@
 # Personal OpenWrt OPKG Server
-Install dan upgrade paket aplikasi modifikasi OpenWrt (seperti: OpenClash, Passwall, ShadowSocksR+ Plus, Wegare STL, Tiny File Manager, Xderm Mini, v2rayA, Modeminfo, dll) dengan mudah.
-Instal paket tinggal opkg update && opkg install atau lewat luci di menu software.
+Install dan upgrade paket aplikasi komunitas modifikasi OpenWrt (seperti: OpenClash, Passwall, ShadowSocksR+ Plus, Wegare STL, Tiny File Manager, Xderm Mini, v2rayA, Modeminfo, dll) dengan mudah.
+
+Kelebihan instalasi dan update menggunakan server kustom seperti ini adalah:
+1. Tidak perlu repot menggunakan wget dan curl yang sangat panjang dan rumit.
+2. Instalasi paket ipk bisa menggunakan `opkg install nama-paket`.
+3. Instalasi paket ipk juga bisa menggunakan fitur **System - Software** pada LuCI OpenWrt.
 
 Daftar Isi:
 - [Daftar Arsitektur](#daftar-arsitektur)
 - [Cara Menambah Repository ke Software Update OpenWrt](#cara-menambah-repository-ke-software-update-openwrt)
 - [Cara Install dan Update Paket](#cara-install-dan-update-paket)
+- [Cara Memeriksa Paket Sudah Terinstal Atau Belum](#cara-memeriksa-paket-sudah-terinstal-atau-belum)
 
 ## Daftar Arsitektur
 Repository ini mendukung arsitektur dibawah ini:
@@ -82,12 +87,16 @@ Cara instalasi repository ini, dapat menggunakan 2 cara yaitu
 - [Menggunakan LuCI](#install-dan-update-paket-menggunakan-luci)
 - [Menggunakan Terminal](#install-dan-update-paket-menggunakan-terminal) seperti JuiceSSH/Termius/Termux
 
-
 ### Install dan Update Paket Menggunakan LuCI
   1. Masuk IP LuCI (contoh: 192.168.1.1), Login, Buka **System -> Software -> Configuration**
-  2. Tekan tombol **Update Lists**
-  3. Cari nama paket (seperti: `luci-app-passwall`) pada kolom **Filter**
-  4. Tekan tombol **Find Package**
+  2. Tekan tombol **Update Lists**.
+  3. Cari nama paket (seperti: `luci-app-passwall`) pada kolom **Filter**.
+  4. Tekan tombol **Find Package**.
+  5. Scroll sedikit, lihat dibawah ada tab **Installed packages** dan **Available packages** :
+      - Installed packages : paket pada daftar tersebut sudah terpasang.
+      - Available packages : paket pada dafter tersebut belum terpasang.
+  6. Klik **Available packages**, lalu cari nama paket yang di tulis di filter tadi.
+  7. Klik tulisan **Install** pada baris yang terdapat pada nama paket tersebut, lalu tunggu hingga instalasi paket selesai.
  
 ### Install dan Update Paket Menggunakan Terminal
   1. Buka aplikasi terminal yang disuka
@@ -101,3 +110,30 @@ Cara instalasi repository ini, dapat menggunakan 2 cara yaitu
       ```
       opkg install luci-app-passwall
       ```
+
+## Cara Memeriksa Paket Sudah Terinstal Atau Belum
+Cara instalasi repository ini, dapat menggunakan 2 cara yaitu
+- [Menggunakan LuCI](#cara-memeriksa-status-paket-dengan-luci)
+- [Menggunakan Terminal](#cara-memeriksa-status-paket-dengan-terminal) seperti JuiceSSH/Termius/Termux
+
+### Cara Memeriksa Status Paket dengan LuCI
+  1. Masuk IP LuCI (contoh: 192.168.1.1), lalu Login.
+      - Jika memasang paket yang terdapat kata `luci-app`, biasanya akan muncul di LuCI System/Services/NAS/VPN/Modem/Network dan lain lain.
+      - Jika memasang paket yang terdapat kata `luci-proto`, biasanya akan muncul di **Network -> Pilih salah satu interface -> General Setup -> Protocol**.
+      - Jika memasang paket yang terdapat kata `luci-theme`, biasanya akan muncul di **System -> System Properties -> Language and Style -> Design**.
+      - Jika memasang paket yang di install tidak terdapat kata luci, maka paket tersebut tidak akan menampilkan apapun di LuCI.
+
+### Cara Memeriksa Status Paket dengan Terminal
+  1. Buka terminal
+  2. Jalankan perintah `opkg list-installed nama-paket`, ganti `nama-paket` menjadi nama paket yang ada (contoh kali ini akan menggunakan paket `luci-app-passwall`).
+      
+      ```
+      opkg list-installed luci-app-passwall
+      ```
+      
+      Jika di terminal muncul `luci-app-passwall - 4.43-2` maka paket aplikasi sudah terpasang, jika tidak ada maka paket belum terpasang. Angka `4.43-2` pada terminal tadi adalan versi paket aplikasi yang terinstal.
+      
+      
+### Kredit
+- [Nugroho](https://) sebagai pemilik repo, builder dan yang buat video contoh.
+- [Helmi Amirudin](https://helmiau.com/about) sebagai tukang dokumentasi.
