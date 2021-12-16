@@ -1,5 +1,5 @@
 # Personal OpenWrt OPKG Server
-Install dan upgrade paket aplikasi modifikasi OpenWrt (seperti: OpenClash, Passwall, ShadowSocksR+ Plus, Modeminfo, dll) dengan mudah.
+Install dan upgrade paket aplikasi modifikasi OpenWrt (seperti: OpenClash, Passwall, ShadowSocksR+ Plus, Wegare STL, Tiny File Manager, Xderm Mini, v2rayA, Modeminfo, dll) dengan mudah.
 Instal paket tinggal opkg update && opkg install atau lewat luci di menu software.
 
 Daftar Isi:
