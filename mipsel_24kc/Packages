@@ -1,0 +1,608 @@
+Package: adbyby
+Version: 2.7-20200315
+Depends: libc
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 416684
+Filename: adbyby_2.7-20200315_mipsel_24kc.ipk
+Size: 417490
+SHA256sum: 2980365306d949431ecb03502c3685235912debe1c300be0278af7e6cc54e696
+Description:  Adbyby is a powerful adblock module to block ad,just like adblock.
+
+Package: atinout
+Version: 0.9.1
+Depends: libc
+License: GPLv2
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 3116
+Filename: atinout_0.9.1_mipsel_24kc.ipk
+Size: 3925
+SHA256sum: b3aaf12cb2c8d0020fd0ad771db89c4c2854c88a460d44bd66218974a1213abb
+Description:  Atinout is a program that will execute AT commands in sequence and
+ capture the response from the modem.
+
+Package: automount
+Version: 1-38
+Depends: libc, block-mount, kmod-fs-exfat, kmod-fs-ext4, kmod-fs-vfat, libblkid1, kmod-usb-storage, kmod-usb-storage-extras
+Section: opt
+Architecture: mipsel_24kc
+Installed-Size: 719
+Filename: automount_1-38_mipsel_24kc.ipk
+Size: 1495
+SHA256sum: acbdc659757ed0fe71c45639bc563500b6656eb98eb9d2873a67b692589a33f7
+Description:  A usb autoconfig hotplug script.
+
+Package: badvpn
+Version: 1.999.130-1
+Depends: libc, librt, libpthread, libudev, libudev-zero, libnss, libopenssl1.1, coreutils, coreutils-stdbuf, openssl-util
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 104168
+Filename: badvpn_1.999.130-1_mipsel_24kc.ipk
+Size: 105069
+SHA256sum: 7f64796dbdb9927eadcfbe7a7421ef08fa81f5d724e43ca33bedfacbfecf0be6
+Description:  BadVPN
+
+Package: brook
+Version: 20220707-1
+Depends: libc, ca-bundle
+License: GPL-3.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 3750127
+Filename: brook_20220707-1_mipsel_24kc.ipk
+Size: 3742583
+SHA256sum: d48b9d3c82a8c1cad640a1256c4670fbdc6b85d32be602a34065218d6fdcea01
+Description:  Brook is a cross-platform strong encryption and not detectable proxy.
+ Zero-Configuration.
+
+Package: chinadns-ng
+Version: 1.0-beta.25-1
+Depends: libc, ipset
+License: AGPL-3.0-only
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 17351
+Filename: chinadns-ng_1.0-beta.25-1_mipsel_24kc.ipk
+Size: 18176
+SHA256sum: 146bd8cf90672e342b6b4d65d7cee6c5482f8a352485a242afb6035344a92b67
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: corkscrew
+Version: 2.0-1
+Depends: libc
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 2993
+Filename: corkscrew_2.0-1_mipsel_24kc.ipk
+Size: 3750
+SHA256sum: 2856a18946d6d39ce7fae7c7f5bc98ea5a496269c88f97cfc0699c706648c797
+Description:  Tunneling SSH through HTTP proxies.
+
+Package: dns2socks
+Version: 2.1-2
+Depends: libc, libpthread
+License: BSD-3-Clause
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 10761
+Filename: dns2socks_2.1-2_mipsel_24kc.ipk
+Size: 11573
+SHA256sum: d579842fdbb0479bf1b4bf048a0ed031fa219f27601a6670e6064b4782807b75
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: dns2tcp
+Version: 1.1.0-1
+Depends: libc
+License: AGPL-3.0-only
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 12593
+Filename: dns2tcp_1.1.0-1_mipsel_24kc.ipk
+Size: 13392
+SHA256sum: 1c667ec8f6712af138121a4838042beee51dbd37bb3a81bde4401df985d680e9
+Description:  utility to convert dns query from udp to tcp
+
+Package: hysteria
+Version: 1.1.0-1
+Depends: libc, ca-bundle
+License: MIT
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 5666354
+Filename: hysteria_1.1.0-1_mipsel_24kc.ipk
+Size: 5655332
+SHA256sum: aadb6f9ca2742f439cb73b69240e14f88a07030160f0edb51049acf58c616e08
+Description:  Hysteria is a feature-packed network utility optimized for networks
+ of poor quality (e.g. satellite connections, congested public Wi-Fi,
+ connecting from China to servers abroad) powered by a custom version
+ of QUIC protocol.
+
+Package: ipt2socks
+Version: 1.1.3-3
+Depends: libc, libpthread
+License: AGPL-3.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 28318
+Filename: ipt2socks_1.1.3-3_mipsel_24kc.ipk
+Size: 29097
+SHA256sum: 42fcfcc3f896f28caa3d5d6044b7eaf6fa88767c0d80f89561b154fb7d316fd7
+Description:  Utility for converting iptables (redirect/tproxy) to socks5.
+
+Package: lua-maxminddb
+Version: 0.2-1
+Depends: libc, lua, libmaxminddb
+License: MIT
+Section: lang
+Architecture: mipsel_24kc
+Installed-Size: 2603
+Filename: lua-maxminddb_0.2-1_mipsel_24kc.ipk
+Size: 3336
+SHA256sum: 6858600510b036a32fc36e009da91ca838557d0f89a4ee4b7cfd661a6e2fc473
+Description:  libmaxminddb bindings for lua
+
+Package: microsocks
+Version: 1.0.3-1
+Depends: libc, libpthread
+License: MIT
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 4782
+Filename: microsocks_1.0.3-1_mipsel_24kc.ipk
+Size: 5604
+SHA256sum: d756f2233c8041d59f8f594354840afcafb58ed0d4e850065dc790ca867f51cc
+Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
+ through them, if for some reason SSH doesn't cut it for you.
+
+Package: mrtg
+Version: 2.17.7-2
+Depends: libc, libgd, libpng, zlib, perl, perlbase-essential, perlbase-findbin, perlbase-cwd, perlbase-config, perlbase-file, perlbase-getopt, perlbase-math, perlbase-integer, perlbase-xsloader, perlbase-pod, perlbase-universal, perlbase-socket, perlbase-posix, perlbase-autoloader, perlbase-fcntl, perlbase-tie, perlbase-io, perlbase-symbol, perlbase-selectsaver, perlbase-errno, perlbase-scalar, perlbase-list, perlbase-base, perlbase-storable
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 549568
+Filename: mrtg_2.17.7-2_mipsel_24kc.ipk
+Size: 550469
+SHA256sum: 7e8f19a0c0cf472958faf75d3b4446574ae7d4fd143865645e1b0d08941ca9dc
+Description:  The Multi Router Traffic Grapher, or just simply MRTG, is free software for
+ monitoring and measuring the traffic load on network links. It allows the
+ user to see traffic load on a network over time in graphical form. It was
+ originally developed by Tobias Oetiker and Dave Rand to monitor router
+ traffic, but has developed into a tool that can create graphs and statistics
+ for almost anything.
+
+Package: naiveproxy
+Version: 103.0.5060.53-3-1
+Depends: libc, libatomic1
+License: BSD 3-Clause
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 2771301
+Filename: naiveproxy_103.0.5060.53-3-1_mipsel_24kc.ipk
+Size: 2763192
+SHA256sum: 9f65eda85aab75280beeac8961c476afbf87ff783f0e63512795ede0b86ddb09
+Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
+ censorship resistance and low detectability. Reusing Chrome's stack also
+ ensures best practices in performance and security.
+
+Package: nload
+Version: 0.7.4-1
+Depends: libc, libncurses6, libstdcpp6
+License: LICENSE
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 34082
+Filename: nload_0.7.4-1_mipsel_24kc.ipk
+Size: 34953
+SHA256sum: 5df43a6dce63f812b69cd4e1d8023bfcad6b3dd02443c38a22044df0e433d03d
+Description:  nload is a console application which monitors network traffic and bandwidth usage in real time.
+ It visualizes the in- and outgoing traffic using two graphs and provides additional info like total amount of transfered data and min/max network usage.
+
+Package: pdnsd-alt
+Version: 1.2.9b-par-3
+Depends: libc, libpthread
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 74998
+Filename: pdnsd-alt_1.2.9b-par-3_mipsel_24kc.ipk
+Size: 76010
+SHA256sum: 9c9cca03dac1aac1d4006c87cfc797639771f0a6fa4554b7790388cb3b36cf66
+Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
+ contents are written to hard disk on exit) that is designed to cope with
+ unreachable or down DNS servers (for example in dial-in networking).
+ 
+ pdnsd can be used with applications that do dns lookups, eg on startup, and
+ can't be configured to change that behaviour, to prevent the often
+ minute-long hangs (or even crashes) that result from stalled dns queries.
+
+Package: pingcontrol
+Version: 1-0
+Depends: libc
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 1554
+Filename: pingcontrol_1-0_mipsel_24kc.ipk
+Size: 2318
+SHA256sum: 4d6a29afccf3edafe7b14bbcb40529171aee671194bf10634c1154e6a603dc2f
+Description:  This package contains a utility for managing the interface using ping requests.
+
+Package: redsocks2
+Version: 0.67-4
+Depends: libc, libevent2-7, libopenssl1.1
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 48444
+Filename: redsocks2_0.67-4_mipsel_24kc.ipk
+Size: 49376
+SHA256sum: 0704573ef01c026bc3012f0358f39433537dfb1b99b9b62914c21bd19b4669fe
+Description:  This is a modified version of original redsocks. The name is changed to be REDSOCKS2 since this release to distinguish with original redsocks. This variant is useful for anti-GFW (Great Fire Wall).
+
+Package: sagernet-core
+Version: 5.0.16-2022-07-06-c2f83820-1
+Depends: libc, ca-bundle
+Conflicts: v2ray-core, xray-core
+License: GPL-3.0-or-later
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 8608099
+Filename: sagernet-core_5.0.16-2022-07-06-c2f83820-1_mipsel_24kc.ipk
+Size: 8588053
+SHA256sum: 7f251f4a0b20ea715535f95ca19b06faafcfad08ac3335f0289046f1ab177921
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This is a v2ray-core fork for SagerNet.
+
+Package: sagernet-example
+Version: 5.0.16-2022-07-06-c2f83820-1
+Depends: libc, sagernet-core
+Conflicts: v2ray-example
+License: GPL-3.0-or-later
+Section: net
+Architecture: all
+Installed-Size: 572
+Filename: sagernet-example_5.0.16-2022-07-06-c2f83820-1_all.ipk
+Size: 1504
+SHA256sum: d90f91b451838cbf852bb1f2f150a2eac94914b3a397c04f85587be359e92946
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes example configuration files for sagernet-core.
+
+Package: sagernet-extra
+Version: 5.0.16-2022-07-06-c2f83820-1
+Depends: libc, sagernet-core
+Conflicts: v2ray-extra
+License: GPL-3.0-or-later
+Section: net
+Architecture: all
+Installed-Size: 298646
+Filename: sagernet-extra_5.0.16-2022-07-06-c2f83820-1_all.ipk
+Size: 299463
+SHA256sum: 5ee726868d62180658179b96b05a341e0c247d7dcf7336b8b84aafb65859a159
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes extra resources for sagernet-core.
+
+Package: shadowsocks-rust-sslocal
+Version: 1.14.3-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 2830128
+Filename: shadowsocks-rust-sslocal_1.14.3-1_mipsel_24kc.ipk
+Size: 2831156
+SHA256sum: 2459be361789e6007615d9798c778c58e8aa74877755053cee5f72444de86fc8
+Description:  shadowsocks-rust sslocal
+
+Package: shadowsocks-rust-ssmanager
+Version: 1.14.3-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 1919446
+Filename: shadowsocks-rust-ssmanager_1.14.3-1_mipsel_24kc.ipk
+Size: 1920407
+SHA256sum: ecdaa77ea6727e37fb01961c8ef4fc10b0e6df17df8ddcf9abec0b99b18de084
+Description:  shadowsocks-rust ssmanager
+
+Package: shadowsocks-rust-ssserver
+Version: 1.14.3-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 1851143
+Filename: shadowsocks-rust-ssserver_1.14.3-1_mipsel_24kc.ipk
+Size: 1852091
+SHA256sum: ef4addc6d605456d4798089df5703cae4322bfed0fd11d39b527b2a5ddfebe12
+Description:  shadowsocks-rust ssserver
+
+Package: shadowsocks-rust-ssservice
+Version: 1.14.3-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 3009064
+Filename: shadowsocks-rust-ssservice_1.14.3-1_mipsel_24kc.ipk
+Size: 3010251
+SHA256sum: a2a10d777e3dc601a7399bb47c0f3a9a0027a492f3be16d59849328e914567d7
+Description:  shadowsocks-rust ssservice
+
+Package: shadowsocks-rust-ssurl
+Version: 1.14.3-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 658288
+Filename: shadowsocks-rust-ssurl_1.14.3-1_mipsel_24kc.ipk
+Size: 659264
+SHA256sum: 8d08b1328c3c696d5dd181012fb05cc141d1a579649192ade87a4ab290710b5b
+Description:  shadowsocks-rust ssurl
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 2412
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_mipsel_24kc.ipk
+Size: 3181
+SHA256sum: 7fbcd11ad7039afbd0d33c3999b952afb6c2480c723739b018f84e66bb2b82c0
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 57131
+Filename: shadowsocksr-libev-ssr-local_2.5.6-9_mipsel_24kc.ipk
+Size: 57803
+SHA256sum: ee134da273cc5ba0e9b83283f644a1f773b99e790388c5649a41c88e056d7aba
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-nat
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 2236
+Filename: shadowsocksr-libev-ssr-nat_2.5.6-9_mipsel_24kc.ipk
+Size: 3031
+SHA256sum: a41c4ce8ce8bd7594a80a9ca3b4ea30d549ef0f636cf7567183dff9d00a2cf04
+Description:  shadowsocksr-libev ssr-nat
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 50919
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_mipsel_24kc.ipk
+Size: 51611
+SHA256sum: ef016996ccda261400d5533b9960c93c2664281e618e1ccf1d4a66d6713ec3e8
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 58971
+Filename: shadowsocksr-libev-ssr-server_2.5.6-9_mipsel_24kc.ipk
+Size: 59540
+SHA256sum: 64a5dfab7cfef062c294b5c5450f8d0e7cd1ae1e0d4123a36821a4c8bb4aea81
+Description:  shadowsocksr-libev ssr-server
+
+Package: simple-obfs-server
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+License: GPL-3.0-or-later
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 29455
+Filename: simple-obfs-server_0.0.5-1_mipsel_24kc.ipk
+Size: 30060
+SHA256sum: b440dada8ee7511936c9cab91abaf0a182a5f4ee3e95c882a46998e1b08eb6a8
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: simple-obfs
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+License: GPL-3.0-or-later
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 27768
+Filename: simple-obfs_0.0.5-1_mipsel_24kc.ipk
+Size: 28565
+SHA256sum: d3e1c07cac36737aa5b1c281c36ffc795560abd55e106d7b8032bd3f96a8f748
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: sms-tool
+Version: 2022-03-21-f07699ab-1
+Depends: libc
+Section: utils
+Architecture: mipsel_24kc
+Installed-Size: 7394
+Filename: sms-tool_2022-03-21-f07699ab-1_mipsel_24kc.ipk
+Size: 8172
+SHA256sum: 91275b99c99b92dd24dc919dc1ede12e2faacaaec26a3dbc856b53890308bada
+Description:  SMS Tool for 3G/4G modem
+
+Package: speedtest-web
+Version: 1.1.5
+Depends: libc
+License: LGPL-3.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 3077648
+Filename: speedtest-web_1.1.5_mipsel_24kc.ipk
+Size: 3078992
+SHA256sum: 480cfb40ecdb93b82004d9352e91352aba30f64b7dcaba3b0211f97d8f3d348d
+Description:  speedtest-web is a Openwrt package for speedtest-go, a Go backend for LibreSpeed
+
+Package: speedtestpp
+Version: 1.14-220216.73750
+Depends: libc, libcurl4, libxml2, libopenssl1.1, libstdcpp6
+Conflicts: python3-speedtest-cli
+License: MIT
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 23340
+Filename: speedtestpp_1.14-220216.73750_mipsel_24kc.ipk
+Size: 24053
+SHA256sum: 64ccfd64f0579f2755b7b845096ff77e93c92e580cca1ad5c0dd61bff73e520d
+Description:  Yet another unofficial speedtest.net client cli interface
+
+Package: ssocks
+Version: 0.0.14-3
+Depends: libc, libopenssl1.1
+License: MIT
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 11322
+Filename: ssocks_0.0.14-3_mipsel_24kc.ipk
+Size: 12223
+SHA256sum: 9f99030de1fdae39af45536351e3add4e7bf5ce1ad5a16a2a6ed65eff4b60127
+Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
+ RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
+ and a socks5 relay.
+
+Package: ssocksd
+Version: 0.0.14-3
+Depends: libc, libopenssl1.1
+License: MIT
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 11537
+Filename: ssocksd_0.0.14-3_mipsel_24kc.ipk
+Size: 12427
+SHA256sum: f35e1eb2d96681a0f28f5fe9b496570ea24a114fcc22efad845af23d395254d4
+Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
+ RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
+ and a socks5 relay.
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+License: GPL-2.0-only
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 3765
+Filename: tcping_0.3-1_mipsel_24kc.ipk
+Size: 4495
+SHA256sum: 663f489adec3212b21bb0fb26e8efb63debb129bb98313032b67d52ebb2244f4
+Description:  tcping measures the latency of a tcp-connection
+
+Package: trojan-go
+Version: 0.10.6-1
+Depends: libc, ca-bundle
+License: GPL-3.0-only
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 4618143
+Filename: trojan-go_0.10.6-1_mipsel_24kc.ipk
+Size: 4609628
+SHA256sum: d62ba1cafb01f49c5ecdd650450f88512f78aec3e0c64765df3004552200ccf9
+Description:  Trojan features multiple protocols over TLS to avoid both
+ active/passive detections and ISP QoS limitations.
+
+Package: trojan-plus
+Version: 10.0.3-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options
+License: GPL-3.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 356027
+Filename: trojan-plus_10.0.3-2_mipsel_24kc.ipk
+Size: 356845
+SHA256sum: 8519632d311a36bf0af9aad8290be601bde6c61fbd2d81e4d7ded79ae6016457
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
+Package: trojan
+Version: 1.16.0-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options, boost-date_time
+License: GPL-3.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 261990
+Filename: trojan_1.16.0-2_mipsel_24kc.ipk
+Size: 262142
+SHA256sum: 6ff9e516e46658ef3f2c70c036acfa94c72e3f09fc29ee3ac366d7fa9e527251
+Description:  An unidentifiable mechanism that helps you bypass GFW
+
+Package: v2ray-core
+Version: 5.0.7-1
+Depends: libc, ca-bundle
+License: MIT
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 7455131
+Filename: v2ray-core_5.0.7-1_mipsel_24kc.ipk
+Size: 7437294
+SHA256sum: da2c21066971b5e727ec514506ee90490aa4d6f5a6e3ea3a5630828c0a68b652
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: v2ray-plugin
+Version: 5.0.7-1
+Depends: libc, ca-bundle
+License: MIT
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 4438838
+Filename: v2ray-plugin_5.0.7-1_mipsel_24kc.ipk
+Size: 4430779
+SHA256sum: 45244cfc6f6285103e49162bdc71788661e7777ec2f8109d3e8ed1722b4c4970
+Description:  SIP003 plugin for shadowsocks, based on v2ray
+
+Package: v2raya
+Version: 1.5.8.1-1
+Depends: libc, ca-bundle, iptables-mod-conntrack-extra, iptables-mod-extra, iptables-mod-filter, iptables-mod-tproxy, kmod-ipt-nat6, xray-core
+License: AGPL-3.0-only
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 8787238
+Filename: v2raya_1.5.8.1-1_mipsel_24kc.ipk
+Size: 8759701
+SHA256sum: 152f0dc5f15d2feff4c3c5a1d179f914aff0fbbc5373dc3f4d2de6ed330bd2e8
+Description:  v2rayA is a V2Ray Linux client supporting global transparent proxy,
+ compatible with SS, SSR, Trojan(trojan-go), PingTunnel protocols.
+
+Package: vlmcsd
+Version: svn1113-3
+Depends: libc, libpthread
+License: MIT
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 22048
+Filename: vlmcsd_svn1113-3_mipsel_24kc.ipk
+Size: 22809
+SHA256sum: fbf1981d86eb17ca4df128dd4058d30f6af004e1021ff92cdf85e462696a192b
+Description:  vlmcsd is a KMS Emulator in C.
+
+Package: xray-plugin
+Version: 1.5.8-1
+Depends: libc, ca-bundle
+License: MIT
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 5173347
+Filename: xray-plugin_1.5.8-1_mipsel_24kc.ipk
+Size: 5163280
+SHA256sum: 6ee6e19583865c8172401bddcdaf57110a76e49e04d55b0ec79ee66f743cb311
+Description:  SIP003 plugin for Shadowsocks, based on Xray
+

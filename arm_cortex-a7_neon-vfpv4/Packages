@@ -1,0 +1,620 @@
+Package: adbyby
+Version: 2.7-20200315
+Depends: libc
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 455273
+Filename: adbyby_2.7-20200315_arm_cortex-a7_neon-vfpv4.ipk
+Size: 455662
+SHA256sum: ae7dd1f3da70543b79b0900ddd8cdde7a929401c15506e7ab67cf93c16419644
+Description:  Adbyby is a powerful adblock module to block ad,just like adblock.
+
+Package: atinout
+Version: 0.9.1
+Depends: libc
+License: GPLv2
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3045
+Filename: atinout_0.9.1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3869
+SHA256sum: 42f7a82ece780637a9be249bafc901338d3a475f2b9b865b8b5d20bb99a4c6c3
+Description:  Atinout is a program that will execute AT commands in sequence and
+ capture the response from the modem.
+
+Package: automount
+Version: 1-38
+Depends: libc, block-mount, kmod-fs-exfat, kmod-fs-ext4, kmod-fs-vfat, libblkid1, kmod-usb-storage, kmod-usb-storage-extras, kmod-usb-storage-uas
+Section: opt
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 719
+Filename: automount_1-38_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1509
+SHA256sum: 7662f66718e6e74188c4bfe7ca506235eb89f0bbe64a03489c7199a8fd5bd07e
+Description:  A usb autoconfig hotplug script.
+
+Package: badvpn
+Version: 1.999.130-1
+Depends: libc, librt, libpthread, libudev, libudev-zero, libnss, libopenssl1.1, coreutils, coreutils-stdbuf, openssl-util
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 119815
+Filename: badvpn_1.999.130-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 120634
+SHA256sum: 0566d498d695e912e8f036927be2e0768d9072d373065ba32aadb00f8ee61d93
+Description:  BadVPN
+
+Package: brook
+Version: 20220707-1
+Depends: libc, ca-bundle
+License: GPL-3.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3959393
+Filename: brook_20220707-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3954293
+SHA256sum: 9e7b8a233a8bb30ab264323c6d60d9ee4c73b91715a145bee2d9c6e10c330316
+Description:  Brook is a cross-platform strong encryption and not detectable proxy.
+ Zero-Configuration.
+
+Package: chinadns-ng
+Version: 1.0-beta.25-1
+Depends: libc, ipset
+License: AGPL-3.0-only
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 16932
+Filename: chinadns-ng_1.0-beta.25-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 17780
+SHA256sum: 20cc49e0bad1d715d2fb023acc22ae919fd0a005eb32bb85a5427ee0831fd4fb
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: corkscrew
+Version: 2.0-1
+Depends: libc
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2970
+Filename: corkscrew_2.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3727
+SHA256sum: 743e2125527cffc8ad5a8c9d9afa3e674cd2dac558427ab6214c853af117b929
+Description:  Tunneling SSH through HTTP proxies.
+
+Package: dns2socks
+Version: 2.1-2
+Depends: libc, libpthread
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10680
+Filename: dns2socks_2.1-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11497
+SHA256sum: cae95833def68aa3b52027a07d992487f7de5ea8d566bb3baa2a334e4d81d8c1
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: dns2tcp
+Version: 1.1.0-1
+Depends: libc
+License: AGPL-3.0-only
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 11207
+Filename: dns2tcp_1.1.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 12053
+SHA256sum: 65009da4061810474788dae617535912193a2ce2bab11eaae2a5ec8a949445e9
+Description:  utility to convert dns query from udp to tcp
+
+Package: hysteria
+Version: 1.1.0-1
+Depends: libc, ca-bundle
+License: MIT
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 6014697
+Filename: hysteria_1.1.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6006328
+SHA256sum: b01f29393e60b1f27a4b1cac7f5728b17ec8ed65488be5c910b5fa6de7a67880
+Description:  Hysteria is a feature-packed network utility optimized for networks
+ of poor quality (e.g. satellite connections, congested public Wi-Fi,
+ connecting from China to servers abroad) powered by a custom version
+ of QUIC protocol.
+
+Package: ipt2socks
+Version: 1.1.3-3
+Depends: libc, libpthread
+License: AGPL-3.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 26948
+Filename: ipt2socks_1.1.3-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 27767
+SHA256sum: 66e13a8721f3b98bf0ec028b382c38aece0800e1a9e90c61dda7a5df45998b9d
+Description:  Utility for converting iptables (redirect/tproxy) to socks5.
+
+Package: lua-maxminddb
+Version: 0.2-1
+Depends: libc, lua, libmaxminddb
+License: MIT
+Section: lang
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2246
+Filename: lua-maxminddb_0.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2985
+SHA256sum: a4cafe48712bc5842aee9d8bc099c64a309696d81ab15d1cb4c03a1cf13844b0
+Description:  libmaxminddb bindings for lua
+
+Package: microsocks
+Version: 1.0.3-1
+Depends: libc, libpthread
+License: MIT
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5088
+Filename: microsocks_1.0.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5915
+SHA256sum: 190e4c806f7e76fffeeacc6d91c4166a8fb67bcb521e399577cea05b776ffd71
+Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
+ through them, if for some reason SSH doesn't cut it for you.
+
+Package: mrtg
+Version: 2.17.7-2
+Depends: libc, libgd, libpng, zlib, perl, perlbase-essential, perlbase-findbin, perlbase-cwd, perlbase-config, perlbase-file, perlbase-getopt, perlbase-math, perlbase-integer, perlbase-xsloader, perlbase-pod, perlbase-universal, perlbase-socket, perlbase-posix, perlbase-autoloader, perlbase-fcntl, perlbase-tie, perlbase-io, perlbase-symbol, perlbase-selectsaver, perlbase-errno, perlbase-scalar, perlbase-list, perlbase-base, perlbase-storable
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 548155
+Filename: mrtg_2.17.7-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 549018
+SHA256sum: 6c699c499a2b341c2167b778bb974273e5afb53ea7db5d837c207d4f883aae95
+Description:  The Multi Router Traffic Grapher, or just simply MRTG, is free software for
+ monitoring and measuring the traffic load on network links. It allows the
+ user to see traffic load on a network over time in graphical form. It was
+ originally developed by Tobias Oetiker and Dave Rand to monitor router
+ traffic, but has developed into a tool that can create graphs and statistics
+ for almost anything.
+
+Package: naiveproxy
+Version: 103.0.5060.53-3-1
+Depends: libc, libatomic1
+License: BSD 3-Clause
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2212947
+Filename: naiveproxy_103.0.5060.53-3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2205882
+SHA256sum: 94a8955f87dc2c8ce7222ad1039b232979dca82d4c6788a9dfb594435de1d34d
+Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
+ censorship resistance and low detectability. Reusing Chrome's stack also
+ ensures best practices in performance and security.
+
+Package: nload
+Version: 0.7.4-1
+Depends: libc, libncurses6, libstdcpp6
+License: LICENSE
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 33730
+Filename: nload_0.7.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 34676
+SHA256sum: c8e0f6ad467119267b6a15976d74ccbe881c6a2033897e5143b30f3b39e5ebf3
+Description:  nload is a console application which monitors network traffic and bandwidth usage in real time.
+ It visualizes the in- and outgoing traffic using two graphs and provides additional info like total amount of transfered data and min/max network usage.
+
+Package: pdnsd-alt
+Version: 1.2.9b-par-3
+Depends: libc, libpthread
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 85799
+Filename: pdnsd-alt_1.2.9b-par-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 86754
+SHA256sum: 34eb170325d73031876e00d27b0122c516dc5b4c78f0a9b331d95493fe974881
+Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
+ contents are written to hard disk on exit) that is designed to cope with
+ unreachable or down DNS servers (for example in dial-in networking).
+ 
+ pdnsd can be used with applications that do dns lookups, eg on startup, and
+ can't be configured to change that behaviour, to prevent the often
+ minute-long hangs (or even crashes) that result from stalled dns queries.
+
+Package: pingcontrol
+Version: 1-0
+Depends: libc
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1554
+Filename: pingcontrol_1-0_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2334
+SHA256sum: 80588130fa1b29cdea7ac9833515e1e57a9cc31a0b5ddb5a33911f255f992954
+Description:  This package contains a utility for managing the interface using ping requests.
+
+Package: redsocks2
+Version: 0.67-4
+Depends: libc, libevent2-7, libopenssl1.1
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 52173
+Filename: redsocks2_0.67-4_arm_cortex-a7_neon-vfpv4.ipk
+Size: 53121
+SHA256sum: 630f60fd1c1027f8bd203a0a98c038852e98d883a51601659971569275839594
+Description:  This is a modified version of original redsocks. The name is changed to be REDSOCKS2 since this release to distinguish with original redsocks. This variant is useful for anti-GFW (Great Fire Wall).
+
+Package: sagernet-core
+Version: 5.0.16-2022-07-06-c2f83820-1
+Depends: libc, ca-bundle
+Conflicts: v2ray-core, xray-core
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9196558
+Filename: sagernet-core_5.0.16-2022-07-06-c2f83820-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9180277
+SHA256sum: a22741b7d22ae83186aa3821a51d7454ff6f08472518bfc926dddc8389541d21
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This is a v2ray-core fork for SagerNet.
+
+Package: sagernet-example
+Version: 5.0.16-2022-07-06-c2f83820-1
+Depends: libc, sagernet-core
+Conflicts: v2ray-example
+License: GPL-3.0-or-later
+Section: net
+Architecture: all
+Installed-Size: 572
+Filename: sagernet-example_5.0.16-2022-07-06-c2f83820-1_all.ipk
+Size: 1504
+SHA256sum: d90f91b451838cbf852bb1f2f150a2eac94914b3a397c04f85587be359e92946
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes example configuration files for sagernet-core.
+
+Package: sagernet-extra
+Version: 5.0.16-2022-07-06-c2f83820-1
+Depends: libc, sagernet-core
+Conflicts: v2ray-extra
+License: GPL-3.0-or-later
+Section: net
+Architecture: all
+Installed-Size: 298646
+Filename: sagernet-extra_5.0.16-2022-07-06-c2f83820-1_all.ipk
+Size: 299463
+SHA256sum: 5ee726868d62180658179b96b05a341e0c247d7dcf7336b8b84aafb65859a159
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes extra resources for sagernet-core.
+
+Package: shadowsocks-rust-sslocal
+Version: 1.14.3-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2881854
+Filename: shadowsocks-rust-sslocal_1.14.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2872829
+SHA256sum: e95f3c8886e5365a05e835e94349f83c97491c1babed3cc4f4272ca5c3bba12d
+Description:  shadowsocks-rust sslocal
+
+Package: shadowsocks-rust-ssmanager
+Version: 1.14.3-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1892254
+Filename: shadowsocks-rust-ssmanager_1.14.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1886550
+SHA256sum: ee791b7b118b8453e62dd656db1f24590db007b6fc1769550fc4dea54820f672
+Description:  shadowsocks-rust ssmanager
+
+Package: shadowsocks-rust-ssserver
+Version: 1.14.3-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1835362
+Filename: shadowsocks-rust-ssserver_1.14.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1829627
+SHA256sum: 64255edfc2e5065fc92ae09b09a0a37c6237a3abd4754900cb73ec153cf249f4
+Description:  shadowsocks-rust ssserver
+
+Package: shadowsocks-rust-ssservice
+Version: 1.14.3-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3069095
+Filename: shadowsocks-rust-ssservice_1.14.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3058786
+SHA256sum: a225e4529d2d9e62c486711b897e6d6267f32c11cb84d0cddc1c12f3cd99012a
+Description:  shadowsocks-rust ssservice
+
+Package: shadowsocks-rust-ssurl
+Version: 1.14.3-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 646715
+Filename: shadowsocks-rust-ssurl_1.14.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 645935
+SHA256sum: d4bcfa245e8fb3dae68822e3b78c67341b046f78c3fc66559e0754ab89edb421
+Description:  shadowsocks-rust ssurl
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2235
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3049
+SHA256sum: 20fc10b0a456d3d6b2c9abb731da4b73d6d5f925516fa1d4ba102f3ec18f74e9
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 58655
+Filename: shadowsocksr-libev-ssr-local_2.5.6-9_arm_cortex-a7_neon-vfpv4.ipk
+Size: 59544
+SHA256sum: be9d8d4a49826850617ae961fc9b015c97c34e6a99ba2c96b1b122ab73b3deaf
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-nat
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2236
+Filename: shadowsocksr-libev-ssr-nat_2.5.6-9_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3042
+SHA256sum: e424889155981a28b3f95fcbfb2b35503708261d6935efa58f2cca426e4cf59d
+Description:  shadowsocksr-libev ssr-nat
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 53099
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_arm_cortex-a7_neon-vfpv4.ipk
+Size: 53884
+SHA256sum: 57b19c8927dcf67496254a0842434d837f8bab28ee03ecdc1c5240f53641356f
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 62206
+Filename: shadowsocksr-libev-ssr-server_2.5.6-9_arm_cortex-a7_neon-vfpv4.ipk
+Size: 63049
+SHA256sum: 57157e64a7440f357376943cf18fc29e6e27ff196f2121fbdcfae0b952ac9228
+Description:  shadowsocksr-libev ssr-server
+
+Package: simple-obfs-server
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 29439
+Filename: simple-obfs-server_0.0.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 30321
+SHA256sum: 5866ee8658fc45d24068a8fdb23a560e721339b70a646c95b2674ba0117453bb
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: simple-obfs
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 27100
+Filename: simple-obfs_0.0.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 27991
+SHA256sum: 1fd676c662df36f9de1525046b2b17d3d0df6247d1f1a6129ddf784f95e84289
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: sms-tool
+Version: 2022-03-21-f07699ab-1
+Depends: libc
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7986
+Filename: sms-tool_2022-03-21-f07699ab-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8785
+SHA256sum: 6bed28285be4c1600f37d01dda29928d5691812f691f048fe24dbd1f6307f0c0
+Description:  SMS Tool for 3G/4G modem
+
+Package: speedtest-web
+Version: 1.1.5
+Depends: libc
+License: LGPL-3.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3146576
+Filename: speedtest-web_1.1.5_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3147928
+SHA256sum: 9fe0eafc903fee062e9e3c7f5f0c96ef10b4141506f505c587b83963e4340410
+Description:  speedtest-web is a Openwrt package for speedtest-go, a Go backend for LibreSpeed
+
+Package: speedtestpp
+Version: 1.14-220216.73750
+Depends: libc, libcurl4, libxml2, libopenssl1.1, libstdcpp6
+Conflicts: python3-speedtest-cli
+License: MIT
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 24497
+Filename: speedtestpp_1.14-220216.73750_arm_cortex-a7_neon-vfpv4.ipk
+Size: 25232
+SHA256sum: a27546d0b419a0f3ab09abde458cb734a466f988b821e2016386cfa971a80b18
+Description:  Yet another unofficial speedtest.net client cli interface
+
+Package: ssocks
+Version: 0.0.14-3
+Depends: libc, libopenssl1.1
+License: MIT
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 13127
+Filename: ssocks_0.0.14-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 13992
+SHA256sum: f1786cc706ca5a49e760ad8aabc02d5bb8b477bc3b2fe8fae5ec4e4e8ba5a2bf
+Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
+ RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
+ and a socks5 relay.
+
+Package: ssocksd
+Version: 0.0.14-3
+Depends: libc, libopenssl1.1
+License: MIT
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 13331
+Filename: ssocksd_0.0.14-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 14202
+SHA256sum: f4ff38477471805ccc38ee3d389ef2299b7d48f2638e3a00fb8d0f8bcfbc3e69
+Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
+ RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
+ and a socks5 relay.
+
+Package: subconverter
+Version: 0.7.0-2021-09-20-fc641444-1
+Depends: libc, libpthread, libstdcpp6, libevent2-7, libyaml-cpp0.6, libpcre2, libcurl4, zlib
+License: GPL-3.0
+Section: utils
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1448835
+Filename: subconverter_0.7.0-2021-09-20-fc641444-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1448289
+SHA256sum: 8a3f089b6e05aa5b08f849b26c9fc5ea67932b7be884d7d037fd9904e680995e
+Description:  Utility to convert between various proxy subscription formats.
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+License: GPL-2.0-only
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3269
+Filename: tcping_0.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4018
+SHA256sum: 1a0ee6c5fa734d58f6276a4daafc4e3ea0055be9b35034e5c83cac8436168829
+Description:  tcping measures the latency of a tcp-connection
+
+Package: trojan-go
+Version: 0.10.6-1
+Depends: libc, ca-bundle
+License: GPL-3.0-only
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4899235
+Filename: trojan-go_0.10.6-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4893002
+SHA256sum: 642bffc6330a1dcf0868acd94637d404cccdec0b19a9cf23d536fec217424ab2
+Description:  Trojan features multiple protocols over TLS to avoid both
+ active/passive detections and ISP QoS limitations.
+
+Package: trojan-plus
+Version: 10.0.3-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options
+License: GPL-3.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 355785
+Filename: trojan-plus_10.0.3-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 356297
+SHA256sum: 668402bdfed5bc6c38456bfd34b88f5be3269e69ea9c624098a1cc72447ffcc4
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
+Package: trojan
+Version: 1.16.0-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options, boost-date_time
+License: GPL-3.0
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 258207
+Filename: trojan_1.16.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 258469
+SHA256sum: f6133a3fc8c157659f8f4ccd9768e3dce0a2c0b7ebd1317a920d4f1c25b58218
+Description:  An unidentifiable mechanism that helps you bypass GFW
+
+Package: v2ray-core
+Version: 5.0.7-1
+Depends: libc, ca-bundle
+License: MIT
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7955136
+Filename: v2ray-core_5.0.7-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 7940910
+SHA256sum: 1597b905ea10570686ec55527cefaa4e5ffdd61c363e6e39197b28bec26db61a
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: v2ray-plugin
+Version: 5.0.7-1
+Depends: libc, ca-bundle
+License: MIT
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4704909
+Filename: v2ray-plugin_5.0.7-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4699557
+SHA256sum: 4f22d680fd552a34b0559c526ecaa33cd709ff6448fab4539a2b4e7a7d8cc85a
+Description:  SIP003 plugin for shadowsocks, based on v2ray
+
+Package: v2raya
+Version: 1.5.8.1-1
+Depends: libc, ca-bundle, iptables-mod-conntrack-extra, iptables-mod-extra, iptables-mod-filter, iptables-mod-tproxy, kmod-ipt-nat6, xray-core
+License: AGPL-3.0-only
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 9165844
+Filename: v2raya_1.5.8.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 9141425
+SHA256sum: b30a23432dc54dcaf94d92bc53f41762fcdf4412dc3a734d751a7ae80430d0e0
+Description:  v2rayA is a V2Ray Linux client supporting global transparent proxy,
+ compatible with SS, SSR, Trojan(trojan-go), PingTunnel protocols.
+
+Package: vlmcsd
+Version: svn1113-3
+Depends: libc, libpthread
+License: MIT
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 24119
+Filename: vlmcsd_svn1113-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 24897
+SHA256sum: 4aadc87646a39188fce48ece312de537eb2f68197cef6d6f108ad91a8cd418ac
+Description:  vlmcsd is a KMS Emulator in C.
+
+Package: xray-plugin
+Version: 1.5.8-1
+Depends: libc, ca-bundle
+License: MIT
+Section: net
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5492992
+Filename: xray-plugin_1.5.8-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5485523
+SHA256sum: 88680b5729e8ebcfe8067a1a014f1522fb109984cfaec2a275828944546c82c9
+Description:  SIP003 plugin for Shadowsocks, based on Xray
+
