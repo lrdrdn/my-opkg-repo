@@ -1,0 +1,807 @@
+Package: adbyby
+Version: 2.7-20200315
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/adbyby
+SourceName: adbyby
+Section: net
+SourceDateEpoch: 1694692560
+Architecture: i386_pentium4
+Installed-Size: 399960
+Filename: adbyby_2.7-20200315_i386_pentium4.ipk
+Size: 400772
+SHA256sum: f11633e7c9b39a19be2b42606ab9c35b7e32b4777f15777c2583c23ead52844b
+Description:  Adbyby is a powerful adblock module to block ad,just like adblock.
+
+Package: atinout
+Version: 0.9.1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/modemfeed/packages/telephony/atinout
+SourceName: atinout
+License: GPLv2
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694605814
+Maintainer: Adrian Guenter <a@gntr.me>
+Architecture: i386_pentium4
+Installed-Size: 2893
+Filename: atinout_0.9.1_i386_pentium4.ipk
+Size: 3712
+SHA256sum: 4bd346f4f04078bd32d38e85d27cca355b23434b21cfca4e887fe85bafef852a
+Description:  Atinout is a program that will execute AT commands in sequence and
+ capture the response from the modem.
+
+Package: badvpn
+Version: 1.999.130-1
+Depends: libc, librt, libpthread, libudev, libudev-zero, libnss, libopenssl3, coreutils, coreutils-stdbuf, openssl-util
+Source: /home/ubuntu/wrt-project/custom-feeds/helmiwrt-packages/badvpn
+SourceName: badvpn
+Section: net
+SourceDateEpoch: 1686562428
+Maintainer: helmiau
+Architecture: i386_pentium4
+Installed-Size: 118549
+Filename: badvpn_1.999.130-1_i386_pentium4.ipk
+Size: 119373
+SHA256sum: 9a7eed6b77c5fe78ba3307312fb349066785756279e7c42b86ac1e5749418c2f
+Description:  BadVPN
+
+Package: brook
+Version: 20230606-1
+Depends: libc, ca-bundle
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/brook
+SourceName: brook
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: i386_pentium4
+Installed-Size: 7483796
+Filename: brook_20230606-1_i386_pentium4.ipk
+Size: 7393880
+SHA256sum: 00ed9c2040ceac73edc8d10abac73bd69c5c9f5250835c9a107ac6dc9106cede
+Description:  Brook is a cross-platform strong encryption and not detectable proxy.
+ Zero-Configuration.
+
+Package: chinadns-ng
+Version: 2023.06.01-1
+Depends: libc, ipset
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/chinadns-ng
+SourceName: chinadns-ng
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: pexcn <i@pexcn.me>
+Architecture: i386_pentium4
+Installed-Size: 28495
+Filename: chinadns-ng_2023.06.01-1_i386_pentium4.ipk
+Size: 29318
+SHA256sum: ae9cbd56c6a397943859523390b5577195f5cb111bb2e1768663d2c5a067dba3
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: corkscrew
+Version: 2.0-1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/helmiwrt-packages/corkscrew
+SourceName: corkscrew
+Section: net
+SourceDateEpoch: 1686562428
+Maintainer: Galih Prastowo Aji <galih.prastowo@gmail.com>
+Architecture: i386_pentium4
+Installed-Size: 2918
+Filename: corkscrew_2.0-1_i386_pentium4.ipk
+Size: 3665
+SHA256sum: 043728218c8d6d3e0659e89c39367919727b1e00610ee3843db6a484010b4991
+Description:  Tunneling SSH through HTTP proxies.
+
+Package: dns2socks
+Version: 2.1-2
+Depends: libc, libpthread
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/dns2socks
+SourceName: dns2socks
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: ghostmaker
+Architecture: i386_pentium4
+Installed-Size: 9410
+Filename: dns2socks_2.1-2_i386_pentium4.ipk
+Size: 10237
+SHA256sum: a3c6418977c6708e2e60dfce6947730632b0745edc69ced23730de0410076679
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: dns2tcp
+Version: 1.1.0-1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/dns2tcp
+SourceName: dns2tcp
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: i386_pentium4
+Installed-Size: 10341
+Filename: dns2tcp_1.1.0-1_i386_pentium4.ipk
+Size: 11151
+SHA256sum: 35c222574c928205b619320e0712631c11ee74b229e892c2b453255e3f301e0f
+Description:  utility to convert dns query from udp to tcp
+
+Package: dnsforwarder
+Version: 6.5.2-1
+Depends: libc, coreutils, coreutils-base64, dnsmasq-full, libpthread, wget-ssl
+Source: /home/ubuntu/wrt-project/custom-feeds/dnsforwarder
+SourceName: dnsforwarder
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694692560
+Maintainer: Dennis <openwrt@tossp.com>
+Architecture: i386_pentium4
+Installed-Size: 81613
+Filename: dnsforwarder_6.5.2-1_i386_pentium4.ipk
+Size: 82581
+SHA256sum: 6e5aafe3f09f0748d836f9079a3420afd1d26ddd0b41b1e9d736210266b5f891
+Description:  Forwarding queries to customized domains (and their subdomains) to specified servers
+ over a specified protocol (UDP or TCP). non-standard ports are supported.
+
+Package: dnsproxy
+Version: 0.54.0-1
+Depends: libc, ca-bundle
+Source: feeds/packages/net/dnsproxy
+SourceName: dnsproxy
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+Require-User: dnsproxy=411:dnsproxy=411
+SourceDateEpoch: 1692538742
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: i386_pentium4
+Installed-Size: 3873974
+Filename: dnsproxy_0.54.0-1_i386_pentium4.ipk
+Size: 3866203
+SHA256sum: a126fabe7b9a34672e17e4fc7b453395c580fde7abac8c6f4d4b57407ffcfbda
+Description:  A simple DNS proxy server that supports all existing DNS protocols including
+ DNS-over-TLS, DNS-over-HTTPS, DNSCrypt, and DNS-over-QUIC.Moreover, it can
+ work as a DNS-over-HTTPS, DNS-over-TLS or DNS-over-QUIC server.
+
+Package: ethstatus
+Version: 0.4.9-1
+Depends: libc, libncurses6
+Source: /home/ubuntu/wrt-project/custom-feeds/modemfeed/packages/net/ethstatus
+SourceName: ethstatus
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1694605814
+Maintainer: Paul Spooren <mail@aparcar.org>
+Architecture: i386_pentium4
+Installed-Size: 7038
+Filename: ethstatus_0.4.9-1_i386_pentium4.ipk
+Size: 7966
+SHA256sum: a1e99dd54890494083fc5deb2e90e093b2cabb70be9995c95df85fb8ecf60fd9
+Description:  Ethstatus is a console-based monitoring utility for
+ displaying statistical data of the ethernet interface
+ on a quantity basis. It is similar to iptraf but is meant
+ to run as a permanent console task to monitor the network
+ load.
+
+Package: hysteria
+Version: 2.0.2-1
+Depends: libc, ca-bundle
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/hysteria
+SourceName: hysteria
+License: MIT
+Section: net
+SourceDateEpoch: 1694910278
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: i386_pentium4
+Installed-Size: 5317533
+Filename: hysteria_2.0.2-1_i386_pentium4.ipk
+Size: 5308343
+SHA256sum: 114a1071bd98963b1c12308acb64b3dfc73baa8781045329d89ca3a50e6ef82b
+Description:  Hysteria is a feature-packed network utility optimized for networks
+ of poor quality (e.g. satellite connections, congested public Wi-Fi,
+ connecting from China to servers abroad) powered by a custom version
+ of QUIC protocol.
+
+Package: ipt2socks
+Version: 1.1.3-3
+Depends: libc, libpthread
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/ipt2socks
+SourceName: ipt2socks
+License: AGPL-3.0
+Section: net
+SourceDateEpoch: 1694528054
+Architecture: i386_pentium4
+Installed-Size: 23751
+Filename: ipt2socks_1.1.3-3_i386_pentium4.ipk
+Size: 24531
+SHA256sum: 71744fb84674f1cbf5d0175d2b7ac1c08899d5f74f185cb6b75366379eeb38f8
+Description:  Utility for converting iptables (redirect/tproxy) to socks5.
+
+Package: lua-maxminddb
+Version: 0.2-1
+Depends: libc, lua, libmaxminddb
+Source: /home/ubuntu/wrt-project/custom-feeds/lua-maxminddb
+SourceName: lua-maxminddb
+License: MIT
+Section: lang
+SourceDateEpoch: 1634959980
+Maintainer: fabled
+Architecture: i386_pentium4
+Installed-Size: 2440
+Filename: lua-maxminddb_0.2-1_i386_pentium4.ipk
+Size: 3159
+SHA256sum: 1a6b6860bd611606e8e48098739f2dd7b75e3ad00dcabf81aaad5c6202f887de
+Description:  libmaxminddb bindings for lua
+
+Package: microsocks
+Version: 1.0.3-1
+Depends: libc
+Source: feeds/packages/net/microsocks
+SourceName: microsocks
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1680935934
+Maintainer: Mateusz Korniak <matkorgithubcom@ant.gliwice.pl>
+Architecture: i386_pentium4
+Installed-Size: 5248
+Filename: microsocks_1.0.3-1_i386_pentium4.ipk
+Size: 6084
+SHA256sum: 24aac3a0ebfa53aea818442b7c2526730ff0bca49648acbf172ec30789619e3a
+Description:  Low resource SOCKS5 proxy.
+ Supports only SOCKS5 protocol and forwarding only TCP/IP connections.
+
+Package: mrtg
+Version: 2.17.10-1
+Depends: libc, libgd, libpng, zlib, perl, perlbase-essential, perlbase-findbin, perlbase-cwd, perlbase-config, perlbase-file, perlbase-getopt, perlbase-math, perlbase-integer, perlbase-xsloader, perlbase-pod, perlbase-universal, perlbase-socket, perlbase-posix, perlbase-autoloader, perlbase-fcntl, perlbase-tie, perlbase-io, perlbase-symbol, perlbase-selectsaver, perlbase-errno, perlbase-scalar, perlbase-list, perlbase-base, perlbase-storable
+Source: /home/ubuntu/wrt-project/custom-feeds/modemfeed/packages/net/mrtg
+SourceName: mrtg
+Section: net
+SourceDateEpoch: 1694605814
+Architecture: i386_pentium4
+Installed-Size: 541990
+Filename: mrtg_2.17.10-1_i386_pentium4.ipk
+Size: 542798
+SHA256sum: 8f2c05b2ae7333f10d46388df4e50b0c218c6d090dac5d91f0f5b7e8586802de
+Description:  The Multi Router Traffic Grapher, or just simply MRTG, is free software for
+ monitoring and measuring the traffic load on network links. It allows the
+ user to see traffic load on a network over time in graphical form. It was
+ originally developed by Tobias Oetiker and Dave Rand to monitor router
+ traffic, but has developed into a tool that can create graphs and statistics
+ for almost anything.
+
+Package: naiveproxy
+Version: 113.0.5672.62-1-1
+Depends: libc, libatomic1
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/naiveproxy
+SourceName: naiveproxy
+License: BSD 3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: i386_pentium4
+Installed-Size: 3121866
+Filename: naiveproxy_113.0.5672.62-1-1_i386_pentium4.ipk
+Size: 3115158
+SHA256sum: 16fa94c6cf317091418965b29c253f15fe3e019e0798063cb17804ba8b46b9d3
+Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
+ censorship resistance and low detectability. Reusing Chrome's stack also
+ ensures best practices in performance and security.
+
+Package: nload
+Version: 0.7.4-1
+Depends: libc, libncurses6, libstdcpp6
+Source: feeds/packages/admin/nload
+SourceName: nload
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: admin
+SourceDateEpoch: 1682110018
+Maintainer: Jacky Guo <leickwell@hotmail.com>
+Architecture: i386_pentium4
+Installed-Size: 35374
+Filename: nload_0.7.4-1_i386_pentium4.ipk
+Size: 36186
+SHA256sum: e007746a889992e4d78dd427225eb8a395c69878b78591a561ec889b91874069
+Description:  Monitors network traffic and bandwidth usage.
+
+Package: ookla-speedtest
+Version: 1.2.0-0
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/modemfeed/packages/net/ookla-speedtest
+SourceName: ookla-speedtest
+Section: net
+SourceDateEpoch: 1694605814
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: i386_pentium4
+Installed-Size: 1186108
+Filename: ookla-speedtest_1.2.0-0_i386_pentium4.ipk
+Size: 1186969
+SHA256sum: 9eceb0b459d81c66120afced17e7069ec7b2bca68626d235eb2c9eff601b8366
+Description:  Speedtest CLI brings the trusted technology and global server network behind Speedtest to the command line.
+ Built for software developers, system administrators and computer enthusiasts alike,
+ Speedtest CLI is the first official Linux-native Speedtest application backed by Ookla®.
+
+Package: pdnsd-alt
+Version: 1.2.9b-par-3
+Depends: libc, libpthread
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/pdnsd-alt
+SourceName: pdnsd-alt
+Section: net
+SourceDateEpoch: 1694528054
+Architecture: i386_pentium4
+Installed-Size: 85069
+Filename: pdnsd-alt_1.2.9b-par-3_i386_pentium4.ipk
+Size: 86056
+SHA256sum: fac9f7353be7117e7aa7bcb1ed6cade3623228011c13512d11c6170df241e261
+Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
+ contents are written to hard disk on exit) that is designed to cope with
+ unreachable or down DNS servers (for example in dial-in networking).
+ 
+ pdnsd can be used with applications that do dns lookups, eg on startup, and
+ can't be configured to change that behaviour, to prevent the often
+ minute-long hangs (or even crashes) that result from stalled dns queries.
+
+Package: redsocks2
+Version: 0.67-5
+Depends: libc, libevent2-7, libopenssl3
+Source: /home/ubuntu/wrt-project/custom-feeds/redsocks2
+SourceName: redsocks2
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694692560
+Maintainer: semigodking <semigodking@gmail.com>
+Architecture: i386_pentium4
+Installed-Size: 51588
+Filename: redsocks2_0.67-5_i386_pentium4.ipk
+Size: 52493
+SHA256sum: 847d410b52ca5ddcef2268b87645543b46d95c5a07d0bd7d7e6857207f6382a1
+Description:  This is a modified version of original redsocks.
+ Transparent redirector of any TCP/UDP connection to proxy.
+
+Package: shadowsocks-rust-sslocal
+Version: 1.16.1-1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocks-rust
+SourceName: shadowsocks-rust-sslocal
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: i386_pentium4
+Installed-Size: 3226638
+Filename: shadowsocks-rust-sslocal_1.16.1-1_i386_pentium4.ipk
+Size: 3213337
+SHA256sum: bade5f6344ed66bade0d8b151b8013e5100a9177849f36a956fa764c0bd3b8fc
+Description:  shadowsocks-rust sslocal
+
+Package: shadowsocks-rust-ssmanager
+Version: 1.16.1-1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocks-rust
+SourceName: shadowsocks-rust-ssmanager
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: i386_pentium4
+Installed-Size: 2389594
+Filename: shadowsocks-rust-ssmanager_1.16.1-1_i386_pentium4.ipk
+Size: 2377929
+SHA256sum: d556278d9c56813aed047507812e47149089bffab034bb36eac61f87c76daa8f
+Description:  shadowsocks-rust ssmanager
+
+Package: shadowsocks-rust-ssserver
+Version: 1.16.1-1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocks-rust
+SourceName: shadowsocks-rust-ssserver
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: i386_pentium4
+Installed-Size: 2318593
+Filename: shadowsocks-rust-ssserver_1.16.1-1_i386_pentium4.ipk
+Size: 2307488
+SHA256sum: 3602693813549b242e3ed9e57f064d6262251b7ac9f571f3c1caba266bdc9e59
+Description:  shadowsocks-rust ssserver
+
+Package: shadowsocks-rust-ssservice
+Version: 1.16.1-1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocks-rust
+SourceName: shadowsocks-rust-ssservice
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: i386_pentium4
+Installed-Size: 3461983
+Filename: shadowsocks-rust-ssservice_1.16.1-1_i386_pentium4.ipk
+Size: 3448547
+SHA256sum: 112a2a66a59ff13b47a4cf15466b61c9b7cff354323bc28c62b80e97f0c0822a
+Description:  shadowsocks-rust ssservice
+
+Package: shadowsocks-rust-ssurl
+Version: 1.16.1-1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocks-rust
+SourceName: shadowsocks-rust-ssurl
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: i386_pentium4
+Installed-Size: 1229812
+Filename: shadowsocks-rust-ssurl_1.16.1-1_i386_pentium4.ipk
+Size: 1219363
+SHA256sum: a36983ed418a704c5ed1f7108ac35f2605c835efbbb0b40dee09a731bfc735bd
+Description:  shadowsocks-rust ssurl
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-check
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Architecture: i386_pentium4
+Installed-Size: 2289
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_i386_pentium4.ipk
+Size: 3052
+SHA256sum: 2d8340c09b62d8a79c2c2192a81df048442eea0dc25936e4e66bcd385e4b65f7
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-local
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Architecture: i386_pentium4
+Installed-Size: 56084
+Filename: shadowsocksr-libev-ssr-local_2.5.6-9_i386_pentium4.ipk
+Size: 56885
+SHA256sum: cb18005a24007c6386ef2c4a535b5ef752dfd11b46b275ea662ec317131d768e
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-nat
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-nat
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Architecture: i386_pentium4
+Installed-Size: 2224
+Filename: shadowsocksr-libev-ssr-nat_2.5.6-9_i386_pentium4.ipk
+Size: 3007
+SHA256sum: 6ec29208752c88d903bd46df5c557ca14b43bf53a3e8edde88e94337f5992560
+Description:  shadowsocksr-libev ssr-nat
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-redir
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Architecture: i386_pentium4
+Installed-Size: 50111
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_i386_pentium4.ipk
+Size: 51006
+SHA256sum: abcbe2c99eed9e8cd51038fd22a7f367f31370947774a369bb1748428130c212
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-server
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Architecture: i386_pentium4
+Installed-Size: 57695
+Filename: shadowsocksr-libev-ssr-server_2.5.6-9_i386_pentium4.ipk
+Size: 58578
+SHA256sum: 5da8562a0f0223fe3bddeca38130d935583085aab91c371f133270cc71b3e81f
+Description:  shadowsocksr-libev ssr-server
+
+Package: simple-obfs-server
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/simple-obfs
+SourceName: simple-obfs-server
+License: GPL-3.0-or-later
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: i386_pentium4
+Installed-Size: 29421
+Filename: simple-obfs-server_0.0.5-1_i386_pentium4.ipk
+Size: 30269
+SHA256sum: fbd1388c77ad7014bc45a3ac3be17d81670e7dc72e76437a902151d0df9ab359
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: simple-obfs
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/simple-obfs
+SourceName: simple-obfs
+License: GPL-3.0-or-later
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: i386_pentium4
+Installed-Size: 27762
+Filename: simple-obfs_0.0.5-1_i386_pentium4.ipk
+Size: 28572
+SHA256sum: 40a291954150601df7ea5e3d4330cc634ca71896ee1aa6f269f422e75ff7fa0a
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: simpleproxy
+Version: 3.5
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/modemfeed/packages/net/simpleproxy
+SourceName: simpleproxy
+License: GPLv2
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694605814
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: i386_pentium4
+Installed-Size: 9770
+Filename: simpleproxy_3.5_i386_pentium4.ipk
+Size: 10620
+SHA256sum: 5509997879407ef29ddc2c2902c3e20049ff60fa91008b3604fc7d720e817109
+Description:  Simpleproxy is a simple TCP proxy. It accepts connections on a local
+ TCP port and forward them to anoter port on a remote host via TCP.
+
+Package: sms-tool
+Version: 2022-03-21-f07699ab-1
+Depends: libc
+Source: feeds/packages/utils/sms-tool
+SourceName: sms-tool
+License: Apache-2.0
+LicenseFiles: LICENSE-2.0.txt
+Section: utils
+SourceDateEpoch: 1682110018
+Maintainer: Andrey Butirsky <butirsky@gmail.com>
+Architecture: i386_pentium4
+Installed-Size: 7498
+Filename: sms-tool_2022-03-21-f07699ab-1_i386_pentium4.ipk
+Size: 8272
+SHA256sum: 0b3028c1c87d210daea742536ea119f227bf3db5c23565eb5ff6d0b684e645af
+Description:  SMS Tool for 3G/4G modem
+
+Package: speedtestpp
+Version: 1.14-1
+Depends: libc, libcurl4, libxml2, libopenssl3, libstdcpp6
+Source: /home/ubuntu/wrt-project/custom-feeds/modemfeed/packages/net/speedtestpp
+SourceName: speedtestpp
+License: MIT
+Section: net
+SourceDateEpoch: 1694605814
+Maintainer: Konstantine Shevlakov <shevlyakov@132lan.ru>
+Architecture: i386_pentium4
+Installed-Size: 25877
+Filename: speedtestpp_1.14-1_i386_pentium4.ipk
+Size: 26635
+SHA256sum: 623e8175187728a80587f73bf684d74b6eba7bd3599b183acb8bd0abeb39fdfa
+Description:  Yet another unofficial speedtest.net client cli interface
+
+Package: ssocks
+Version: 0.0.14-3
+Depends: libc, libopenssl3
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/ssocks
+SourceName: ssocks
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: i386_pentium4
+Installed-Size: 13155
+Filename: ssocks_0.0.14-3_i386_pentium4.ipk
+Size: 14039
+SHA256sum: 8070fd85ee897edc9ecabf520db4679830b80984ca7ee1e0658636cd7509044b
+Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
+ RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
+ and a socks5 relay.
+
+Package: ssocksd
+Version: 0.0.14-3
+Depends: libc, libopenssl3
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/ssocks
+SourceName: ssocksd
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: i386_pentium4
+Installed-Size: 13383
+Filename: ssocksd_0.0.14-3_i386_pentium4.ipk
+Size: 14256
+SHA256sum: eca39aab748dcabc4af13190898bf02c240494e685bc86524d5bafc11187858b
+Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
+ RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
+ and a socks5 relay.
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/tcping
+SourceName: tcping
+License: GPL-2.0-only
+LicenseFiles: license.txt
+Section: net
+SourceDateEpoch: 1694528054
+Architecture: i386_pentium4
+Installed-Size: 3596
+Filename: tcping_0.3-1_i386_pentium4.ipk
+Size: 4332
+SHA256sum: 5a0a8c8af23bad8c1b18025ce48d88eef877c71705685b888ca064724e968344
+Description:  tcping measures the latency of a tcp-connection
+
+Package: trojan-go
+Version: 0.10.6-2
+Depends: libc, ca-bundle
+Source: feeds/packages/net/trojan-go
+SourceName: trojan-go
+License: GPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1682110018
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: i386_pentium4
+Installed-Size: 5158223
+Filename: trojan-go_0.10.6-2_i386_pentium4.ipk
+Size: 5148028
+SHA256sum: 9d20ec12b9296c85984e4b8aabb9e0b5b360263e1ea1a1b6952632a0f0d8a84d
+Description:  Trojan features multiple protocols over TLS to avoid both
+ active/passive detections and ISP QoS limitations.
+
+Package: trojan-plus
+Version: 10.0.3-2
+Depends: libc, libpthread, libstdcpp6, libopenssl3, boost, boost-system, boost-program_options
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/trojan-plus
+SourceName: trojan-plus
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Trojan-Plus-Group
+Architecture: i386_pentium4
+Installed-Size: 397388
+Filename: trojan-plus_10.0.3-2_i386_pentium4.ipk
+Size: 398319
+SHA256sum: 51e41e520c703bd56c96009929f2d03cf9ba9992e1a300bc0811aa7719c3b408
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
+Package: trojan
+Version: 1.16.0-2
+Depends: libc, libpthread, libstdcpp6, libopenssl3, boost, boost-system, boost-program_options, boost-date_time
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/trojan
+SourceName: trojan
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: GreaterFire
+Architecture: i386_pentium4
+Installed-Size: 286525
+Filename: trojan_1.16.0-2_i386_pentium4.ipk
+Size: 287389
+SHA256sum: e7b38d5f08675e208a810ddd1ffbc3c7300fcdb8546c5229c1afde2a61cb136f
+Description:  An unidentifiable mechanism that helps you bypass GFW
+
+Package: tuic-client
+Version: 1.0.0-1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/tuic-client
+SourceName: tuic-client
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694910278
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: i386_pentium4
+Installed-Size: 1117239
+Filename: tuic-client_1.0.0-1_i386_pentium4.ipk
+Size: 1117994
+SHA256sum: ed43e1275acfaa78df9e268510dadc26a2a69eb45820db5ccb8af4e739535cf6
+Description:  Delicately-TUICed 0-RTT proxy protocol
+
+Package: v2ray-core
+Version: 5.7.0-1
+Depends: libc, ca-bundle
+Source: feeds/packages/net/v2ray-core
+SourceName: v2ray-core
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1685711760
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: i386_pentium4
+Installed-Size: 8870013
+Filename: v2ray-core_5.7.0-1_i386_pentium4.ipk
+Size: 8848081
+SHA256sum: 008e51797ad9e3ef43b5b25699698e9340d32f79bbd8e1d199ad0151a90b5f12
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: v2ray-plugin
+Version: 5.7.0-1
+Depends: libc, ca-bundle
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/v2ray-plugin
+SourceName: v2ray-plugin
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: madeye <max.c.lv@gmail.com>
+Architecture: i386_pentium4
+Installed-Size: 4995755
+Filename: v2ray-plugin_5.7.0-1_i386_pentium4.ipk
+Size: 4985616
+SHA256sum: f82675e7853e8e49604fd4f225236171a6fe4c3d80c4dfbe408370c3706661b4
+Description:  SIP003 plugin for shadowsocks, based on v2ray
+
+Package: vlmcsd
+Version: svn1113-3
+Depends: libc, libpthread
+Source: /home/ubuntu/wrt-project/custom-feeds/vlmcsd
+SourceName: vlmcsd
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694692560
+Maintainer: fuyumi <280604399@qq.com>
+Architecture: i386_pentium4
+Installed-Size: 21388
+Filename: vlmcsd_svn1113-3_i386_pentium4.ipk
+Size: 22155
+SHA256sum: 7cbfca4199071e5ec3ea22845aeb83667eb034f41bd00b9eafaa370fbeb981bc
+Description:  vlmcsd is a KMS Emulator in C.
+
+Package: xray-plugin
+Version: 1.8.4-1
+Depends: libc, ca-bundle
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/xray-plugin
+SourceName: xray-plugin
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: i386_pentium4
+Installed-Size: 6226520
+Filename: xray-plugin_1.8.4-1_i386_pentium4.ipk
+Size: 6212635
+SHA256sum: ef658420b369e7199f0b47330ef87fc58554edce9fa5561658f5f45deee1f428
+Description:  SIP003 plugin for Shadowsocks, based on Xray
+

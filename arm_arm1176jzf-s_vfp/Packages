@@ -1,0 +1,594 @@
+Package: adbyby
+Version: 2.7-20200315
+Depends: libc
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 455216
+Filename: adbyby_2.7-20200315_arm_arm1176jzf-s_vfp.ipk
+Size: 455565
+SHA256sum: 8d1ea9f526e7b6dc1a657d9870d2f41c89ae3174abfd25ef911ad61ecb66df41
+Description:  Adbyby is a powerful adblock module to block ad,just like adblock.
+
+Package: atinout
+Version: 0.9.1
+Depends: libc
+License: GPLv2
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 3057
+Filename: atinout_0.9.1_arm_arm1176jzf-s_vfp.ipk
+Size: 3857
+SHA256sum: 1e4a5c38ad9ab9b795e3be6224a2f715eebc0c377f9af7fe0d7a90a2da6e41ee
+Description:  Atinout is a program that will execute AT commands in sequence and
+ capture the response from the modem.
+
+Package: badvpn
+Version: 1.999.130-1
+Depends: libc, librt, libpthread, libudev, libudev-zero, libnss, libopenssl3, coreutils, coreutils-stdbuf, openssl-util
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 123009
+Filename: badvpn_1.999.130-1_arm_arm1176jzf-s_vfp.ipk
+Size: 123749
+SHA256sum: 9d3bb1f89a4267f9d63c7260bf3b58a6cb6336254c5a08d492e308936f5c97f4
+Description:  BadVPN
+
+Package: brook
+Version: 20230606-1
+Depends: libc, ca-bundle
+License: GPL-3.0
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 7400632
+Filename: brook_20230606-1_arm_arm1176jzf-s_vfp.ipk
+Size: 7313924
+SHA256sum: 28e7cfdd18785147fb00b60cde7fc4c09fb65682d66fc9155bb18f1f04bb72f4
+Description:  Brook is a cross-platform strong encryption and not detectable proxy.
+ Zero-Configuration.
+
+Package: chinadns-ng
+Version: 2023.06.01-1
+Depends: libc, ipset
+License: AGPL-3.0-only
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 26821
+Filename: chinadns-ng_2023.06.01-1_arm_arm1176jzf-s_vfp.ipk
+Size: 27625
+SHA256sum: d3cf80f484048b8964a0c3da5998f3dadf718e5231102d391f654796accbcb4c
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: corkscrew
+Version: 2.0-1
+Depends: libc
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 3106
+Filename: corkscrew_2.0-1_arm_arm1176jzf-s_vfp.ipk
+Size: 3852
+SHA256sum: 6898a647050e09041c3a49c55e3ad520a89a1a127f7e54cd72b5576c106440d9
+Description:  Tunneling SSH through HTTP proxies.
+
+Package: dns2socks
+Version: 2.1-2
+Depends: libc, libpthread
+License: BSD-3-Clause
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 10777
+Filename: dns2socks_2.1-2_arm_arm1176jzf-s_vfp.ipk
+Size: 11604
+SHA256sum: 11da3ff0e6f6cc1fe090e679635866a20471ef4e6795405a10344fb481522b7e
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: dns2tcp
+Version: 1.1.0-1
+Depends: libc
+License: AGPL-3.0-only
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 11377
+Filename: dns2tcp_1.1.0-1_arm_arm1176jzf-s_vfp.ipk
+Size: 12207
+SHA256sum: 5c0e6995ad8f25fd600258fd1a0b1939ce87135726a8015162685e2d29f8ca24
+Description:  utility to convert dns query from udp to tcp
+
+Package: dnsforwarder
+Version: 6.5.2-1
+Depends: libc, coreutils, coreutils-base64, dnsmasq-full, libpthread, wget-ssl
+License: GPL-3.0
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 80757
+Filename: dnsforwarder_6.5.2-1_arm_arm1176jzf-s_vfp.ipk
+Size: 81599
+SHA256sum: a01269fb64e823fb535d58fba4fea8ad6eb8306fb8b407e881ba89fea318f71e
+Description:  Forwarding queries to customized domains (and their subdomains) to specified servers
+ over a specified protocol (UDP or TCP). non-standard ports are supported.
+
+Package: dnsproxy
+Version: 0.54.0-1
+Depends: libc, ca-bundle
+License: Apache-2.0
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 3828805
+Filename: dnsproxy_0.54.0-1_arm_arm1176jzf-s_vfp.ipk
+Size: 3823853
+SHA256sum: 0b7cf9e5a75d7132dd0e1e225a5323f954696a4c8bee3482232531f35fac1504
+Description:  A simple DNS proxy server that supports all existing DNS protocols including
+ DNS-over-TLS, DNS-over-HTTPS, DNSCrypt, and DNS-over-QUIC.Moreover, it can
+ work as a DNS-over-HTTPS, DNS-over-TLS or DNS-over-QUIC server.
+
+Package: ethstatus
+Version: 0.4.9-1
+Depends: libc, libncurses6
+License: GPL-2.0-only
+Section: utils
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 7589
+Filename: ethstatus_0.4.9-1_arm_arm1176jzf-s_vfp.ipk
+Size: 8531
+SHA256sum: e7d89d5a5c186c302b56cb18230f720460927f841761db66cabb0a14c294533a
+Description:  Ethstatus is a console-based monitoring utility for
+ displaying statistical data of the ethernet interface
+ on a quantity basis. It is similar to iptraf but is meant
+ to run as a permanent console task to monitor the network
+ load.
+
+Package: hysteria
+Version: 2.0.2-1
+Depends: libc, ca-bundle
+License: MIT
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 5224857
+Filename: hysteria_2.0.2-1_arm_arm1176jzf-s_vfp.ipk
+Size: 5218169
+SHA256sum: cc4282c1c61d22d24d8bc0a73cd42a0996107e84f78715e830b80207ca2a2354
+Description:  Hysteria is a feature-packed network utility optimized for networks
+ of poor quality (e.g. satellite connections, congested public Wi-Fi,
+ connecting from China to servers abroad) powered by a custom version
+ of QUIC protocol.
+
+Package: ipt2socks
+Version: 1.1.3-3
+Depends: libc, libpthread
+License: AGPL-3.0
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 26669
+Filename: ipt2socks_1.1.3-3_arm_arm1176jzf-s_vfp.ipk
+Size: 27442
+SHA256sum: 1c482b1efee019e8f50d06d4f6553e1df39bde44b8344932b33ca983e888e10f
+Description:  Utility for converting iptables (redirect/tproxy) to socks5.
+
+Package: lua-maxminddb
+Version: 0.2-1
+Depends: libc, lua, libmaxminddb
+License: MIT
+Section: lang
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 2280
+Filename: lua-maxminddb_0.2-1_arm_arm1176jzf-s_vfp.ipk
+Size: 2996
+SHA256sum: a2d686280dff03968e3e0b99e1cdb96984acfd7951eab87dff8fc7b352c46a36
+Description:  libmaxminddb bindings for lua
+
+Package: microsocks
+Version: 1.0.3-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 5557
+Filename: microsocks_1.0.3-1_arm_arm1176jzf-s_vfp.ipk
+Size: 6404
+SHA256sum: 00bcc63c6a7d39b3ce67a72465bba6a7ac3a0133e87f85d0a21adf71909de96a
+Description:  Low resource SOCKS5 proxy.
+ Supports only SOCKS5 protocol and forwarding only TCP/IP connections.
+
+Package: mrtg
+Version: 2.17.10-1
+Depends: libc, libgd, libpng, zlib, perl, perlbase-essential, perlbase-findbin, perlbase-cwd, perlbase-config, perlbase-file, perlbase-getopt, perlbase-math, perlbase-integer, perlbase-xsloader, perlbase-pod, perlbase-universal, perlbase-socket, perlbase-posix, perlbase-autoloader, perlbase-fcntl, perlbase-tie, perlbase-io, perlbase-symbol, perlbase-selectsaver, perlbase-errno, perlbase-scalar, perlbase-list, perlbase-base, perlbase-storable
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 545200
+Filename: mrtg_2.17.10-1_arm_arm1176jzf-s_vfp.ipk
+Size: 545887
+SHA256sum: 6e6a068401ed695a60431a20ff41a5a868c3d8f896e2425130d18c8838a6d7e9
+Description:  The Multi Router Traffic Grapher, or just simply MRTG, is free software for
+ monitoring and measuring the traffic load on network links. It allows the
+ user to see traffic load on a network over time in graphical form. It was
+ originally developed by Tobias Oetiker and Dave Rand to monitor router
+ traffic, but has developed into a tool that can create graphs and statistics
+ for almost anything.
+
+Package: naiveproxy
+Version: 113.0.5672.62-1-1
+Depends: libc, libatomic1
+License: BSD 3-Clause
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 3150912
+Filename: naiveproxy_113.0.5672.62-1-1_arm_arm1176jzf-s_vfp.ipk
+Size: 3142433
+SHA256sum: 6f1f320b49ad9729e75c009ec4f0de1597a41b9133b40ed20664804611bb5db2
+Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
+ censorship resistance and low detectability. Reusing Chrome's stack also
+ ensures best practices in performance and security.
+
+Package: nload
+Version: 0.7.4-1
+Depends: libc, libncurses6, libstdcpp6
+License: GPL-2.0-only
+Section: admin
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 36088
+Filename: nload_0.7.4-1_arm_arm1176jzf-s_vfp.ipk
+Size: 36699
+SHA256sum: 0cd420ab94fb63223f697e3859a0243f17a71e79e1352fb739321885529159a0
+Description:  Monitors network traffic and bandwidth usage.
+
+Package: ookla-speedtest
+Version: 1.2.0-0
+Depends: libc
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 1032040
+Filename: ookla-speedtest_1.2.0-0_arm_arm1176jzf-s_vfp.ipk
+Size: 1031617
+SHA256sum: c9c868684d874b46947deb2c94b7babe42b66957ef98fc8e8e0ce123d7ff5159
+Description:  Speedtest CLI brings the trusted technology and global server network behind Speedtest to the command line.
+ Built for software developers, system administrators and computer enthusiasts alike,
+ Speedtest CLI is the first official Linux-native Speedtest application backed by Ookla®.
+
+Package: pdnsd-alt
+Version: 1.2.9b-par-3
+Depends: libc, libpthread
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 89037
+Filename: pdnsd-alt_1.2.9b-par-3_arm_arm1176jzf-s_vfp.ipk
+Size: 89898
+SHA256sum: a81516fbd6a22b47f99a1a3cad5e11c41fbbd632e4c8042ab09bcdb3677bb3a3
+Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
+ contents are written to hard disk on exit) that is designed to cope with
+ unreachable or down DNS servers (for example in dial-in networking).
+ 
+ pdnsd can be used with applications that do dns lookups, eg on startup, and
+ can't be configured to change that behaviour, to prevent the often
+ minute-long hangs (or even crashes) that result from stalled dns queries.
+
+Package: redsocks2
+Version: 0.67-5
+Depends: libc, libevent2-7, libopenssl3
+License: Apache-2.0
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 53728
+Filename: redsocks2_0.67-5_arm_arm1176jzf-s_vfp.ipk
+Size: 54503
+SHA256sum: ed95b6db4badd0b38231abaf8f4053d9695613b380afd3f7d2439730b41a9c7a
+Description:  This is a modified version of original redsocks.
+ Transparent redirector of any TCP/UDP connection to proxy.
+
+Package: shadowsocks-rust-sslocal
+Version: 1.16.1-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 3340797
+Filename: shadowsocks-rust-sslocal_1.16.1-1_arm_arm1176jzf-s_vfp.ipk
+Size: 3325887
+SHA256sum: b9cfb2837e9689ea99fcfa37ae5a5ce77a7121ebf21fbf1e65f2619785619497
+Description:  shadowsocks-rust sslocal
+
+Package: shadowsocks-rust-ssmanager
+Version: 1.16.1-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 2373278
+Filename: shadowsocks-rust-ssmanager_1.16.1-1_arm_arm1176jzf-s_vfp.ipk
+Size: 2363261
+SHA256sum: e292afcd04312ed0c00a507a1b733f2c417e198d5fa117d8d8a93e5381b697d5
+Description:  shadowsocks-rust ssmanager
+
+Package: shadowsocks-rust-ssserver
+Version: 1.16.1-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 2302132
+Filename: shadowsocks-rust-ssserver_1.16.1-1_arm_arm1176jzf-s_vfp.ipk
+Size: 2291406
+SHA256sum: 7897f09681a09fd91c069134424e94acd0b9f5fc2deeb727cbc34cd09a5113b3
+Description:  shadowsocks-rust ssserver
+
+Package: shadowsocks-rust-ssservice
+Version: 1.16.1-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 3592235
+Filename: shadowsocks-rust-ssservice_1.16.1-1_arm_arm1176jzf-s_vfp.ipk
+Size: 3578615
+SHA256sum: acd1460d9c1abe18351c6f25e1323ef35740680808576abff9d7af5d60b60fc9
+Description:  shadowsocks-rust ssservice
+
+Package: shadowsocks-rust-ssurl
+Version: 1.16.1-1
+Depends: libc
+License: MIT
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 1157550
+Filename: shadowsocks-rust-ssurl_1.16.1-1_arm_arm1176jzf-s_vfp.ipk
+Size: 1148303
+SHA256sum: bdd6f05cfcfea69e9eb7068ef0b90b40582d4abc909854ed99090da7c2cc26f3
+Description:  shadowsocks-rust ssurl
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 2255
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_arm_arm1176jzf-s_vfp.ipk
+Size: 3048
+SHA256sum: 8e8ffaf17bbea67f88fb72480d668cf13a0ebdb943b0fe65065554d8366a4d31
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 60057
+Filename: shadowsocksr-libev-ssr-local_2.5.6-9_arm_arm1176jzf-s_vfp.ipk
+Size: 60857
+SHA256sum: 5efaa81fb3cfad7dbd7d4426799a723a3cd4924d6fb8ec053ae3d84bd6b06811
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-nat
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 2224
+Filename: shadowsocksr-libev-ssr-nat_2.5.6-9_arm_arm1176jzf-s_vfp.ipk
+Size: 3018
+SHA256sum: ce25c68ceae63a67cff34e624cfa4061791b6f5621e741309755e20dc53b15ec
+Description:  shadowsocksr-libev ssr-nat
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 54254
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_arm_arm1176jzf-s_vfp.ipk
+Size: 55012
+SHA256sum: bf5b61a1c3519db7f7b9e2810611aeb9956cca16a777c268131e8f60bcfe1bfe
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 63253
+Filename: shadowsocksr-libev-ssr-server_2.5.6-9_arm_arm1176jzf-s_vfp.ipk
+Size: 64063
+SHA256sum: 462cab416bbe3afee8e842c677277d57974d15e2ba91d1831de0aa71d844338a
+Description:  shadowsocksr-libev ssr-server
+
+Package: simple-obfs-server
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 30000
+Filename: simple-obfs-server_0.0.5-1_arm_arm1176jzf-s_vfp.ipk
+Size: 30867
+SHA256sum: 50c228af7120aaebd03c30cb4b526d63235da1ffb6e1124f6fb0a1a90c266ef7
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: simple-obfs
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 27688
+Filename: simple-obfs_0.0.5-1_arm_arm1176jzf-s_vfp.ipk
+Size: 28491
+SHA256sum: ca634ec3e31af5a203c48f8a1c61aab32fdc90b5265d06a8d2192674e5239f2c
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: simpleproxy
+Version: 3.5
+Depends: libc
+License: GPLv2
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 10505
+Filename: simpleproxy_3.5_arm_arm1176jzf-s_vfp.ipk
+Size: 11361
+SHA256sum: 89012e9451b144b5488861cc6ddc7f4ad55cf273149c19fb97621680ec194679
+Description:  Simpleproxy is a simple TCP proxy. It accepts connections on a local
+ TCP port and forward them to anoter port on a remote host via TCP.
+
+Package: sms-tool
+Version: 2022-03-21-f07699ab-1
+Depends: libc
+License: Apache-2.0
+Section: utils
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 8030
+Filename: sms-tool_2022-03-21-f07699ab-1_arm_arm1176jzf-s_vfp.ipk
+Size: 8843
+SHA256sum: 544576647f587f85db0c33ea3c1c59130db65a867b9e9a9cf9a049f619f359ce
+Description:  SMS Tool for 3G/4G modem
+
+Package: speedtestpp
+Version: 1.14-1
+Depends: libc, libcurl4, libxml2, libopenssl3, libstdcpp6
+License: MIT
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 27032
+Filename: speedtestpp_1.14-1_arm_arm1176jzf-s_vfp.ipk
+Size: 27811
+SHA256sum: f5f54fe6c80415961d1a57d5066a98b9965a7fc16fd83c2b3ae140102aca4e7b
+Description:  Yet another unofficial speedtest.net client cli interface
+
+Package: ssocks
+Version: 0.0.14-3
+Depends: libc, libopenssl3
+License: MIT
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 13253
+Filename: ssocks_0.0.14-3_arm_arm1176jzf-s_vfp.ipk
+Size: 14100
+SHA256sum: aa65cb9c1584faec248d3ae7834272af4e935b77687b7ff830bc503e6c948e65
+Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
+ RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
+ and a socks5 relay.
+
+Package: ssocksd
+Version: 0.0.14-3
+Depends: libc, libopenssl3
+License: MIT
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 13458
+Filename: ssocksd_0.0.14-3_arm_arm1176jzf-s_vfp.ipk
+Size: 14317
+SHA256sum: 64217c4aa102f7d31edd09e569de82d7068f98e00d3bc217623872d0c57024b2
+Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
+ RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
+ and a socks5 relay.
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+License: GPL-2.0-only
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 3504
+Filename: tcping_0.3-1_arm_arm1176jzf-s_vfp.ipk
+Size: 4238
+SHA256sum: b652232c0251d754726f54de203c0a27fa5b8a851fdc5d334e7fb5d92acac605
+Description:  tcping measures the latency of a tcp-connection
+
+Package: trojan-go
+Version: 0.10.6-2
+Depends: libc, ca-bundle
+License: GPL-3.0-only
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 5082944
+Filename: trojan-go_0.10.6-2_arm_arm1176jzf-s_vfp.ipk
+Size: 5075473
+SHA256sum: 703170ad35b4cf0c5ab88abb700d007a42a016e4179ef0424790b16d150698cc
+Description:  Trojan features multiple protocols over TLS to avoid both
+ active/passive detections and ISP QoS limitations.
+
+Package: trojan-plus
+Version: 10.0.3-2
+Depends: libc, libpthread, libstdcpp6, libopenssl3, boost, boost-system, boost-program_options
+License: GPL-3.0
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 380262
+Filename: trojan-plus_10.0.3-2_arm_arm1176jzf-s_vfp.ipk
+Size: 380688
+SHA256sum: 6aaa53576914e3adb74d342713aecd897e3d012b0b7f11461a551475a9c8b880
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
+Package: trojan
+Version: 1.16.0-2
+Depends: libc, libpthread, libstdcpp6, libopenssl3, boost, boost-system, boost-program_options, boost-date_time
+License: GPL-3.0
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 272961
+Filename: trojan_1.16.0-2_arm_arm1176jzf-s_vfp.ipk
+Size: 273457
+SHA256sum: ba80cd3b4fed47c813edaf69356a16f95f9a1b55df9e8ad8a842b5d50b2227b3
+Description:  An unidentifiable mechanism that helps you bypass GFW
+
+Package: tuic-client
+Version: 1.0.0-1
+Depends: libc
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 943381
+Filename: tuic-client_1.0.0-1_arm_arm1176jzf-s_vfp.ipk
+Size: 943184
+SHA256sum: 601e55d46397d0d880a76c1b49e1f0abfab7f23fa292569cfe015adaffcfa329
+Description:  Delicately-TUICed 0-RTT proxy protocol
+
+Package: v2ray-core
+Version: 5.7.0-1
+Depends: libc, ca-bundle
+License: MIT
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 8793448
+Filename: v2ray-core_5.7.0-1_arm_arm1176jzf-s_vfp.ipk
+Size: 8775744
+SHA256sum: bc188dab7b48a8618979caa9fe9adfa40383f6119fbcef47d52aba16f46f4994
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: v2ray-plugin
+Version: 5.7.0-1
+Depends: libc, ca-bundle
+License: MIT
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 4927653
+Filename: v2ray-plugin_5.7.0-1_arm_arm1176jzf-s_vfp.ipk
+Size: 4920812
+SHA256sum: 174555bbe85249c2bc888e8e46fbdc58adbd1ff49936be9719390eb0c48907d0
+Description:  SIP003 plugin for shadowsocks, based on v2ray
+
+Package: vlmcsd
+Version: svn1113-3
+Depends: libc, libpthread
+License: MIT
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 24312
+Filename: vlmcsd_svn1113-3_arm_arm1176jzf-s_vfp.ipk
+Size: 25011
+SHA256sum: 7af2fad9833a38d58d50208689cdea0919889114f3f8d11b96efc4bbb048c159
+Description:  vlmcsd is a KMS Emulator in C.
+
+Package: xray-plugin
+Version: 1.8.4-1
+Depends: libc, ca-bundle
+License: MIT
+Section: net
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 6132247
+Filename: xray-plugin_1.8.4-1_arm_arm1176jzf-s_vfp.ipk
+Size: 6121937
+SHA256sum: 50b5cce3834e2d536c97c6eb4e8988df90ba51822bded43e743a01eea6a47599
+Description:  SIP003 plugin for Shadowsocks, based on Xray
+

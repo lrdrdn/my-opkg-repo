@@ -1,0 +1,75 @@
+Package: luci-app-bypass
+Version: 230601.43650
+Depends: libc, ipset, kmod-ipt-nat, ip-full, iptables-mod-tproxy, lua-neturl, dnsmasq-full, smartdns, coreutils, coreutils-base64, curl, tcping, chinadns-ng, lua, luci-compat, luci-lib-ipkg, unzip, lua-maxminddb, luci-lua-runtime
+Source: /home/ubuntu/wrt-project/custom-feeds/luci-app-bypass
+SourceName: luci-app-bypass
+Section: luci
+SourceDateEpoch: 1694692560
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2646921
+Filename: luci-app-bypass_230601.43650_all.ipk
+Size: 2465131
+SHA256sum: 04e1f0f37c4fd5a13739d34159177ccf1b709059213cff722248b5709397d3bc
+Description:  SS/SSR/Xray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-app-passwall2
+Version: 1.20-12
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, resolveip, tcping, xray-core, v2ray-geoip, v2ray-geosite, unzip, luci-lua-runtime
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall2/luci-app-passwall2
+SourceName: luci-app-passwall2
+Section: luci
+SourceDateEpoch: 1694857486
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 213855
+Filename: luci-app-passwall2_1.20-12_all.ipk
+Size: 214890
+SHA256sum: a7cdb17f397a7fe704c2c0c810ab9636f78ed4098df71cc5ae5bfb505eb92a57
+Description:  LuCI support for PassWall 2
+
+Package: luci-app-passwall
+Version: 4.70-8
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, chinadns-ng, dns2socks, dns2tcp, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, unzip, luci-lua-runtime
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall/luci-app-passwall
+SourceName: luci-app-passwall
+Section: luci
+SourceDateEpoch: 1694881200
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 980814
+Filename: luci-app-passwall_4.70-8_all.ipk
+Size: 981069
+SHA256sum: caac85afcf93c2e8befcacfff3af0acb321eb6bbb1b958c350947cc0048f90d2
+Description:  LuCI support for PassWall
+
+Package: luci-app-ssr-plus
+Version: 187
+Depends: libc, coreutils, coreutils-base64, dns2socks, dns2tcp, dnsmasq-full, ipset, kmod-ipt-nat, ip-full, iptables, iptables-mod-tproxy, lua, lua-neturl, libuci-lua, microsocks, tcping, resolveip, shadowsocksr-libev-ssr-check, uclient-fetch, luci-lua-runtime
+Source: /home/ubuntu/wrt-project/custom-feeds/luci-app-ssr-plus
+SourceName: luci-app-ssr-plus
+Section: luci
+SourceDateEpoch: 1694692560
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 272512
+Filename: luci-app-ssr-plus_187_all.ipk
+Size: 272739
+SHA256sum: 85cffc059d613dd52fe4ff4cd99572001e4b80b2d77b49aad5db36f328b2478e
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/TUIC/Hysteria/Socks5/Tun LuCI interface
+
+Package: luci-app-vssr
+Version: 1.25
+Depends: libc, ipset, ip-full, iptables-mod-tproxy, dnsmasq-full, coreutils, coreutils-base64, bash, pdnsd-alt, wget-ssl, lua, luasocket, lua-maxminddb, lua-cjson, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-check, simple-obfs, luci-lua-runtime
+Source: /home/ubuntu/wrt-project/custom-feeds/luci-app-vssr
+SourceName: luci-app-vssr
+Section: luci
+SourceDateEpoch: 1668701531
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 5568279
+Filename: luci-app-vssr_1.25_all.ipk
+Size: 5293206
+SHA256sum: 676a60ccb17c74f9d2254ad7489a12989b628c4ad6f7a0ae78397cfd95115ff9
+Description:  A New SS/SSR/Xray/Trojan LuCI interface
+

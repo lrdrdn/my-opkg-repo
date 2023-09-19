@@ -1,0 +1,1 @@
+{"architecture": "aarch64_cortex-a72", "packages":{"luci-app-bypass": "230601.43650", "luci-app-passwall2": "1.20-12", "luci-app-passwall": "4.70-8", "luci-app-ssr-plus": "187", "luci-app-vssr": "1.25"}}

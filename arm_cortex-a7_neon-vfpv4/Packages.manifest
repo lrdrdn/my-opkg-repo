@@ -1,0 +1,807 @@
+Package: adbyby
+Version: 2.7-20200315
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/adbyby
+SourceName: adbyby
+Section: net
+SourceDateEpoch: 1694692560
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 455216
+Filename: adbyby_2.7-20200315_arm_cortex-a7_neon-vfpv4.ipk
+Size: 455570
+SHA256sum: 902033d3ab438731727bd15078dedab4d341a6d2fd5a751dcc12a2cff58285a6
+Description:  Adbyby is a powerful adblock module to block ad,just like adblock.
+
+Package: atinout
+Version: 0.9.1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/modemfeed/packages/telephony/atinout
+SourceName: atinout
+License: GPLv2
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694605814
+Maintainer: Adrian Guenter <a@gntr.me>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3052
+Filename: atinout_0.9.1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3859
+SHA256sum: afbd761fb3864c909c3ae8d3a579e102fb3100bdc476eb2272ab24eb5dbde6d8
+Description:  Atinout is a program that will execute AT commands in sequence and
+ capture the response from the modem.
+
+Package: badvpn
+Version: 1.999.130-1
+Depends: libc, librt, libpthread, libudev, libudev-zero, libnss, libopenssl3, coreutils, coreutils-stdbuf, openssl-util
+Source: /home/ubuntu/wrt-project/custom-feeds/helmiwrt-packages/badvpn
+SourceName: badvpn
+Section: net
+SourceDateEpoch: 1686562428
+Maintainer: helmiau
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 119328
+Filename: badvpn_1.999.130-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 120147
+SHA256sum: e21d5d65aa9a10ad23dd4ac19b9b38acdab357e877bc43e57741d3c10ced1c12
+Description:  BadVPN
+
+Package: brook
+Version: 20230606-1
+Depends: libc, ca-bundle
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/brook
+SourceName: brook
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7392885
+Filename: brook_20230606-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 7305999
+SHA256sum: bb1b27aad8c7504023b917d5f883f095dfcc1b40c5e1316d3fc575af1193010f
+Description:  Brook is a cross-platform strong encryption and not detectable proxy.
+ Zero-Configuration.
+
+Package: chinadns-ng
+Version: 2023.06.01-1
+Depends: libc, ipset
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/chinadns-ng
+SourceName: chinadns-ng
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: pexcn <i@pexcn.me>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 26426
+Filename: chinadns-ng_2023.06.01-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 27181
+SHA256sum: b234597e6361bd60d926bc979f1244f68bb94d861c4c8f2cfd316a23d2dada86
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: corkscrew
+Version: 2.0-1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/helmiwrt-packages/corkscrew
+SourceName: corkscrew
+Section: net
+SourceDateEpoch: 1686562428
+Maintainer: Galih Prastowo Aji <galih.prastowo@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3077
+Filename: corkscrew_2.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3826
+SHA256sum: a8ac468ab0022477a8e4adf201adaa3394c8c263dcc2cca7267d403124a7410b
+Description:  Tunneling SSH through HTTP proxies.
+
+Package: dns2socks
+Version: 2.1-2
+Depends: libc, libpthread
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/dns2socks
+SourceName: dns2socks
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: ghostmaker
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10739
+Filename: dns2socks_2.1-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11543
+SHA256sum: 2514b4d1a79b294d1737f62f2a62f3c07a7c5f143e9b87f83fe293c7f1edc363
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: dns2tcp
+Version: 1.1.0-1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/dns2tcp
+SourceName: dns2tcp
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 11314
+Filename: dns2tcp_1.1.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 12113
+SHA256sum: dcee8869e7fbd54beccdfe16454f2824fa8d21157a064a2439903da2c5fc687d
+Description:  utility to convert dns query from udp to tcp
+
+Package: dnsforwarder
+Version: 6.5.2-1
+Depends: libc, coreutils, coreutils-base64, dnsmasq-full, libpthread, wget-ssl
+Source: /home/ubuntu/wrt-project/custom-feeds/dnsforwarder
+SourceName: dnsforwarder
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694692560
+Maintainer: Dennis <openwrt@tossp.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 80496
+Filename: dnsforwarder_6.5.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 81346
+SHA256sum: b2cc6a0d906c5fd8ea8f8e02d4df52a8ac48ae0195c805ec617391138be304d1
+Description:  Forwarding queries to customized domains (and their subdomains) to specified servers
+ over a specified protocol (UDP or TCP). non-standard ports are supported.
+
+Package: dnsproxy
+Version: 0.54.0-1
+Depends: libc, ca-bundle
+Source: feeds/packages/net/dnsproxy
+SourceName: dnsproxy
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+Require-User: dnsproxy=411:dnsproxy=411
+SourceDateEpoch: 1692538742
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3823330
+Filename: dnsproxy_0.54.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3818877
+SHA256sum: 840e3ba2a1f39f319d234ea032183ad98d5c4f9e93fe417f54bf2780c8cc0ef5
+Description:  A simple DNS proxy server that supports all existing DNS protocols including
+ DNS-over-TLS, DNS-over-HTTPS, DNSCrypt, and DNS-over-QUIC.Moreover, it can
+ work as a DNS-over-HTTPS, DNS-over-TLS or DNS-over-QUIC server.
+
+Package: ethstatus
+Version: 0.4.9-1
+Depends: libc, libncurses6
+Source: /home/ubuntu/wrt-project/custom-feeds/modemfeed/packages/net/ethstatus
+SourceName: ethstatus
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1694605814
+Maintainer: Paul Spooren <mail@aparcar.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7517
+Filename: ethstatus_0.4.9-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8419
+SHA256sum: 7e3ea760a5f347c3db5757b9e879ee7f8dec20faf51b84b79f67bebdc418b3fd
+Description:  Ethstatus is a console-based monitoring utility for
+ displaying statistical data of the ethernet interface
+ on a quantity basis. It is similar to iptraf but is meant
+ to run as a permanent console task to monitor the network
+ load.
+
+Package: hysteria
+Version: 2.0.2-1
+Depends: libc, ca-bundle
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/hysteria
+SourceName: hysteria
+License: MIT
+Section: net
+SourceDateEpoch: 1694910278
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5219478
+Filename: hysteria_2.0.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5212740
+SHA256sum: 9595ed9f89909ffe397b84b124cc14436231c820c053386b1fa825898e9f43f1
+Description:  Hysteria is a feature-packed network utility optimized for networks
+ of poor quality (e.g. satellite connections, congested public Wi-Fi,
+ connecting from China to servers abroad) powered by a custom version
+ of QUIC protocol.
+
+Package: ipt2socks
+Version: 1.1.3-3
+Depends: libc, libpthread
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/ipt2socks
+SourceName: ipt2socks
+License: AGPL-3.0
+Section: net
+SourceDateEpoch: 1694528054
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 25961
+Filename: ipt2socks_1.1.3-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 26714
+SHA256sum: e8f743afb525550e27f443fd8158b4f0e9084e7fa97a1a1b2cbce5c18081c95c
+Description:  Utility for converting iptables (redirect/tproxy) to socks5.
+
+Package: lua-maxminddb
+Version: 0.2-1
+Depends: libc, lua, libmaxminddb
+Source: /home/ubuntu/wrt-project/custom-feeds/lua-maxminddb
+SourceName: lua-maxminddb
+License: MIT
+Section: lang
+SourceDateEpoch: 1634959980
+Maintainer: fabled
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2284
+Filename: lua-maxminddb_0.2-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3008
+SHA256sum: e1859aa407146f7077f5221edb04040f99d01db0db997f262f7f219c7086721b
+Description:  libmaxminddb bindings for lua
+
+Package: microsocks
+Version: 1.0.3-1
+Depends: libc
+Source: feeds/packages/net/microsocks
+SourceName: microsocks
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1680935934
+Maintainer: Mateusz Korniak <matkorgithubcom@ant.gliwice.pl>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5554
+Filename: microsocks_1.0.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6405
+SHA256sum: ba23cefb9cf91b0203d2c7c6e7031b9f81cc5ddc750c8e1a99d1a8a8689cd8ba
+Description:  Low resource SOCKS5 proxy.
+ Supports only SOCKS5 protocol and forwarding only TCP/IP connections.
+
+Package: mrtg
+Version: 2.17.10-1
+Depends: libc, libgd, libpng, zlib, perl, perlbase-essential, perlbase-findbin, perlbase-cwd, perlbase-config, perlbase-file, perlbase-getopt, perlbase-math, perlbase-integer, perlbase-xsloader, perlbase-pod, perlbase-universal, perlbase-socket, perlbase-posix, perlbase-autoloader, perlbase-fcntl, perlbase-tie, perlbase-io, perlbase-symbol, perlbase-selectsaver, perlbase-errno, perlbase-scalar, perlbase-list, perlbase-base, perlbase-storable
+Source: /home/ubuntu/wrt-project/custom-feeds/modemfeed/packages/net/mrtg
+SourceName: mrtg
+Section: net
+SourceDateEpoch: 1694605814
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 544960
+Filename: mrtg_2.17.10-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 545661
+SHA256sum: 0a0c7148f63a42e8d977fb9c3e7e996b82d0d69fec3f7eb8f49acb5b31260dab
+Description:  The Multi Router Traffic Grapher, or just simply MRTG, is free software for
+ monitoring and measuring the traffic load on network links. It allows the
+ user to see traffic load on a network over time in graphical form. It was
+ originally developed by Tobias Oetiker and Dave Rand to monitor router
+ traffic, but has developed into a tool that can create graphs and statistics
+ for almost anything.
+
+Package: naiveproxy
+Version: 113.0.5672.62-1-1
+Depends: libc, libatomic1
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/naiveproxy
+SourceName: naiveproxy
+License: BSD 3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2760656
+Filename: naiveproxy_113.0.5672.62-1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2753469
+SHA256sum: 8660420bba9b710336956fa25abba3c071668d3ace4288283f507122b6d644d6
+Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
+ censorship resistance and low detectability. Reusing Chrome's stack also
+ ensures best practices in performance and security.
+
+Package: nload
+Version: 0.7.4-1
+Depends: libc, libncurses6, libstdcpp6
+Source: feeds/packages/admin/nload
+SourceName: nload
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: admin
+SourceDateEpoch: 1682110018
+Maintainer: Jacky Guo <leickwell@hotmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 35780
+Filename: nload_0.7.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 36409
+SHA256sum: 2f06ddb7e929bbb3256bddb5d670d0f3276e4ff97572eebc205aa4c7a6fdc57f
+Description:  Monitors network traffic and bandwidth usage.
+
+Package: ookla-speedtest
+Version: 1.2.0-0
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/modemfeed/packages/net/ookla-speedtest
+SourceName: ookla-speedtest
+Section: net
+SourceDateEpoch: 1694605814
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1032040
+Filename: ookla-speedtest_1.2.0-0_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1031618
+SHA256sum: 1d61993e67e7013ba3a50ca1707472059e50baeb5c63fc143e491f79b736735a
+Description:  Speedtest CLI brings the trusted technology and global server network behind Speedtest to the command line.
+ Built for software developers, system administrators and computer enthusiasts alike,
+ Speedtest CLI is the first official Linux-native Speedtest application backed by Ookla®.
+
+Package: pdnsd-alt
+Version: 1.2.9b-par-3
+Depends: libc, libpthread
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/pdnsd-alt
+SourceName: pdnsd-alt
+Section: net
+SourceDateEpoch: 1694528054
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 88642
+Filename: pdnsd-alt_1.2.9b-par-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 89642
+SHA256sum: b27bbdc3c7f12db81f31ecd4ba496b3aaea29f03ca47c41b525376dadda34db2
+Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
+ contents are written to hard disk on exit) that is designed to cope with
+ unreachable or down DNS servers (for example in dial-in networking).
+ 
+ pdnsd can be used with applications that do dns lookups, eg on startup, and
+ can't be configured to change that behaviour, to prevent the often
+ minute-long hangs (or even crashes) that result from stalled dns queries.
+
+Package: redsocks2
+Version: 0.67-5
+Depends: libc, libevent2-7, libopenssl3
+Source: /home/ubuntu/wrt-project/custom-feeds/redsocks2
+SourceName: redsocks2
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694692560
+Maintainer: semigodking <semigodking@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 53201
+Filename: redsocks2_0.67-5_arm_cortex-a7_neon-vfpv4.ipk
+Size: 54009
+SHA256sum: cc25350a725f4fe524692b50207328855816c50740692a8f77bed7e08d9d39a3
+Description:  This is a modified version of original redsocks.
+ Transparent redirector of any TCP/UDP connection to proxy.
+
+Package: shadowsocks-rust-sslocal
+Version: 1.16.1-1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocks-rust
+SourceName: shadowsocks-rust-sslocal
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3340797
+Filename: shadowsocks-rust-sslocal_1.16.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3325887
+SHA256sum: e8da40bc94c4fae3e7c1a704958a210585c63fad2806fbb448bd604e56ca0e65
+Description:  shadowsocks-rust sslocal
+
+Package: shadowsocks-rust-ssmanager
+Version: 1.16.1-1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocks-rust
+SourceName: shadowsocks-rust-ssmanager
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2373278
+Filename: shadowsocks-rust-ssmanager_1.16.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2363265
+SHA256sum: d84e640d32e69860b391b3255b1ed0ed588e49ab6d2a817cc76b2f0543a1e0ac
+Description:  shadowsocks-rust ssmanager
+
+Package: shadowsocks-rust-ssserver
+Version: 1.16.1-1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocks-rust
+SourceName: shadowsocks-rust-ssserver
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2302132
+Filename: shadowsocks-rust-ssserver_1.16.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 2291402
+SHA256sum: 772633d1d8d5829f84f679f06d36313644fb82673362bcb8e52566785fa0da14
+Description:  shadowsocks-rust ssserver
+
+Package: shadowsocks-rust-ssservice
+Version: 1.16.1-1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocks-rust
+SourceName: shadowsocks-rust-ssservice
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3592235
+Filename: shadowsocks-rust-ssservice_1.16.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3578614
+SHA256sum: fc689c5fa643f0c04f81d9087d2c104ff32c283bc812dff06aea555e4bb2fe51
+Description:  shadowsocks-rust ssservice
+
+Package: shadowsocks-rust-ssurl
+Version: 1.16.1-1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocks-rust
+SourceName: shadowsocks-rust-ssurl
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1157550
+Filename: shadowsocks-rust-ssurl_1.16.1-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1148309
+SHA256sum: c798e3684f10cb1ef9e30a39089bf4f498c43c0437c2841192c0fe54dc718154
+Description:  shadowsocks-rust ssurl
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-check
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2256
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3053
+SHA256sum: 15c265448b03094b37968d3b7579cc6b930d9b46ae8d7d7f0bf94262a9496619
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-local
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 59663
+Filename: shadowsocksr-libev-ssr-local_2.5.6-9_arm_cortex-a7_neon-vfpv4.ipk
+Size: 60488
+SHA256sum: 44ba2b973dbcc3628771be6dbbd3d69cd8cb6b9f74afcb99b2e8aa5833a34900
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-nat
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-nat
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 2224
+Filename: shadowsocksr-libev-ssr-nat_2.5.6-9_arm_cortex-a7_neon-vfpv4.ipk
+Size: 3022
+SHA256sum: 0bded9194ea927ad4a2367a2f203d9f0878bacc95a66317d6877ea2289a42868
+Description:  shadowsocksr-libev ssr-nat
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-redir
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 53891
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_arm_cortex-a7_neon-vfpv4.ipk
+Size: 54717
+SHA256sum: 5fb5619e58bbf35a186b0a79e2848edde2f3f0d23e328a8e2a91d7a9892f03a2
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-server
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 62923
+Filename: shadowsocksr-libev-ssr-server_2.5.6-9_arm_cortex-a7_neon-vfpv4.ipk
+Size: 63685
+SHA256sum: cc3a8b687fb931910f3274d36b065d059b9fd0301aa61baa833b76b5fbf57d95
+Description:  shadowsocksr-libev ssr-server
+
+Package: simple-obfs-server
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/simple-obfs
+SourceName: simple-obfs-server
+License: GPL-3.0-or-later
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 29696
+Filename: simple-obfs-server_0.0.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 30473
+SHA256sum: b5e0222b2496ce8ebf026fd40c38813a8ba05cf6b18826eb3b515f6af7846f5a
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: simple-obfs
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/simple-obfs
+SourceName: simple-obfs
+License: GPL-3.0-or-later
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 27259
+Filename: simple-obfs_0.0.5-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 28089
+SHA256sum: 803e62884f6a7fef910d0cbbbd61eb09b71493b3088c8e4b228f92e2f4f64228
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: simpleproxy
+Version: 3.5
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/modemfeed/packages/net/simpleproxy
+SourceName: simpleproxy
+License: GPLv2
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694605814
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 10480
+Filename: simpleproxy_3.5_arm_cortex-a7_neon-vfpv4.ipk
+Size: 11328
+SHA256sum: 848a06e0e870c17451aa9408c30df4aa1b0d5c1abe16d4fe39ce9cdbe5c904c9
+Description:  Simpleproxy is a simple TCP proxy. It accepts connections on a local
+ TCP port and forward them to anoter port on a remote host via TCP.
+
+Package: sms-tool
+Version: 2022-03-21-f07699ab-1
+Depends: libc
+Source: feeds/packages/utils/sms-tool
+SourceName: sms-tool
+License: Apache-2.0
+LicenseFiles: LICENSE-2.0.txt
+Section: utils
+SourceDateEpoch: 1682110018
+Maintainer: Andrey Butirsky <butirsky@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 7952
+Filename: sms-tool_2022-03-21-f07699ab-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8774
+SHA256sum: b7d3939f1cc05e1b4bfde44e82b987b3450d8fdab57bed1c94cc77933184109f
+Description:  SMS Tool for 3G/4G modem
+
+Package: speedtestpp
+Version: 1.14-1
+Depends: libc, libcurl4, libxml2, libopenssl3, libstdcpp6
+Source: /home/ubuntu/wrt-project/custom-feeds/modemfeed/packages/net/speedtestpp
+SourceName: speedtestpp
+License: MIT
+Section: net
+SourceDateEpoch: 1694605814
+Maintainer: Konstantine Shevlakov <shevlyakov@132lan.ru>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 27093
+Filename: speedtestpp_1.14-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 27868
+SHA256sum: bd2b5d4be7362c846f17eeb8e113a53002809df440cc906988c1b312a8341fd8
+Description:  Yet another unofficial speedtest.net client cli interface
+
+Package: ssocks
+Version: 0.0.14-3
+Depends: libc, libopenssl3
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/ssocks
+SourceName: ssocks
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 13143
+Filename: ssocks_0.0.14-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 13991
+SHA256sum: 08a6978a1ecdad9d7ead7412b94182eb98b34349d3b1dbde23cfc0699a579503
+Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
+ RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
+ and a socks5 relay.
+
+Package: ssocksd
+Version: 0.0.14-3
+Depends: libc, libopenssl3
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/ssocks
+SourceName: ssocksd
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 13345
+Filename: ssocksd_0.0.14-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 14198
+SHA256sum: a857a994a536d0811cffe8b1f08d79981470d32e58abb77d2449e5c311401c2e
+Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
+ RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
+ and a socks5 relay.
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/tcping
+SourceName: tcping
+License: GPL-2.0-only
+LicenseFiles: license.txt
+Section: net
+SourceDateEpoch: 1694528054
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 3436
+Filename: tcping_0.3-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4176
+SHA256sum: 200d6ffc4b66ef8e210a9478fcd88dc9dfddb01d810b610f44dde5ad6c2ed451
+Description:  tcping measures the latency of a tcp-connection
+
+Package: trojan-go
+Version: 0.10.6-2
+Depends: libc, ca-bundle
+Source: feeds/packages/net/trojan-go
+SourceName: trojan-go
+License: GPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1682110018
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 5081206
+Filename: trojan-go_0.10.6-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 5074050
+SHA256sum: ab339018472f5b2d667a73143bec4c011dc14f26e95a87425f54c69d8965029e
+Description:  Trojan features multiple protocols over TLS to avoid both
+ active/passive detections and ISP QoS limitations.
+
+Package: trojan-plus
+Version: 10.0.3-2
+Depends: libc, libpthread, libstdcpp6, libopenssl3, boost, boost-system, boost-program_options
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/trojan-plus
+SourceName: trojan-plus
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Trojan-Plus-Group
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 381927
+Filename: trojan-plus_10.0.3-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 382480
+SHA256sum: 2ebeb811cadb9623d1f4bc0e3daacc6313c8536c9bce355450626db76df5c78c
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
+Package: trojan
+Version: 1.16.0-2
+Depends: libc, libpthread, libstdcpp6, libopenssl3, boost, boost-system, boost-program_options, boost-date_time
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/trojan
+SourceName: trojan
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: GreaterFire
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 273558
+Filename: trojan_1.16.0-2_arm_cortex-a7_neon-vfpv4.ipk
+Size: 274140
+SHA256sum: 29d5a4107ba07622dfec205073390f1dd2f4662cd4274e7826aea5c1cc10599a
+Description:  An unidentifiable mechanism that helps you bypass GFW
+
+Package: tuic-client
+Version: 1.0.0-1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/tuic-client
+SourceName: tuic-client
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694910278
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 943381
+Filename: tuic-client_1.0.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 943189
+SHA256sum: 8a2feb78f11ef3130d3e8ec40a3dfee01436f20c0371a47fb813edf6933a70e7
+Description:  Delicately-TUICed 0-RTT proxy protocol
+
+Package: v2ray-core
+Version: 5.7.0-1
+Depends: libc, ca-bundle
+Source: feeds/packages/net/v2ray-core
+SourceName: v2ray-core
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1685711760
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 8781508
+Filename: v2ray-core_5.7.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 8765995
+SHA256sum: 4b3545afd2956388c7691d0457d5deba40e5225e2bf5dee5fce71e75394f95d9
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: v2ray-plugin
+Version: 5.7.0-1
+Depends: libc, ca-bundle
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/v2ray-plugin
+SourceName: v2ray-plugin
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: madeye <max.c.lv@gmail.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 4926317
+Filename: v2ray-plugin_5.7.0-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 4919393
+SHA256sum: c806b18a584bfa95090f1678882d6706569a793db6e9bd73dfc6ffa6cb4c6687
+Description:  SIP003 plugin for shadowsocks, based on v2ray
+
+Package: vlmcsd
+Version: svn1113-3
+Depends: libc, libpthread
+Source: /home/ubuntu/wrt-project/custom-feeds/vlmcsd
+SourceName: vlmcsd
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694692560
+Maintainer: fuyumi <280604399@qq.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 24058
+Filename: vlmcsd_svn1113-3_arm_cortex-a7_neon-vfpv4.ipk
+Size: 24838
+SHA256sum: 17539a39e0dd36112f4ed6cbdf1369419cf476b95fcce0eac6d1bb98988e7f12
+Description:  vlmcsd is a KMS Emulator in C.
+
+Package: xray-plugin
+Version: 1.8.4-1
+Depends: libc, ca-bundle
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/xray-plugin
+SourceName: xray-plugin
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 6123000
+Filename: xray-plugin_1.8.4-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 6112939
+SHA256sum: b77179f2c2057fbe91e23afa458bf8212cd845f24f6875fedee2dcc8708f25d9
+Description:  SIP003 plugin for Shadowsocks, based on Xray
+

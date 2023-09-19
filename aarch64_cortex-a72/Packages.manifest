@@ -1,0 +1,823 @@
+Package: adbyby
+Version: 2.7-20200315
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/adbyby
+SourceName: adbyby
+Section: net
+SourceDateEpoch: 1694692560
+Architecture: aarch64_cortex-a72
+Installed-Size: 455216
+Filename: adbyby_2.7-20200315_aarch64_cortex-a72.ipk
+Size: 455564
+SHA256sum: 5a128e0c916a1b633018d88248e0536d031b55fd9ca0c9713663a7b26b68785b
+Description:  Adbyby is a powerful adblock module to block ad,just like adblock.
+
+Package: atinout
+Version: 0.9.1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/modemfeed/packages/telephony/atinout
+SourceName: atinout
+License: GPLv2
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694605814
+Maintainer: Adrian Guenter <a@gntr.me>
+Architecture: aarch64_cortex-a72
+Installed-Size: 3475
+Filename: atinout_0.9.1_aarch64_cortex-a72.ipk
+Size: 4144
+SHA256sum: 6ab70b58c1f08b3db3bcad4326f2b03c24d4b9fe8717df0b7e73c12d5cb78a72
+Description:  Atinout is a program that will execute AT commands in sequence and
+ capture the response from the modem.
+
+Package: badvpn
+Version: 1.999.130-1
+Depends: libc, librt, libpthread, libudev, libudev-zero, libnss, libopenssl3, coreutils, coreutils-stdbuf, openssl-util
+Source: /home/ubuntu/wrt-project/custom-feeds/helmiwrt-packages/badvpn
+SourceName: badvpn
+Section: net
+SourceDateEpoch: 1686562428
+Maintainer: helmiau
+Architecture: aarch64_cortex-a72
+Installed-Size: 135283
+Filename: badvpn_1.999.130-1_aarch64_cortex-a72.ipk
+Size: 135942
+SHA256sum: 0c4a36195b0f5031e483d4bdfc292e63845b9022d65cbb6c72be4f06ebda9255
+Description:  BadVPN
+
+Package: brook
+Version: 20230606-1
+Depends: libc, ca-bundle
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/brook
+SourceName: brook
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 7137067
+Filename: brook_20230606-1_aarch64_cortex-a72.ipk
+Size: 7041562
+SHA256sum: d98bdb0b94d1a030be2877a2077faad606985e59cc0db11e818680dbd4313159
+Description:  Brook is a cross-platform strong encryption and not detectable proxy.
+ Zero-Configuration.
+
+Package: chinadns-ng
+Version: 2023.06.01-1
+Depends: libc, ipset
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/chinadns-ng
+SourceName: chinadns-ng
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: pexcn <i@pexcn.me>
+Architecture: aarch64_cortex-a72
+Installed-Size: 27946
+Filename: chinadns-ng_2023.06.01-1_aarch64_cortex-a72.ipk
+Size: 28783
+SHA256sum: bd7ecf8131e116d81682efcfe7c5c53993d771a26c8bdbfdb739973d6be6527a
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: corkscrew
+Version: 2.0-1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/helmiwrt-packages/corkscrew
+SourceName: corkscrew
+Section: net
+SourceDateEpoch: 1686562428
+Maintainer: Galih Prastowo Aji <galih.prastowo@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 3533
+Filename: corkscrew_2.0-1_aarch64_cortex-a72.ipk
+Size: 4135
+SHA256sum: d1211bc9f5c1a8745440703e6b514f91f3ffc3b9c0ede147c6f880dfd5e02745
+Description:  Tunneling SSH through HTTP proxies.
+
+Package: dns2socks
+Version: 2.1-2
+Depends: libc, libpthread
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/dns2socks
+SourceName: dns2socks
+License: BSD-3-Clause
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: ghostmaker
+Architecture: aarch64_cortex-a72
+Installed-Size: 11207
+Filename: dns2socks_2.1-2_aarch64_cortex-a72.ipk
+Size: 11867
+SHA256sum: 419cbfa5989e1ab73e83dfbddd52636bf2e04b3b7c39bc273e5a3d8cdcb2cd25
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: dns2tcp
+Version: 1.1.0-1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/dns2tcp
+SourceName: dns2tcp
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 11936
+Filename: dns2tcp_1.1.0-1_aarch64_cortex-a72.ipk
+Size: 12707
+SHA256sum: 2caa19d818def224cf04a6cc879d67b3d7d61bc0d052bbcc2e56653916149845
+Description:  utility to convert dns query from udp to tcp
+
+Package: dnsforwarder
+Version: 6.5.2-1
+Depends: libc, coreutils, coreutils-base64, dnsmasq-full, libpthread, wget-ssl
+Source: /home/ubuntu/wrt-project/custom-feeds/dnsforwarder
+SourceName: dnsforwarder
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694692560
+Maintainer: Dennis <openwrt@tossp.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 88059
+Filename: dnsforwarder_6.5.2-1_aarch64_cortex-a72.ipk
+Size: 88557
+SHA256sum: 17443ae31dbed2e63d6095b25f262312919938071bd75abc5906975505a453b7
+Description:  Forwarding queries to customized domains (and their subdomains) to specified servers
+ over a specified protocol (UDP or TCP). non-standard ports are supported.
+
+Package: dnsproxy
+Version: 0.54.0-1
+Depends: libc, ca-bundle
+Source: feeds/packages/net/dnsproxy
+SourceName: dnsproxy
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+Require-User: dnsproxy=411:dnsproxy=411
+SourceDateEpoch: 1692538742
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 3675078
+Filename: dnsproxy_0.54.0-1_aarch64_cortex-a72.ipk
+Size: 3666445
+SHA256sum: eda52010a1bda3cd85589f077f88434d712b6012128db7c77622b46b42008901
+Description:  A simple DNS proxy server that supports all existing DNS protocols including
+ DNS-over-TLS, DNS-over-HTTPS, DNSCrypt, and DNS-over-QUIC.Moreover, it can
+ work as a DNS-over-HTTPS, DNS-over-TLS or DNS-over-QUIC server.
+
+Package: ethstatus
+Version: 0.4.9-1
+Depends: libc, libncurses6
+Source: /home/ubuntu/wrt-project/custom-feeds/modemfeed/packages/net/ethstatus
+SourceName: ethstatus
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1694605814
+Maintainer: Paul Spooren <mail@aparcar.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 8556
+Filename: ethstatus_0.4.9-1_aarch64_cortex-a72.ipk
+Size: 9350
+SHA256sum: 4f0e97cd06efd9e033801ae75dfff12f6f7b0ac57ddb55db0f4d1af029fb3b3e
+Description:  Ethstatus is a console-based monitoring utility for
+ displaying statistical data of the ethernet interface
+ on a quantity basis. It is similar to iptraf but is meant
+ to run as a permanent console task to monitor the network
+ load.
+
+Package: hysteria
+Version: 2.0.2-1
+Depends: libc, ca-bundle
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/hysteria
+SourceName: hysteria
+License: MIT
+Section: net
+SourceDateEpoch: 1694910278
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 5043318
+Filename: hysteria_2.0.2-1_aarch64_cortex-a72.ipk
+Size: 5029977
+SHA256sum: beea0c627c314dae24bbd52d74d5c53a557cddb77692001f1d2e7698006f3664
+Description:  Hysteria is a feature-packed network utility optimized for networks
+ of poor quality (e.g. satellite connections, congested public Wi-Fi,
+ connecting from China to servers abroad) powered by a custom version
+ of QUIC protocol.
+
+Package: ipt2socks
+Version: 1.1.3-3
+Depends: libc, libpthread
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/ipt2socks
+SourceName: ipt2socks
+License: AGPL-3.0
+Section: net
+SourceDateEpoch: 1694528054
+Architecture: aarch64_cortex-a72
+Installed-Size: 25984
+Filename: ipt2socks_1.1.3-3_aarch64_cortex-a72.ipk
+Size: 26596
+SHA256sum: 9f5aa3d31f3391068544df5c5ea1547df222f878260158ba641b9220130c611a
+Description:  Utility for converting iptables (redirect/tproxy) to socks5.
+
+Package: lua-maxminddb
+Version: 0.2-1
+Depends: libc, lua, libmaxminddb
+Source: /home/ubuntu/wrt-project/custom-feeds/lua-maxminddb
+SourceName: lua-maxminddb
+License: MIT
+Section: lang
+SourceDateEpoch: 1634959980
+Maintainer: fabled
+Architecture: aarch64_cortex-a72
+Installed-Size: 2822
+Filename: lua-maxminddb_0.2-1_aarch64_cortex-a72.ipk
+Size: 3430
+SHA256sum: 587c7fc8012856db41437862a780819e1ecf90450f8fbcf39c0c1a035b02b60f
+Description:  libmaxminddb bindings for lua
+
+Package: luci-app-oled
+Version: 20230823
+Depends: libc, libconfig11, luci-lua-runtime
+Source: /home/ubuntu/wrt-project/custom-feeds/luci-app-oled/luci-app-oled
+SourceName: luci-app-oled
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1692850186
+Maintainer: OpenWrt LuCI community
+Architecture: aarch64_cortex-a72
+Installed-Size: 20141
+Filename: luci-app-oled_20230823_aarch64_cortex-a72.ipk
+Size: 20882
+SHA256sum: f5b9133c21acd9964bfadbbce860fb5263fb34d59d9c13294101d6fc6690588d
+Description:  LuCI luci-app-oled app
+
+Package: microsocks
+Version: 1.0.3-1
+Depends: libc
+Source: feeds/packages/net/microsocks
+SourceName: microsocks
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1680935934
+Maintainer: Mateusz Korniak <matkorgithubcom@ant.gliwice.pl>
+Architecture: aarch64_cortex-a72
+Installed-Size: 5975
+Filename: microsocks_1.0.3-1_aarch64_cortex-a72.ipk
+Size: 6741
+SHA256sum: 6f9bc5891c650871eccc0c0d30de286f6e913273873884cbd4ca679749f27dc5
+Description:  Low resource SOCKS5 proxy.
+ Supports only SOCKS5 protocol and forwarding only TCP/IP connections.
+
+Package: mrtg
+Version: 2.17.10-1
+Depends: libc, libgd, libpng, zlib, perl, perlbase-essential, perlbase-findbin, perlbase-cwd, perlbase-config, perlbase-file, perlbase-getopt, perlbase-math, perlbase-integer, perlbase-xsloader, perlbase-pod, perlbase-universal, perlbase-socket, perlbase-posix, perlbase-autoloader, perlbase-fcntl, perlbase-tie, perlbase-io, perlbase-symbol, perlbase-selectsaver, perlbase-errno, perlbase-scalar, perlbase-list, perlbase-base, perlbase-storable
+Source: /home/ubuntu/wrt-project/custom-feeds/modemfeed/packages/net/mrtg
+SourceName: mrtg
+Section: net
+SourceDateEpoch: 1694605814
+Architecture: aarch64_cortex-a72
+Installed-Size: 541465
+Filename: mrtg_2.17.10-1_aarch64_cortex-a72.ipk
+Size: 542190
+SHA256sum: 3a649b0517c1c559dd3b49fb54ae893cdff896ba48fadd7ea0136e6554f50c60
+Description:  The Multi Router Traffic Grapher, or just simply MRTG, is free software for
+ monitoring and measuring the traffic load on network links. It allows the
+ user to see traffic load on a network over time in graphical form. It was
+ originally developed by Tobias Oetiker and Dave Rand to monitor router
+ traffic, but has developed into a tool that can create graphs and statistics
+ for almost anything.
+
+Package: naiveproxy
+Version: 113.0.5672.62-1-1
+Depends: libc, libatomic1
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/naiveproxy
+SourceName: naiveproxy
+License: BSD 3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 2889898
+Filename: naiveproxy_113.0.5672.62-1-1_aarch64_cortex-a72.ipk
+Size: 2887122
+SHA256sum: dff73562f805a639cdc0813c2181035d5762c180b34be8d485924094b14ce1c3
+Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
+ censorship resistance and low detectability. Reusing Chrome's stack also
+ ensures best practices in performance and security.
+
+Package: nload
+Version: 0.7.4-1
+Depends: libc, libncurses6, libstdcpp6
+Source: feeds/packages/admin/nload
+SourceName: nload
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: admin
+SourceDateEpoch: 1682110018
+Maintainer: Jacky Guo <leickwell@hotmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 37132
+Filename: nload_0.7.4-1_aarch64_cortex-a72.ipk
+Size: 37629
+SHA256sum: 13a7e0d8681b447bdde5edbcdd235970c1a3098dfb6e732a469eb7a95ecb1fcd
+Description:  Monitors network traffic and bandwidth usage.
+
+Package: ookla-speedtest
+Version: 1.2.0-0
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/modemfeed/packages/net/ookla-speedtest
+SourceName: ookla-speedtest
+Section: net
+SourceDateEpoch: 1694605814
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: aarch64_cortex-a72
+Installed-Size: 1076214
+Filename: ookla-speedtest_1.2.0-0_aarch64_cortex-a72.ipk
+Size: 1075826
+SHA256sum: bcd5b36959d742ea0aab3d210d79ea0e4dc833cea602995fb8b39fce8667fcaf
+Description:  Speedtest CLI brings the trusted technology and global server network behind Speedtest to the command line.
+ Built for software developers, system administrators and computer enthusiasts alike,
+ Speedtest CLI is the first official Linux-native Speedtest application backed by Ookla®.
+
+Package: pdnsd-alt
+Version: 1.2.9b-par-3
+Depends: libc, libpthread
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/pdnsd-alt
+SourceName: pdnsd-alt
+Section: net
+SourceDateEpoch: 1694528054
+Architecture: aarch64_cortex-a72
+Installed-Size: 94118
+Filename: pdnsd-alt_1.2.9b-par-3_aarch64_cortex-a72.ipk
+Size: 94756
+SHA256sum: 2232766dfba1b0b710db2a2488665313c3590a2f79d95e76bf9775030f86d2f1
+Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
+ contents are written to hard disk on exit) that is designed to cope with
+ unreachable or down DNS servers (for example in dial-in networking).
+ 
+ pdnsd can be used with applications that do dns lookups, eg on startup, and
+ can't be configured to change that behaviour, to prevent the often
+ minute-long hangs (or even crashes) that result from stalled dns queries.
+
+Package: redsocks2
+Version: 0.67-5
+Depends: libc, libevent2-7, libopenssl3
+Source: /home/ubuntu/wrt-project/custom-feeds/redsocks2
+SourceName: redsocks2
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694692560
+Maintainer: semigodking <semigodking@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 57652
+Filename: redsocks2_0.67-5_aarch64_cortex-a72.ipk
+Size: 58542
+SHA256sum: 374dea421e304e622bc3b9231806b4229c411a48126578534e537596aab81891
+Description:  This is a modified version of original redsocks.
+ Transparent redirector of any TCP/UDP connection to proxy.
+
+Package: shadowsocks-rust-sslocal
+Version: 1.16.1-1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocks-rust
+SourceName: shadowsocks-rust-sslocal
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 3015322
+Filename: shadowsocks-rust-sslocal_1.16.1-1_aarch64_cortex-a72.ipk
+Size: 3000530
+SHA256sum: 0b1a4d14568e90676b417fd8d8ae02b3a6398366ef0d7d47e1be1b9057f4265d
+Description:  shadowsocks-rust sslocal
+
+Package: shadowsocks-rust-ssmanager
+Version: 1.16.1-1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocks-rust
+SourceName: shadowsocks-rust-ssmanager
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 2212829
+Filename: shadowsocks-rust-ssmanager_1.16.1-1_aarch64_cortex-a72.ipk
+Size: 2203279
+SHA256sum: ddcdc16f2586f3f3c9a29a15d55bbe2ed05ce9ed488d150a3a7e8471d24e5de7
+Description:  shadowsocks-rust ssmanager
+
+Package: shadowsocks-rust-ssserver
+Version: 1.16.1-1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocks-rust
+SourceName: shadowsocks-rust-ssserver
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 2148877
+Filename: shadowsocks-rust-ssserver_1.16.1-1_aarch64_cortex-a72.ipk
+Size: 2138746
+SHA256sum: 0f383b6837cfcd1cb1237069526a47c6e51b23ad3bf6808aa33f835ccc0dfb01
+Description:  shadowsocks-rust ssserver
+
+Package: shadowsocks-rust-ssservice
+Version: 1.16.1-1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocks-rust
+SourceName: shadowsocks-rust-ssservice
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 3238380
+Filename: shadowsocks-rust-ssservice_1.16.1-1_aarch64_cortex-a72.ipk
+Size: 3224071
+SHA256sum: a0996dbe66c3265d792ae9f93039f2c3ebbd08127e09490efc9511bc50cd4a3b
+Description:  shadowsocks-rust ssservice
+
+Package: shadowsocks-rust-ssurl
+Version: 1.16.1-1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocks-rust
+SourceName: shadowsocks-rust-ssurl
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 1125410
+Filename: shadowsocks-rust-ssurl_1.16.1-1_aarch64_cortex-a72.ipk
+Size: 1115926
+SHA256sum: ab4efe4b074d4ef9eb142f0404d0df8c14e615540bab897a4c3ab3b647b6e8c8
+Description:  shadowsocks-rust ssurl
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-check
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Architecture: aarch64_cortex-a72
+Installed-Size: 2720
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_aarch64_cortex-a72.ipk
+Size: 3366
+SHA256sum: 5987cf60dffc20920b24e2659758e8237c171632150aa672f38ec47eae93f340
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-local
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Architecture: aarch64_cortex-a72
+Installed-Size: 62940
+Filename: shadowsocksr-libev-ssr-local_2.5.6-9_aarch64_cortex-a72.ipk
+Size: 63570
+SHA256sum: e987ecc97531ae5a35db6d56e18480b0e4f55300012c91deca06d38521bb4f4f
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-nat
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-nat
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Architecture: aarch64_cortex-a72
+Installed-Size: 2224
+Filename: shadowsocksr-libev-ssr-nat_2.5.6-9_aarch64_cortex-a72.ipk
+Size: 3014
+SHA256sum: ddcf59a7fa1608b05a0302afcd6e95d28c2fed07bebf44b3995788ca890cbfcc
+Description:  shadowsocksr-libev ssr-nat
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-redir
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Architecture: aarch64_cortex-a72
+Installed-Size: 56297
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_aarch64_cortex-a72.ipk
+Size: 57018
+SHA256sum: 1989ac194f9800b0e2d6b7e94c7c0608b4b1daecf26b2053cbd38887211d0826
+Description:  shadowsocksr-libev ssr-redir
+
+Package: shadowsocksr-libev-ssr-server
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-server
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Architecture: aarch64_cortex-a72
+Installed-Size: 66065
+Filename: shadowsocksr-libev-ssr-server_2.5.6-9_aarch64_cortex-a72.ipk
+Size: 66725
+SHA256sum: 6cb4fa0f74866d5f0c40ede330de2c22b56e7fee1d9f3e32e49c762a873b5c1e
+Description:  shadowsocksr-libev ssr-server
+
+Package: simple-obfs-server
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/simple-obfs
+SourceName: simple-obfs-server
+License: GPL-3.0-or-later
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 34111
+Filename: simple-obfs-server_0.0.5-1_aarch64_cortex-a72.ipk
+Size: 34664
+SHA256sum: 2be6d8801c4e90f9aa33047324c9dc52d28371afddb62878735dec79b3168253
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: simple-obfs
+Version: 0.0.5-1
+Depends: libc, libpthread, libev
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/simple-obfs
+SourceName: simple-obfs
+License: GPL-3.0-or-later
+LicenseFiles: COPYING LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 31733
+Filename: simple-obfs_0.0.5-1_aarch64_cortex-a72.ipk
+Size: 32175
+SHA256sum: f950a50096c33a351f8f78e8a5713ed216772fce819a37151b2b93efb4d97f07
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: simpleproxy
+Version: 3.5
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/modemfeed/packages/net/simpleproxy
+SourceName: simpleproxy
+License: GPLv2
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694605814
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: aarch64_cortex-a72
+Installed-Size: 11992
+Filename: simpleproxy_3.5_aarch64_cortex-a72.ipk
+Size: 12657
+SHA256sum: eb36e0308ca7101aff32881f626576be185a9f768f9d10823ea0695167bab78c
+Description:  Simpleproxy is a simple TCP proxy. It accepts connections on a local
+ TCP port and forward them to anoter port on a remote host via TCP.
+
+Package: sms-tool
+Version: 2022-03-21-f07699ab-1
+Depends: libc
+Source: feeds/packages/utils/sms-tool
+SourceName: sms-tool
+License: Apache-2.0
+LicenseFiles: LICENSE-2.0.txt
+Section: utils
+SourceDateEpoch: 1682110018
+Maintainer: Andrey Butirsky <butirsky@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 8995
+Filename: sms-tool_2022-03-21-f07699ab-1_aarch64_cortex-a72.ipk
+Size: 9651
+SHA256sum: e59e6b7a678f610627a3f82ed5f448bf8004c3eae3cae3a310dbb2e6bf007334
+Description:  SMS Tool for 3G/4G modem
+
+Package: speedtestpp
+Version: 1.14-1
+Depends: libc, libcurl4, libxml2, libopenssl3, libstdcpp6
+Source: /home/ubuntu/wrt-project/custom-feeds/modemfeed/packages/net/speedtestpp
+SourceName: speedtestpp
+License: MIT
+Section: net
+SourceDateEpoch: 1694605814
+Maintainer: Konstantine Shevlakov <shevlyakov@132lan.ru>
+Architecture: aarch64_cortex-a72
+Installed-Size: 28013
+Filename: speedtestpp_1.14-1_aarch64_cortex-a72.ipk
+Size: 28796
+SHA256sum: 8016cc520a21a0fe95797790d2b246171c1d32379be9010595672189b0da75c2
+Description:  Yet another unofficial speedtest.net client cli interface
+
+Package: ssocks
+Version: 0.0.14-3
+Depends: libc, libopenssl3
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/ssocks
+SourceName: ssocks
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 15289
+Filename: ssocks_0.0.14-3_aarch64_cortex-a72.ipk
+Size: 15994
+SHA256sum: 7efebf39fad64f2c1869a3377bd36f5a0b008cbdc1f5cbe455ca389b2e9c3569
+Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
+ RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
+ and a socks5 relay.
+
+Package: ssocksd
+Version: 0.0.14-3
+Depends: libc, libopenssl3
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/ssocks
+SourceName: ssocksd
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 15519
+Filename: ssocksd_0.0.14-3_aarch64_cortex-a72.ipk
+Size: 16226
+SHA256sum: cae4ff7a9bfc17b001a329acac58dc2811ee2c2fb9be494c2b8ab1fcaae3207a
+Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
+ RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
+ and a socks5 relay.
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/tcping
+SourceName: tcping
+License: GPL-2.0-only
+LicenseFiles: license.txt
+Section: net
+SourceDateEpoch: 1694528054
+Architecture: aarch64_cortex-a72
+Installed-Size: 3723
+Filename: tcping_0.3-1_aarch64_cortex-a72.ipk
+Size: 4320
+SHA256sum: f480f837f392032f8d37aeb7d0702a77b9cfd18f59f661698e621e8fb77b19e8
+Description:  tcping measures the latency of a tcp-connection
+
+Package: trojan-go
+Version: 0.10.6-2
+Depends: libc, ca-bundle
+Source: feeds/packages/net/trojan-go
+SourceName: trojan-go
+License: GPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1682110018
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 4916369
+Filename: trojan-go_0.10.6-2_aarch64_cortex-a72.ipk
+Size: 4902476
+SHA256sum: d64183902d215393ab283adc6abc49e87a84909e9a6ae30b11c9e44c14e306f3
+Description:  Trojan features multiple protocols over TLS to avoid both
+ active/passive detections and ISP QoS limitations.
+
+Package: trojan-plus
+Version: 10.0.3-2
+Depends: libc, libpthread, libstdcpp6, libopenssl3, boost, boost-system, boost-program_options
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/trojan-plus
+SourceName: trojan-plus
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Trojan-Plus-Group
+Architecture: aarch64_cortex-a72
+Installed-Size: 389053
+Filename: trojan-plus_10.0.3-2_aarch64_cortex-a72.ipk
+Size: 389584
+SHA256sum: 1c49156d9bc33e04fb6df2cd21a649450abd9f5f74cbf8220fa0ab0b910d3f9e
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
+Package: trojan
+Version: 1.16.0-2
+Depends: libc, libpthread, libstdcpp6, libopenssl3, boost, boost-system, boost-program_options, boost-date_time
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/trojan
+SourceName: trojan
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: GreaterFire
+Architecture: aarch64_cortex-a72
+Installed-Size: 279699
+Filename: trojan_1.16.0-2_aarch64_cortex-a72.ipk
+Size: 280439
+SHA256sum: cd23c534f75a10bb0cb5e2042b88ac92c66556e0ab45aa717ce8af43f4422167
+Description:  An unidentifiable mechanism that helps you bypass GFW
+
+Package: tuic-client
+Version: 1.0.0-1
+Depends: libc
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/tuic-client
+SourceName: tuic-client
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694910278
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 1044944
+Filename: tuic-client_1.0.0-1_aarch64_cortex-a72.ipk
+Size: 1043171
+SHA256sum: 20074a6f438e2b36c9a332a7268ff1d08698a709ecb3b3910cb1c0a2231839c1
+Description:  Delicately-TUICed 0-RTT proxy protocol
+
+Package: v2ray-core
+Version: 5.7.0-1
+Depends: libc, ca-bundle
+Source: feeds/packages/net/v2ray-core
+SourceName: v2ray-core
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1685711760
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 8459028
+Filename: v2ray-core_5.7.0-1_aarch64_cortex-a72.ipk
+Size: 8430753
+SHA256sum: 1c3a6d0208057da79ce5f3376d2bc326de9955b728f1cbe1bb01b3a3f40cb937
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+
+Package: v2ray-plugin
+Version: 5.7.0-1
+Depends: libc, ca-bundle
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/v2ray-plugin
+SourceName: v2ray-plugin
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: madeye <max.c.lv@gmail.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 4759218
+Filename: v2ray-plugin_5.7.0-1_aarch64_cortex-a72.ipk
+Size: 4745908
+SHA256sum: 586b8f96ccd179cf73ecd91846ed5d2d52eae4bfae41201fc8259b53c533c8bb
+Description:  SIP003 plugin for shadowsocks, based on v2ray
+
+Package: vlmcsd
+Version: svn1113-3
+Depends: libc, libpthread
+Source: /home/ubuntu/wrt-project/custom-feeds/vlmcsd
+SourceName: vlmcsd
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694692560
+Maintainer: fuyumi <280604399@qq.com>
+Architecture: aarch64_cortex-a72
+Installed-Size: 23828
+Filename: vlmcsd_svn1113-3_aarch64_cortex-a72.ipk
+Size: 24516
+SHA256sum: e29c796ded09337a74eea39da125bd2ca2454b4c7d9cc42d8d6923be0239d161
+Description:  vlmcsd is a KMS Emulator in C.
+
+Package: xray-plugin
+Version: 1.8.4-1
+Depends: libc, ca-bundle
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/xray-plugin
+SourceName: xray-plugin
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1694528054
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a72
+Installed-Size: 5929679
+Filename: xray-plugin_1.8.4-1_aarch64_cortex-a72.ipk
+Size: 5910199
+SHA256sum: a3f4d5fd08bfd637f896b2336c77e1f81f0dc467b320c572beaf7f04ee102542
+Description:  SIP003 plugin for Shadowsocks, based on Xray
+
