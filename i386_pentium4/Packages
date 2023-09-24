@@ -3,10 +3,10 @@ Version: 2.7-20200315
 Depends: libc
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 399960
+Installed-Size: 399979
 Filename: adbyby_2.7-20200315_i386_pentium4.ipk
-Size: 400772
-SHA256sum: f11633e7c9b39a19be2b42606ab9c35b7e32b4777f15777c2583c23ead52844b
+Size: 400815
+SHA256sum: 71f72df4f4359bbbdccdbed4c961eb30fbec5c8553bfe5e29bb2d4330e2441a6
 Description:  Adbyby is a powerful adblock module to block ad,just like adblock.
 
 Package: atinout
@@ -15,22 +15,22 @@ Depends: libc
 License: GPLv2
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 2893
+Installed-Size: 2925
 Filename: atinout_0.9.1_i386_pentium4.ipk
-Size: 3712
-SHA256sum: 4bd346f4f04078bd32d38e85d27cca355b23434b21cfca4e887fe85bafef852a
+Size: 3757
+SHA256sum: 02c71fab81adb17e2b3564c08f6a0ad76c9ff8e04f05bf0a51fb7e247910cb54
 Description:  Atinout is a program that will execute AT commands in sequence and
  capture the response from the modem.
 
 Package: badvpn
 Version: 1.999.130-1
-Depends: libc, librt, libpthread, libudev, libudev-zero, libnss, libopenssl3, coreutils, coreutils-stdbuf, openssl-util
+Depends: libc, librt, libpthread, libudev, libudev-zero, libnss, libopenssl1.1, coreutils, coreutils-stdbuf, openssl-util
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 118549
+Installed-Size: 118735
 Filename: badvpn_1.999.130-1_i386_pentium4.ipk
-Size: 119373
-SHA256sum: 9a7eed6b77c5fe78ba3307312fb349066785756279e7c42b86ac1e5749418c2f
+Size: 119625
+SHA256sum: 59fac90ceface4b0a74c603af1e448d3089b14b05fc82d33cea5236892bed8db
 Description:  BadVPN
 
 Package: brook
@@ -52,10 +52,10 @@ Depends: libc, ipset
 License: AGPL-3.0-only
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 28495
+Installed-Size: 33543
 Filename: chinadns-ng_2023.06.01-1_i386_pentium4.ipk
-Size: 29318
-SHA256sum: ae9cbd56c6a397943859523390b5577195f5cb111bb2e1768663d2c5a067dba3
+Size: 34407
+SHA256sum: b590c0b225f207d55ed861c9af30e9a92c72711303fe01f4e678e86b87e25cb6
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: corkscrew
@@ -63,10 +63,10 @@ Version: 2.0-1
 Depends: libc
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 2918
+Installed-Size: 2937
 Filename: corkscrew_2.0-1_i386_pentium4.ipk
-Size: 3665
-SHA256sum: 043728218c8d6d3e0659e89c39367919727b1e00610ee3843db6a484010b4991
+Size: 3710
+SHA256sum: 4d8c939d532fe750243aecfe0f8c3471076c8348388ad28dcf3bbf8ec2d3cf18
 Description:  Tunneling SSH through HTTP proxies.
 
 Package: dns2socks
@@ -75,10 +75,10 @@ Depends: libc, libpthread
 License: BSD-3-Clause
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 9410
+Installed-Size: 9503
 Filename: dns2socks_2.1-2_i386_pentium4.ipk
-Size: 10237
-SHA256sum: a3c6418977c6708e2e60dfce6947730632b0745edc69ced23730de0410076679
+Size: 10338
+SHA256sum: 657e8ff5e255695cc3d51f8d0b233d5b899ea6569ac941842d77da3683597cd6
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -88,10 +88,10 @@ Depends: libc
 License: AGPL-3.0-only
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 10341
+Installed-Size: 10374
 Filename: dns2tcp_1.1.0-1_i386_pentium4.ipk
-Size: 11151
-SHA256sum: 35c222574c928205b619320e0712631c11ee74b229e892c2b453255e3f301e0f
+Size: 11208
+SHA256sum: ce07848968441977b2d31db037d8aaf2e46edc08921db0edc54f49899b1e3958
 Description:  utility to convert dns query from udp to tcp
 
 Package: dnsforwarder
@@ -100,10 +100,10 @@ Depends: libc, coreutils, coreutils-base64, dnsmasq-full, libpthread, wget-ssl
 License: GPL-3.0
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 81613
+Installed-Size: 86722
 Filename: dnsforwarder_6.5.2-1_i386_pentium4.ipk
-Size: 82581
-SHA256sum: 6e5aafe3f09f0748d836f9079a3420afd1d26ddd0b41b1e9d736210266b5f891
+Size: 87622
+SHA256sum: fb46fb54530137277d9ace4f6defd83532c6987ffc0adf4605dc1c594b6086d4
 Description:  Forwarding queries to customized domains (and their subdomains) to specified servers
  over a specified protocol (UDP or TCP). non-standard ports are supported.
 
@@ -127,10 +127,10 @@ Depends: libc, libncurses6
 License: GPL-2.0-only
 Section: utils
 Architecture: i386_pentium4
-Installed-Size: 7038
+Installed-Size: 7204
 Filename: ethstatus_0.4.9-1_i386_pentium4.ipk
-Size: 7966
-SHA256sum: a1e99dd54890494083fc5deb2e90e093b2cabb70be9995c95df85fb8ecf60fd9
+Size: 8138
+SHA256sum: 6af2e58c955019674e2737ab46f826e193b2b9db3769093ebe7339b699227d71
 Description:  Ethstatus is a console-based monitoring utility for
  displaying statistical data of the ethernet interface
  on a quantity basis. It is similar to iptraf but is meant
@@ -158,10 +158,10 @@ Depends: libc, libpthread
 License: AGPL-3.0
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 23751
+Installed-Size: 24275
 Filename: ipt2socks_1.1.3-3_i386_pentium4.ipk
-Size: 24531
-SHA256sum: 71744fb84674f1cbf5d0175d2b7ac1c08899d5f74f185cb6b75366379eeb38f8
+Size: 25074
+SHA256sum: 7a34d1c462f8a1030b9e0085f3572a037ca1d4267578a3812d28471d6084de0c
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: lua-maxminddb
@@ -170,34 +170,34 @@ Depends: libc, lua, libmaxminddb
 License: MIT
 Section: lang
 Architecture: i386_pentium4
-Installed-Size: 2440
+Installed-Size: 2403
 Filename: lua-maxminddb_0.2-1_i386_pentium4.ipk
-Size: 3159
-SHA256sum: 1a6b6860bd611606e8e48098739f2dd7b75e3ad00dcabf81aaad5c6202f887de
+Size: 3143
+SHA256sum: 7b5ab255eb4b2071be08d2f3c2b34bed6c80e261425334488d6ec2d1d4aba387
 Description:  libmaxminddb bindings for lua
 
 Package: microsocks
 Version: 1.0.3-1
-Depends: libc
+Depends: libc, libpthread
 License: MIT
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 5248
+Installed-Size: 5207
 Filename: microsocks_1.0.3-1_i386_pentium4.ipk
-Size: 6084
-SHA256sum: 24aac3a0ebfa53aea818442b7c2526730ff0bca49648acbf172ec30789619e3a
-Description:  Low resource SOCKS5 proxy.
- Supports only SOCKS5 protocol and forwarding only TCP/IP connections.
+Size: 6054
+SHA256sum: f41462d1b7c3b8530d36fac9f469bac8fe4a0f4d03c1d00123b118cc35b08ae8
+Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
+ through them, if for some reason SSH doesn't cut it for you.
 
 Package: mrtg
 Version: 2.17.10-1
 Depends: libc, libgd, libpng, zlib, perl, perlbase-essential, perlbase-findbin, perlbase-cwd, perlbase-config, perlbase-file, perlbase-getopt, perlbase-math, perlbase-integer, perlbase-xsloader, perlbase-pod, perlbase-universal, perlbase-socket, perlbase-posix, perlbase-autoloader, perlbase-fcntl, perlbase-tie, perlbase-io, perlbase-symbol, perlbase-selectsaver, perlbase-errno, perlbase-scalar, perlbase-list, perlbase-base, perlbase-storable
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 541990
+Installed-Size: 540891
 Filename: mrtg_2.17.10-1_i386_pentium4.ipk
-Size: 542798
-SHA256sum: 8f2c05b2ae7333f10d46388df4e50b0c218c6d090dac5d91f0f5b7e8586802de
+Size: 541666
+SHA256sum: 65e8f5b9f7bc6de7b687818e0acc551d20065614f86f3634fc0a92a95e2c4434
 Description:  The Multi Router Traffic Grapher, or just simply MRTG, is free software for
  monitoring and measuring the traffic load on network links. It allows the
  user to see traffic load on a network over time in graphical form. It was
@@ -211,10 +211,10 @@ Depends: libc, libatomic1
 License: BSD 3-Clause
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 3121866
+Installed-Size: 3119530
 Filename: naiveproxy_113.0.5672.62-1-1_i386_pentium4.ipk
-Size: 3115158
-SHA256sum: 16fa94c6cf317091418965b29c253f15fe3e019e0798063cb17804ba8b46b9d3
+Size: 3112168
+SHA256sum: 0b5e10d913df8aee6210c58cee7d7ffad0617647da0651c8c82484680fd37fc3
 Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
  censorship resistance and low detectability. Reusing Chrome's stack also
  ensures best practices in performance and security.
@@ -222,24 +222,25 @@ Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with
 Package: nload
 Version: 0.7.4-1
 Depends: libc, libncurses6, libstdcpp6
-License: GPL-2.0-only
-Section: admin
+License: LICENSE
+Section: net
 Architecture: i386_pentium4
-Installed-Size: 35374
+Installed-Size: 37056
 Filename: nload_0.7.4-1_i386_pentium4.ipk
-Size: 36186
-SHA256sum: e007746a889992e4d78dd427225eb8a395c69878b78591a561ec889b91874069
-Description:  Monitors network traffic and bandwidth usage.
+Size: 38044
+SHA256sum: 7cd4d8955490fc1978364dff82916b1c007f262e89e3647e2ec69fe6c7e78589
+Description:  nload is a console application which monitors network traffic and bandwidth usage in real time.
+ It visualizes the in- and outgoing traffic using two graphs and provides additional info like total amount of transfered data and min/max network usage.
 
 Package: ookla-speedtest
 Version: 1.2.0-0
 Depends: libc
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 1186108
+Installed-Size: 1186107
 Filename: ookla-speedtest_1.2.0-0_i386_pentium4.ipk
-Size: 1186969
-SHA256sum: 9eceb0b459d81c66120afced17e7069ec7b2bca68626d235eb2c9eff601b8366
+Size: 1187029
+SHA256sum: c9d87f06dee52a6707afab88ed3a1c27844b4ae54559f347fdf4e524a59935b0
 Description:  Speedtest CLI brings the trusted technology and global server network behind Speedtest to the command line.
  Built for software developers, system administrators and computer enthusiasts alike,
  Speedtest CLI is the first official Linux-native Speedtest application backed by Ookla®.
@@ -249,10 +250,10 @@ Version: 1.2.9b-par-3
 Depends: libc, libpthread
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 85069
+Installed-Size: 81397
 Filename: pdnsd-alt_1.2.9b-par-3_i386_pentium4.ipk
-Size: 86056
-SHA256sum: fac9f7353be7117e7aa7bcb1ed6cade3623228011c13512d11c6170df241e261
+Size: 82460
+SHA256sum: c53de74d4a5a2369159b6960b7c937c0275a7d8f7e7966f251766622f6b2dc83
 Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
  contents are written to hard disk on exit) that is designed to cope with
  unreachable or down DNS servers (for example in dial-in networking).
@@ -263,14 +264,14 @@ Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching 
 
 Package: redsocks2
 Version: 0.67-5
-Depends: libc, libevent2-7, libopenssl3
+Depends: libc, libevent2-7, libopenssl1.1
 License: Apache-2.0
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 51588
+Installed-Size: 51164
 Filename: redsocks2_0.67-5_i386_pentium4.ipk
-Size: 52493
-SHA256sum: 847d410b52ca5ddcef2268b87645543b46d95c5a07d0bd7d7e6857207f6382a1
+Size: 52115
+SHA256sum: de8c06b73a5905ff136a1e21e4256f4230f2e5cd6351c1148f0c97500f749f1b
 Description:  This is a modified version of original redsocks.
  Transparent redirector of any TCP/UDP connection to proxy.
 
@@ -280,10 +281,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 3226638
+Installed-Size: 3226656
 Filename: shadowsocks-rust-sslocal_1.16.1-1_i386_pentium4.ipk
-Size: 3213337
-SHA256sum: bade5f6344ed66bade0d8b151b8013e5100a9177849f36a956fa764c0bd3b8fc
+Size: 3213413
+SHA256sum: 1a495ad46cffa4fbbb49b8cfd4ed4c873a87cd4f3eab4ab27d0720f13bb61f76
 Description:  shadowsocks-rust sslocal
 
 Package: shadowsocks-rust-ssmanager
@@ -292,10 +293,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 2389594
+Installed-Size: 2389618
 Filename: shadowsocks-rust-ssmanager_1.16.1-1_i386_pentium4.ipk
-Size: 2377929
-SHA256sum: d556278d9c56813aed047507812e47149089bffab034bb36eac61f87c76daa8f
+Size: 2377923
+SHA256sum: 68b440a136a5be693359daf807be48fe9a593b0912149b494d180fa50a7b288a
 Description:  shadowsocks-rust ssmanager
 
 Package: shadowsocks-rust-ssserver
@@ -304,10 +305,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 2318593
+Installed-Size: 2318600
 Filename: shadowsocks-rust-ssserver_1.16.1-1_i386_pentium4.ipk
-Size: 2307488
-SHA256sum: 3602693813549b242e3ed9e57f064d6262251b7ac9f571f3c1caba266bdc9e59
+Size: 2306821
+SHA256sum: d789b52de3bc2d98d635f8ca73bac3d9f44315774efcaded870b2f554ad26d4f
 Description:  shadowsocks-rust ssserver
 
 Package: shadowsocks-rust-ssservice
@@ -316,10 +317,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 3461983
+Installed-Size: 3461996
 Filename: shadowsocks-rust-ssservice_1.16.1-1_i386_pentium4.ipk
-Size: 3448547
-SHA256sum: 112a2a66a59ff13b47a4cf15466b61c9b7cff354323bc28c62b80e97f0c0822a
+Size: 3449441
+SHA256sum: 9468c09c895499f03422db1985689c1e5b6c3b5df0ece81550c291690877796d
 Description:  shadowsocks-rust ssservice
 
 Package: shadowsocks-rust-ssurl
@@ -328,70 +329,70 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 1229812
+Installed-Size: 1229739
 Filename: shadowsocks-rust-ssurl_1.16.1-1_i386_pentium4.ipk
-Size: 1219363
-SHA256sum: a36983ed418a704c5ed1f7108ac35f2605c835efbbb0b40dee09a731bfc735bd
+Size: 1219431
+SHA256sum: 1c782098f796c698cdcec4667cb9ffa4465e4c4f15ad0c15d96918745216c282
 Description:  shadowsocks-rust ssurl
 
 Package: shadowsocksr-libev-ssr-check
 Version: 2.5.6-9
-Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
 License: GPL-3.0
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 2289
+Installed-Size: 2286
 Filename: shadowsocksr-libev-ssr-check_2.5.6-9_i386_pentium4.ipk
-Size: 3052
-SHA256sum: 2d8340c09b62d8a79c2c2192a81df048442eea0dc25936e4e66bcd385e4b65f7
+Size: 3068
+SHA256sum: 0238f37ff6dda0995948dcbbc0f0eec2bd2a8dfa90576b729b3d150cd299e7c4
 Description:  shadowsocksr-libev ssr-check
 
 Package: shadowsocksr-libev-ssr-local
 Version: 2.5.6-9
-Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
 License: GPL-3.0
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 56084
+Installed-Size: 55442
 Filename: shadowsocksr-libev-ssr-local_2.5.6-9_i386_pentium4.ipk
-Size: 56885
-SHA256sum: cb18005a24007c6386ef2c4a535b5ef752dfd11b46b275ea662ec317131d768e
+Size: 56290
+SHA256sum: ebf7d2d30368575360d4b66ee9babdf4f827ca23b125f7fca74651ac327b65bc
 Description:  shadowsocksr-libev ssr-local
 
 Package: shadowsocksr-libev-ssr-nat
 Version: 2.5.6-9
-Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
 License: GPL-3.0
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 2224
+Installed-Size: 2237
 Filename: shadowsocksr-libev-ssr-nat_2.5.6-9_i386_pentium4.ipk
-Size: 3007
-SHA256sum: 6ec29208752c88d903bd46df5c557ca14b43bf53a3e8edde88e94337f5992560
+Size: 3041
+SHA256sum: 3a06939d36ddb7e98e3f4b4e6ee620574690dc32508c0749789503e8ff56b331
 Description:  shadowsocksr-libev ssr-nat
 
 Package: shadowsocksr-libev-ssr-redir
 Version: 2.5.6-9
-Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
 License: GPL-3.0
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 50111
+Installed-Size: 49489
 Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_i386_pentium4.ipk
-Size: 51006
-SHA256sum: abcbe2c99eed9e8cd51038fd22a7f367f31370947774a369bb1748428130c212
+Size: 50408
+SHA256sum: df2be490dd113eaff50fd2c99ff59a2227c231cfcebc96071c1dd0b82311a58e
 Description:  shadowsocksr-libev ssr-redir
 
 Package: shadowsocksr-libev-ssr-server
 Version: 2.5.6-9
-Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
 License: GPL-3.0
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 57695
+Installed-Size: 56750
 Filename: shadowsocksr-libev-ssr-server_2.5.6-9_i386_pentium4.ipk
-Size: 58578
-SHA256sum: 5da8562a0f0223fe3bddeca38130d935583085aab91c371f133270cc71b3e81f
+Size: 57618
+SHA256sum: a7e74478848b1c0f7a2bd1bf947b4e575a0a5089e45328b94c0b6f0ce8ac9865
 Description:  shadowsocksr-libev ssr-server
 
 Package: simple-obfs-server
@@ -400,10 +401,10 @@ Depends: libc, libpthread, libev
 License: GPL-3.0-or-later
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 29421
+Installed-Size: 29146
 Filename: simple-obfs-server_0.0.5-1_i386_pentium4.ipk
-Size: 30269
-SHA256sum: fbd1388c77ad7014bc45a3ac3be17d81670e7dc72e76437a902151d0df9ab359
+Size: 30024
+SHA256sum: 6f4694ff7b833f149dd911a6f82a0d646e41f1bbc0362b8b4474e0262f4881bb
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: simple-obfs
@@ -412,10 +413,10 @@ Depends: libc, libpthread, libev
 License: GPL-3.0-or-later
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 27762
+Installed-Size: 27562
 Filename: simple-obfs_0.0.5-1_i386_pentium4.ipk
-Size: 28572
-SHA256sum: 40a291954150601df7ea5e3d4330cc634ca71896ee1aa6f269f422e75ff7fa0a
+Size: 28388
+SHA256sum: e5f50f269311a79a5b26b8b82bfa79c7721d994b8c1209b1b7d71dcebae50055
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: simpleproxy
@@ -424,61 +425,60 @@ Depends: libc
 License: GPLv2
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 9770
+Installed-Size: 9847
 Filename: simpleproxy_3.5_i386_pentium4.ipk
-Size: 10620
-SHA256sum: 5509997879407ef29ddc2c2902c3e20049ff60fa91008b3604fc7d720e817109
+Size: 10702
+SHA256sum: 0ee25ddb433b58acf63ffb7289b62782f27cb51542a33846130ab92a44fa0d99
 Description:  Simpleproxy is a simple TCP proxy. It accepts connections on a local
  TCP port and forward them to anoter port on a remote host via TCP.
 
 Package: sms-tool
 Version: 2022-03-21-f07699ab-1
 Depends: libc
-License: Apache-2.0
 Section: utils
 Architecture: i386_pentium4
-Installed-Size: 7498
+Installed-Size: 7439
 Filename: sms-tool_2022-03-21-f07699ab-1_i386_pentium4.ipk
-Size: 8272
-SHA256sum: 0b3028c1c87d210daea742536ea119f227bf3db5c23565eb5ff6d0b684e645af
+Size: 8196
+SHA256sum: 4f84172ac0333581ec6ffb029a664c6374684b617fa41d7c5e960b72d9c31767
 Description:  SMS Tool for 3G/4G modem
 
 Package: speedtestpp
 Version: 1.14-1
-Depends: libc, libcurl4, libxml2, libopenssl3, libstdcpp6
+Depends: libc, libcurl4, libxml2, libopenssl1.1, libstdcpp6
 License: MIT
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 25877
+Installed-Size: 24505
 Filename: speedtestpp_1.14-1_i386_pentium4.ipk
-Size: 26635
-SHA256sum: 623e8175187728a80587f73bf684d74b6eba7bd3599b183acb8bd0abeb39fdfa
+Size: 25327
+SHA256sum: 7f32861f022339205cdd6999860427ce2c2f31bec1073a202f026993fc1efc2b
 Description:  Yet another unofficial speedtest.net client cli interface
 
 Package: ssocks
 Version: 0.0.14-3
-Depends: libc, libopenssl3
+Depends: libc, libopenssl1.1
 License: MIT
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 13155
+Installed-Size: 13219
 Filename: ssocks_0.0.14-3_i386_pentium4.ipk
-Size: 14039
-SHA256sum: 8070fd85ee897edc9ecabf520db4679830b80984ca7ee1e0658636cd7509044b
+Size: 14104
+SHA256sum: 207e41e5a1a7cc2c8a07a8a8c0e142d02d057d917371afc04aebd4cd9468f513
 Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
  RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
  and a socks5 relay.
 
 Package: ssocksd
 Version: 0.0.14-3
-Depends: libc, libopenssl3
+Depends: libc, libopenssl1.1
 License: MIT
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 13383
+Installed-Size: 13398
 Filename: ssocksd_0.0.14-3_i386_pentium4.ipk
-Size: 14256
-SHA256sum: eca39aab748dcabc4af13190898bf02c240494e685bc86524d5bafc11187858b
+Size: 14299
+SHA256sum: e6f59920039bde5a3b1f0ad89022fd431533165f4756249627194fd98c34f702
 Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
  RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
  and a socks5 relay.
@@ -489,10 +489,10 @@ Depends: libc
 License: GPL-2.0-only
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 3596
+Installed-Size: 3551
 Filename: tcping_0.3-1_i386_pentium4.ipk
-Size: 4332
-SHA256sum: 5a0a8c8af23bad8c1b18025ce48d88eef877c71705685b888ca064724e968344
+Size: 4318
+SHA256sum: 650b27fbd6a5c10d574fb9f99cbf84231ed334227de670e735fa553a2b95cb7b
 Description:  tcping measures the latency of a tcp-connection
 
 Package: trojan-go
@@ -510,26 +510,26 @@ Description:  Trojan features multiple protocols over TLS to avoid both
 
 Package: trojan-plus
 Version: 10.0.3-2
-Depends: libc, libpthread, libstdcpp6, libopenssl3, boost, boost-system, boost-program_options
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options
 License: GPL-3.0
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 397388
+Installed-Size: 366325
 Filename: trojan-plus_10.0.3-2_i386_pentium4.ipk
-Size: 398319
-SHA256sum: 51e41e520c703bd56c96009929f2d03cf9ba9992e1a300bc0811aa7719c3b408
+Size: 367293
+SHA256sum: 0e28aa6346f44d36b3421c5197f41bb955f44752ebe6c5620353dc718ca39be9
 Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
 
 Package: trojan
 Version: 1.16.0-2
-Depends: libc, libpthread, libstdcpp6, libopenssl3, boost, boost-system, boost-program_options, boost-date_time
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options, boost-date_time
 License: GPL-3.0
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 286525
+Installed-Size: 261439
 Filename: trojan_1.16.0-2_i386_pentium4.ipk
-Size: 287389
-SHA256sum: e7b38d5f08675e208a810ddd1ffbc3c7300fcdb8546c5229c1afde2a61cb136f
+Size: 262360
+SHA256sum: 9fb729a68411199a1c4de9ec3e81d0e5230cdf6703e1b6c78a692c2c00321a59
 Description:  An unidentifiable mechanism that helps you bypass GFW
 
 Package: tuic-client
@@ -537,10 +537,10 @@ Version: 1.0.0-1
 Depends: libc
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 1117239
+Installed-Size: 1117246
 Filename: tuic-client_1.0.0-1_i386_pentium4.ipk
-Size: 1117994
-SHA256sum: ed43e1275acfaa78df9e268510dadc26a2a69eb45820db5ccb8af4e739535cf6
+Size: 1118017
+SHA256sum: 99c842c01e6ab6a7776abdb6ce384d5627de282ffc1d760cabc499cff3998d3d
 Description:  Delicately-TUICed 0-RTT proxy protocol
 
 Package: v2ray-core
@@ -574,10 +574,10 @@ Depends: libc, libpthread
 License: MIT
 Section: net
 Architecture: i386_pentium4
-Installed-Size: 21388
+Installed-Size: 21269
 Filename: vlmcsd_svn1113-3_i386_pentium4.ipk
-Size: 22155
-SHA256sum: 7cbfca4199071e5ec3ea22845aeb83667eb034f41bd00b9eafaa370fbeb981bc
+Size: 22070
+SHA256sum: 7f72ef07465ee6ced796d8302bab192092a73af10822bba59ed2d653bfe98537
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: xray-plugin

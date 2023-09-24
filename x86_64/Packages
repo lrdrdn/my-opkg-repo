@@ -3,10 +3,10 @@ Version: 2.7-20200315
 Depends: libc
 Section: net
 Architecture: x86_64
-Installed-Size: 401242
+Installed-Size: 401262
 Filename: adbyby_2.7-20200315_x86_64.ipk
-Size: 401996
-SHA256sum: 8e7c805c98ba35d50b216aa7c4da87b409f0c018c3c2a6db7b8d9b2de45d26e8
+Size: 402063
+SHA256sum: 447a3bfb1eae274d3775f867b7d1050b3c40349d4af15dfc8ffbd92de7786ed5
 Description:  Adbyby is a powerful adblock module to block ad,just like adblock.
 
 Package: atinout
@@ -15,22 +15,22 @@ Depends: libc
 License: GPLv2
 Section: net
 Architecture: x86_64
-Installed-Size: 3099
+Installed-Size: 3132
 Filename: atinout_0.9.1_x86_64.ipk
-Size: 3909
-SHA256sum: 73a805d7cb7f3e21a89dd113024f293b278868e1db35dc463dcd2a1383b9e101
+Size: 3961
+SHA256sum: d2e6dccbecaaa25152a2f30ab7fa072b3538c4f3539f6a39fe277e24454a63ad
 Description:  Atinout is a program that will execute AT commands in sequence and
  capture the response from the modem.
 
 Package: badvpn
 Version: 1.999.130-1
-Depends: libc, librt, libpthread, libudev, libudev-zero, libnss, libopenssl3, coreutils, coreutils-stdbuf, openssl-util
+Depends: libc, librt, libpthread, libudev, libudev-zero, libnss, libopenssl1.1, coreutils, coreutils-stdbuf, openssl-util
 Section: net
 Architecture: x86_64
-Installed-Size: 136733
+Installed-Size: 135709
 Filename: badvpn_1.999.130-1_x86_64.ipk
-Size: 137530
-SHA256sum: ae3086bbb8e72ed741e41675a3c02a3f98bcc1086ee87ce79c705cb58a144a24
+Size: 136573
+SHA256sum: 2116107e23444250d694c35329d5f44f230e5c487b7794a158586d6ef424d908
 Description:  BadVPN
 
 Package: brook
@@ -52,10 +52,10 @@ Depends: libc, ipset
 License: AGPL-3.0-only
 Section: net
 Architecture: x86_64
-Installed-Size: 29468
+Installed-Size: 35006
 Filename: chinadns-ng_2023.06.01-1_x86_64.ipk
-Size: 30247
-SHA256sum: aff80255989eeb56d22c9a222baf811308b48a1827ea06d081582fdd27918646
+Size: 35804
+SHA256sum: 7bfc900c84ad047599313f30e52638a1dd5699cbf29ff72523f0e209183aee1c
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: corkscrew
@@ -63,10 +63,10 @@ Version: 2.0-1
 Depends: libc
 Section: net
 Architecture: x86_64
-Installed-Size: 3010
+Installed-Size: 3060
 Filename: corkscrew_2.0-1_x86_64.ipk
-Size: 3770
-SHA256sum: c4c21afd3fc25ffbfb02b44aaff990998bf5c6821712b75920f949d887a2da4a
+Size: 3828
+SHA256sum: 83c37aaba0aa27378eb5c1591a2b01a189c336b9b269b6e1439126e9ba87aacf
 Description:  Tunneling SSH through HTTP proxies.
 
 Package: dns2socks
@@ -75,10 +75,10 @@ Depends: libc, libpthread
 License: BSD-3-Clause
 Section: net
 Architecture: x86_64
-Installed-Size: 10346
+Installed-Size: 10475
 Filename: dns2socks_2.1-2_x86_64.ipk
-Size: 11128
-SHA256sum: 97016a55fee5b3e2d4b536177458c712fbf842441c9db3470a93b3eb93a36f2a
+Size: 11276
+SHA256sum: ac569d87b7f91b8f99bc31f401417bc9709d3892ccf2dc0c44b81bb078cc294b
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -88,10 +88,10 @@ Depends: libc
 License: AGPL-3.0-only
 Section: net
 Architecture: x86_64
-Installed-Size: 11687
+Installed-Size: 11713
 Filename: dns2tcp_1.1.0-1_x86_64.ipk
-Size: 12476
-SHA256sum: 4ce9ebb35c31b10fcdd8307ff95b82dc43553f72f5ea7db0e23a3feb5a265868
+Size: 12527
+SHA256sum: 0bc0fada4aeacfa702a8be6f5c339f57d4cbfd88c8af06610a996bebb8b21deb
 Description:  utility to convert dns query from udp to tcp
 
 Package: dnsforwarder
@@ -100,10 +100,10 @@ Depends: libc, coreutils, coreutils-base64, dnsmasq-full, libpthread, wget-ssl
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 85879
+Installed-Size: 91369
 Filename: dnsforwarder_6.5.2-1_x86_64.ipk
-Size: 86782
-SHA256sum: b5e82ee6c19243d9c473de47ac4a3fea86fbd69c93ffc40663f2b67dd57d570b
+Size: 92361
+SHA256sum: 239ea83e68f91b16bc875921e97c6a3542142d4e75ae70b48f20cfa63f4fd4c6
 Description:  Forwarding queries to customized domains (and their subdomains) to specified servers
  over a specified protocol (UDP or TCP). non-standard ports are supported.
 
@@ -127,10 +127,10 @@ Depends: libc, libncurses6
 License: GPL-2.0-only
 Section: utils
 Architecture: x86_64
-Installed-Size: 8158
+Installed-Size: 8280
 Filename: ethstatus_0.4.9-1_x86_64.ipk
-Size: 9071
-SHA256sum: 5fb656640a293700e062e364a80ac2b96e23d9ec27e5eea3975ffd3c0eb7bd59
+Size: 9213
+SHA256sum: 0eb8d92d266ee64583fe97193d73228dd6fac6faeb864f11a45dd7e96ffbdf98
 Description:  Ethstatus is a console-based monitoring utility for
  displaying statistical data of the ethernet interface
  on a quantity basis. It is similar to iptraf but is meant
@@ -158,10 +158,10 @@ Depends: libc, libpthread
 License: AGPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 27154
+Installed-Size: 27560
 Filename: ipt2socks_1.1.3-3_x86_64.ipk
-Size: 27924
-SHA256sum: 9ecf83544f95809888fb24d280cdd60570c1849fbd69f7b8d91338aa476697ab
+Size: 28353
+SHA256sum: 736f4f450f0fe1615be31dac9f48ea57b0591fd5b47a79dca3486d3a5dbfed3a
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: lua-maxminddb
@@ -170,34 +170,34 @@ Depends: libc, lua, libmaxminddb
 License: MIT
 Section: lang
 Architecture: x86_64
-Installed-Size: 2479
+Installed-Size: 2480
 Filename: lua-maxminddb_0.2-1_x86_64.ipk
-Size: 3196
-SHA256sum: d64cd8f8aeb88d577d23acc112a53c8ddcbf2fc16d1a2f95e688b3f53b4512f4
+Size: 3215
+SHA256sum: 73c88c499ed105593014257d28dee838e11ff8d4d9330e7b96f584704eb5dc03
 Description:  libmaxminddb bindings for lua
 
 Package: microsocks
 Version: 1.0.3-1
-Depends: libc
+Depends: libc, libpthread
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 5522
+Installed-Size: 5453
 Filename: microsocks_1.0.3-1_x86_64.ipk
-Size: 6354
-SHA256sum: e19492ab0e18db2d6ce53fb5fe7f6305248f0ef1915703eb177af4221e07afc1
-Description:  Low resource SOCKS5 proxy.
- Supports only SOCKS5 protocol and forwarding only TCP/IP connections.
+Size: 6310
+SHA256sum: 60f01001c15d07fca290a4fc855f0743895382804ea2f4799bf1a4b703e393a7
+Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
+ through them, if for some reason SSH doesn't cut it for you.
 
 Package: mrtg
 Version: 2.17.10-1
 Depends: libc, libgd, libpng, zlib, perl, perlbase-essential, perlbase-findbin, perlbase-cwd, perlbase-config, perlbase-file, perlbase-getopt, perlbase-math, perlbase-integer, perlbase-xsloader, perlbase-pod, perlbase-universal, perlbase-socket, perlbase-posix, perlbase-autoloader, perlbase-fcntl, perlbase-tie, perlbase-io, perlbase-symbol, perlbase-selectsaver, perlbase-errno, perlbase-scalar, perlbase-list, perlbase-base, perlbase-storable
 Section: net
 Architecture: x86_64
-Installed-Size: 541911
+Installed-Size: 541875
 Filename: mrtg_2.17.10-1_x86_64.ipk
-Size: 542805
-SHA256sum: 51500eaae7752f35bcd0c996a793f86a490223011414f161ca8f9997e1718ca1
+Size: 542344
+SHA256sum: 6501cdfcf9626cf7119276185101c69d26e87bb68bac95820b134886d1d2b9e5
 Description:  The Multi Router Traffic Grapher, or just simply MRTG, is free software for
  monitoring and measuring the traffic load on network links. It allows the
  user to see traffic load on a network over time in graphical form. It was
@@ -211,10 +211,10 @@ Depends: libc, libatomic1
 License: BSD 3-Clause
 Section: net
 Architecture: x86_64
-Installed-Size: 3007101
+Installed-Size: 3007284
 Filename: naiveproxy_113.0.5672.62-1-1_x86_64.ipk
-Size: 3005092
-SHA256sum: f9d21f97b94e348e5d760fff5fe58844d7479d5998cda70ee3f4e494bb9bfe08
+Size: 3005355
+SHA256sum: 693209878798ddbef5a0efefdc4188e263b3a1ec03e632eb6cf007386a6c9f48
 Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
  censorship resistance and low detectability. Reusing Chrome's stack also
  ensures best practices in performance and security.
@@ -222,24 +222,25 @@ Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with
 Package: nload
 Version: 0.7.4-1
 Depends: libc, libncurses6, libstdcpp6
-License: GPL-2.0-only
-Section: admin
+License: LICENSE
+Section: net
 Architecture: x86_64
-Installed-Size: 37056
+Installed-Size: 39573
 Filename: nload_0.7.4-1_x86_64.ipk
-Size: 37917
-SHA256sum: cf79f9de8d8c44ec479160ea7ce90dd2fae4d6d4d7042ee7dc4362d0772d1625
-Description:  Monitors network traffic and bandwidth usage.
+Size: 40540
+SHA256sum: 34266efb218c9530d76cb749282d3d629d0a86d81d9e096ee3ea689e2b357f1e
+Description:  nload is a console application which monitors network traffic and bandwidth usage in real time.
+ It visualizes the in- and outgoing traffic using two graphs and provides additional info like total amount of transfered data and min/max network usage.
 
 Package: ookla-speedtest
 Version: 1.2.0-0
 Depends: libc
 Section: net
 Architecture: x86_64
-Installed-Size: 1101244
+Installed-Size: 1101255
 Filename: ookla-speedtest_1.2.0-0_x86_64.ipk
-Size: 1101106
-SHA256sum: 4c420ff6f1c7ea1472ce01a749c2e6763151977507859eb9083ff6718ff72cff
+Size: 1101160
+SHA256sum: 841a22909a64dac8045593a58d23c116cd4d6b689a5f7548ee36ad8b570922a0
 Description:  Speedtest CLI brings the trusted technology and global server network behind Speedtest to the command line.
  Built for software developers, system administrators and computer enthusiasts alike,
  Speedtest CLI is the first official Linux-native Speedtest application backed by Ookla®.
@@ -249,10 +250,10 @@ Version: 1.2.9b-par-3
 Depends: libc, libpthread
 Section: net
 Architecture: x86_64
-Installed-Size: 92972
+Installed-Size: 90992
 Filename: pdnsd-alt_1.2.9b-par-3_x86_64.ipk
-Size: 94019
-SHA256sum: ab35dfa73223e3d8d031dd62681c8312ed139b0b9c56b2e7abd631d1a5d26ef3
+Size: 92066
+SHA256sum: 1ec1fb563215f3f93ba36f4802467872ef480c74816b487fdd33ea6acf101fd5
 Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
  contents are written to hard disk on exit) that is designed to cope with
  unreachable or down DNS servers (for example in dial-in networking).
@@ -263,14 +264,14 @@ Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching 
 
 Package: redsocks2
 Version: 0.67-5
-Depends: libc, libevent2-7, libopenssl3
+Depends: libc, libevent2-7, libopenssl1.1
 License: Apache-2.0
 Section: net
 Architecture: x86_64
-Installed-Size: 56679
+Installed-Size: 56193
 Filename: redsocks2_0.67-5_x86_64.ipk
-Size: 57556
-SHA256sum: 677a8f7372fcff0070a8d9693c8b548813272c108a0b574cb7eda0d0b8f6c433
+Size: 57117
+SHA256sum: 281ee181d840511d0357ccc482f2a9436109c81b34d7183ed6c4193e5872b2f8
 Description:  This is a modified version of original redsocks.
  Transparent redirector of any TCP/UDP connection to proxy.
 
@@ -280,10 +281,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 3343663
+Installed-Size: 3343489
 Filename: shadowsocks-rust-sslocal_1.16.1-1_x86_64.ipk
-Size: 3320871
-SHA256sum: a3a52ba6b03f7d36c9d4830b4f71b2fc00ed2381a5704e89e0a0f5a3fcbb4bed
+Size: 3321199
+SHA256sum: 4ce9fbefd1af50d9e6eefb3857375c5412e265e866fbfc7dfd7f84aefb51239c
 Description:  shadowsocks-rust sslocal
 
 Package: shadowsocks-rust-ssmanager
@@ -292,10 +293,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 2451836
+Installed-Size: 2451853
 Filename: shadowsocks-rust-ssmanager_1.16.1-1_x86_64.ipk
-Size: 2433619
-SHA256sum: 374d81213b52bd3385f1c28522cab6623cf0a269ece537991ea93096882b6166
+Size: 2433671
+SHA256sum: f66d537cdd39c335fe08da4007f073ba8bb53b51cc9658be21be8bfc74a6cd6e
 Description:  shadowsocks-rust ssmanager
 
 Package: shadowsocks-rust-ssserver
@@ -304,10 +305,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 2374561
+Installed-Size: 2374574
 Filename: shadowsocks-rust-ssserver_1.16.1-1_x86_64.ipk
-Size: 2355513
-SHA256sum: f5045f1014096514203d985a3687d54780554eacfdb8626ab038b7c2b9ce1828
+Size: 2355656
+SHA256sum: 5af830494e3adbad5a7209d3223edcae4af9f67b03f144f9e1d4b9e3403ea0a8
 Description:  shadowsocks-rust ssserver
 
 Package: shadowsocks-rust-ssservice
@@ -316,10 +317,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 3578358
+Installed-Size: 3578361
 Filename: shadowsocks-rust-ssservice_1.16.1-1_x86_64.ipk
-Size: 3555180
-SHA256sum: 11623c9b32f683becff2031a25875ff97f92b49085bc6644bee5edfc866495c7
+Size: 3555398
+SHA256sum: c94342c2b837a02952641f371ac1e6e2e07286a22da33d9998e266776a644a28
 Description:  shadowsocks-rust ssservice
 
 Package: shadowsocks-rust-ssurl
@@ -328,70 +329,70 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 1248944
+Installed-Size: 1248948
 Filename: shadowsocks-rust-ssurl_1.16.1-1_x86_64.ipk
-Size: 1232883
-SHA256sum: dd3bee50f8f6b8a9fb610c52aef44d9caf3656f75f4e10d03d1b29eeef8cd5c4
+Size: 1231622
+SHA256sum: 8785f6629b8bc22275cc5ceb623490df062776048ec73f9564f7bd315c1102f4
 Description:  shadowsocks-rust ssurl
 
 Package: shadowsocksr-libev-ssr-check
 Version: 2.5.6-9
-Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 2333
+Installed-Size: 2354
 Filename: shadowsocksr-libev-ssr-check_2.5.6-9_x86_64.ipk
-Size: 3093
-SHA256sum: 635ffce475771a785b291f75ad7fad0de343ba7832443ce170f1563bb372270d
+Size: 3134
+SHA256sum: 719e517c9ab3da4d7856907d71571b39e09c5b8cf070e672e3265a83759e1779
 Description:  shadowsocksr-libev ssr-check
 
 Package: shadowsocksr-libev-ssr-local
 Version: 2.5.6-9
-Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 62851
+Installed-Size: 61684
 Filename: shadowsocksr-libev-ssr-local_2.5.6-9_x86_64.ipk
-Size: 63728
-SHA256sum: 08b68fb1716ba6af0b770d7271ab8940bca0f94fc6ba8338054827aad1f360bb
+Size: 62602
+SHA256sum: 20d6a021b185e85393a8a0c768706dac310ae7fe81241f104e78da8651d992bd
 Description:  shadowsocksr-libev ssr-local
 
 Package: shadowsocksr-libev-ssr-nat
 Version: 2.5.6-9
-Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 2224
+Installed-Size: 2237
 Filename: shadowsocksr-libev-ssr-nat_2.5.6-9_x86_64.ipk
-Size: 3002
-SHA256sum: b7ba41517df592e9940c4817e839344feee108540f4aee8b91fac0512a9b4916
+Size: 3042
+SHA256sum: 408aff804d4d23fad8ad46e16ce9af37ffd230173a4717709f905a8909f17b4b
 Description:  shadowsocksr-libev ssr-nat
 
 Package: shadowsocksr-libev-ssr-redir
 Version: 2.5.6-9
-Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 56012
+Installed-Size: 55619
 Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_x86_64.ipk
-Size: 56832
-SHA256sum: f3241970ae64420bea0a4ba9799a5b426a4dccfd703495a2ec919521dcf1e9bd
+Size: 56488
+SHA256sum: ee72c90a86fdeb0ce4a5b42490af705beab20ef67b94951060e610f4b18c2dc9
 Description:  shadowsocksr-libev ssr-redir
 
 Package: shadowsocksr-libev-ssr-server
 Version: 2.5.6-9
-Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 65745
+Installed-Size: 65297
 Filename: shadowsocksr-libev-ssr-server_2.5.6-9_x86_64.ipk
-Size: 66586
-SHA256sum: 11a74c13c0902442c40079953c8ae75ce548579cf29a3b4bd5c152ce643a10d8
+Size: 66200
+SHA256sum: a62d43d678a63de24f92d471a95d1e6618aa31b498142e034f4422bd0c8e3ba5
 Description:  shadowsocksr-libev ssr-server
 
 Package: simple-obfs-server
@@ -400,10 +401,10 @@ Depends: libc, libpthread, libev
 License: GPL-3.0-or-later
 Section: net
 Architecture: x86_64
-Installed-Size: 32968
+Installed-Size: 32439
 Filename: simple-obfs-server_0.0.5-1_x86_64.ipk
-Size: 33871
-SHA256sum: 1e0c215b81e6d9f90472c560d0ca30f6fb8dc841251518471a61fdcdfdef1748
+Size: 33345
+SHA256sum: fa6c5bbee7f44d0bb7aaf49b0858802221014b2a6e6807e4c8392ed36cb1b2f8
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: simple-obfs
@@ -412,10 +413,10 @@ Depends: libc, libpthread, libev
 License: GPL-3.0-or-later
 Section: net
 Architecture: x86_64
-Installed-Size: 30604
+Installed-Size: 30219
 Filename: simple-obfs_0.0.5-1_x86_64.ipk
-Size: 31403
-SHA256sum: fb7a0343c4a3ed07722152624de6db1b5debaa83404f47f60ce3060be227bcd7
+Size: 31044
+SHA256sum: 60849d7df01afc275ff10f3af013e3035e7bb43177cdeee94a9ea52ed8843826
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: simpleproxy
@@ -424,61 +425,60 @@ Depends: libc
 License: GPLv2
 Section: net
 Architecture: x86_64
-Installed-Size: 11116
+Installed-Size: 11194
 Filename: simpleproxy_3.5_x86_64.ipk
-Size: 11934
-SHA256sum: d06ca846d42eca495b8ca8e2c4306533349a1dfd3134832ded35d0c27026ace7
+Size: 12025
+SHA256sum: a99c3ce3fe5e663127faa8260f0dfa2ddb3816b54dfb11897196f824382bdc51
 Description:  Simpleproxy is a simple TCP proxy. It accepts connections on a local
  TCP port and forward them to anoter port on a remote host via TCP.
 
 Package: sms-tool
 Version: 2022-03-21-f07699ab-1
 Depends: libc
-License: Apache-2.0
 Section: utils
 Architecture: x86_64
-Installed-Size: 8074
+Installed-Size: 8050
 Filename: sms-tool_2022-03-21-f07699ab-1_x86_64.ipk
-Size: 8849
-SHA256sum: b555595251d928ed38cbf0935f34df6f37f29c2d9ff83dd03da41bd583a78821
+Size: 8811
+SHA256sum: 169cfd8b2656ea13d602fe1d0782758c43e53c20529433ed73c0d9fb11a02e26
 Description:  SMS Tool for 3G/4G modem
 
 Package: speedtestpp
 Version: 1.14-1
-Depends: libc, libcurl4, libxml2, libopenssl3, libstdcpp6
+Depends: libc, libcurl4, libxml2, libopenssl1.1, libstdcpp6
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 27521
+Installed-Size: 25968
 Filename: speedtestpp_1.14-1_x86_64.ipk
-Size: 28298
-SHA256sum: 61c9d2444fa68ef8e886d76294c843d82ecc27c2dac37dfc4694d72e209d8358
+Size: 26753
+SHA256sum: b93ede6ebe99c31eb021051da0afcdc393ce21e53b675d898dc474406f87f7f5
 Description:  Yet another unofficial speedtest.net client cli interface
 
 Package: ssocks
 Version: 0.0.14-3
-Depends: libc, libopenssl3
+Depends: libc, libopenssl1.1
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 14633
+Installed-Size: 14672
 Filename: ssocks_0.0.14-3_x86_64.ipk
-Size: 15506
-SHA256sum: 57506cb9500c747ebd907b16051dc2a3b844e8633dce6bbf7ebbe720a4daeb2e
+Size: 15562
+SHA256sum: dc5c314a3941cd980bc2d26ab193d3247fe8cb01ebc4e5aed4026e24f82d4f6c
 Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
  RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
  and a socks5 relay.
 
 Package: ssocksd
 Version: 0.0.14-3
-Depends: libc, libopenssl3
+Depends: libc, libopenssl1.1
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 14842
+Installed-Size: 14841
 Filename: ssocksd_0.0.14-3_x86_64.ipk
-Size: 15713
-SHA256sum: 4ac7bf43d7d5c7ba7ae226e4ae2536f41ce3ac0afbdfdc3bac3684a0be9d6db6
+Size: 15731
+SHA256sum: f4c4ae0479f8c3aade5ae7c74f29941b93851e0f9f5638fe104e789a96111a9b
 Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
  RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
  and a socks5 relay.
@@ -489,10 +489,10 @@ Depends: libc
 License: GPL-2.0-only
 Section: net
 Architecture: x86_64
-Installed-Size: 3696
+Installed-Size: 3697
 Filename: tcping_0.3-1_x86_64.ipk
-Size: 4435
-SHA256sum: f313b1e3e2d11533037fe8a7c8e23550def83a7a93cf26f11eed0b89578238d1
+Size: 4459
+SHA256sum: ab8e937110d1d6784402bd2565c1125ecd2000f0de278efeb26887d931bb3826
 Description:  tcping measures the latency of a tcp-connection
 
 Package: trojan-go
@@ -510,26 +510,26 @@ Description:  Trojan features multiple protocols over TLS to avoid both
 
 Package: trojan-plus
 Version: 10.0.3-2
-Depends: libc, libpthread, libstdcpp6, libopenssl3, boost, boost-system, boost-program_options
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 441176
+Installed-Size: 392824
 Filename: trojan-plus_10.0.3-2_x86_64.ipk
-Size: 442080
-SHA256sum: 66e0cca843bf400363c2dc49162263b7b71cc2ea7fe7c81fe537ecc36a2dbc91
+Size: 393686
+SHA256sum: 8645e487a21627f6aa4bf9579bff0484926e23844cfdd0f250e74f5b181165e5
 Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
 
 Package: trojan
 Version: 1.16.0-2
-Depends: libc, libpthread, libstdcpp6, libopenssl3, boost, boost-system, boost-program_options, boost-date_time
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options, boost-date_time
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 310966
+Installed-Size: 283097
 Filename: trojan_1.16.0-2_x86_64.ipk
-Size: 311765
-SHA256sum: f8c5cdc88b48d08e09d1fe33288fde10ab99449e16cac18aa1ccace33bcd295f
+Size: 284013
+SHA256sum: f103ea18e37ef017b7432b53917a614f049f1a2f5a3eaa42061712d3fb55803b
 Description:  An unidentifiable mechanism that helps you bypass GFW
 
 Package: tuic-client
@@ -537,10 +537,10 @@ Version: 1.0.0-1
 Depends: libc
 Section: net
 Architecture: x86_64
-Installed-Size: 1127017
+Installed-Size: 1127021
 Filename: tuic-client_1.0.0-1_x86_64.ipk
-Size: 1125177
-SHA256sum: ade8a4ade9ec3aa0c9ad32e58a61093bae467f46f12b293c03971a9322263c60
+Size: 1125209
+SHA256sum: 9185c12d440810ca38077791fee584ba69257fa3cca97aab093627c4e7ea6a41
 Description:  Delicately-TUICed 0-RTT proxy protocol
 
 Package: v2ray-core
@@ -574,10 +574,10 @@ Depends: libc, libpthread
 License: MIT
 Section: net
 Architecture: x86_64
-Installed-Size: 22794
+Installed-Size: 22728
 Filename: vlmcsd_svn1113-3_x86_64.ipk
-Size: 23510
-SHA256sum: 9663f71912d6aa06b3e2eaede277afb87f3e11b52f22b13b6faabd14a31800f4
+Size: 23468
+SHA256sum: e7d9e117b0914b82ddbb7601cb1765a63dad9a2944348925c212a57c170d8f39
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: xray-plugin

@@ -4,12 +4,12 @@ Depends: libc
 Source: /home/ubuntu/wrt-project/custom-feeds/adbyby
 SourceName: adbyby
 Section: net
-SourceDateEpoch: 1694692560
+SourceDateEpoch: 1695122103
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 455216
+Installed-Size: 455270
 Filename: adbyby_2.7-20200315_arm_arm1176jzf-s_vfp.ipk
-Size: 455565
-SHA256sum: 8d1ea9f526e7b6dc1a657d9870d2f41c89ae3174abfd25ef911ad61ecb66df41
+Size: 455685
+SHA256sum: 0bf32284d684a69e7032dada7a189c2e242c3e548e68c1a2ed1fc08efd43e6f6
 Description:  Adbyby is a powerful adblock module to block ad,just like adblock.
 
 Package: atinout
@@ -20,29 +20,29 @@ SourceName: atinout
 License: GPLv2
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1694605814
+SourceDateEpoch: 1695113084
 Maintainer: Adrian Guenter <a@gntr.me>
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 3057
+Installed-Size: 3044
 Filename: atinout_0.9.1_arm_arm1176jzf-s_vfp.ipk
-Size: 3857
-SHA256sum: 1e4a5c38ad9ab9b795e3be6224a2f715eebc0c377f9af7fe0d7a90a2da6e41ee
+Size: 3866
+SHA256sum: 18f8dbf6ca677d55f2922f2428cce9343152c97efd5648f5177e5bb17d2af9dc
 Description:  Atinout is a program that will execute AT commands in sequence and
  capture the response from the modem.
 
 Package: badvpn
 Version: 1.999.130-1
-Depends: libc, librt, libpthread, libudev, libudev-zero, libnss, libopenssl3, coreutils, coreutils-stdbuf, openssl-util
+Depends: libc, librt, libpthread, libudev, libudev-zero, libnss, libopenssl1.1, coreutils, coreutils-stdbuf, openssl-util
 Source: /home/ubuntu/wrt-project/custom-feeds/helmiwrt-packages/badvpn
 SourceName: badvpn
 Section: net
 SourceDateEpoch: 1686562428
 Maintainer: helmiau
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 123009
+Installed-Size: 123699
 Filename: badvpn_1.999.130-1_arm_arm1176jzf-s_vfp.ipk
-Size: 123749
-SHA256sum: 9d3bb1f89a4267f9d63c7260bf3b58a6cb6336254c5a08d492e308936f5c97f4
+Size: 124516
+SHA256sum: 0d8e4c616d1c27a582d65bec08c3dddfe02891d87d038f09c732a7c0f98dc3c2
 Description:  BadVPN
 
 Package: brook
@@ -71,13 +71,13 @@ SourceName: chinadns-ng
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1694528054
+SourceDateEpoch: 1695358879
 Maintainer: pexcn <i@pexcn.me>
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 26821
+Installed-Size: 32061
 Filename: chinadns-ng_2023.06.01-1_arm_arm1176jzf-s_vfp.ipk
-Size: 27625
-SHA256sum: d3cf80f484048b8964a0c3da5998f3dadf718e5231102d391f654796accbcb4c
+Size: 32948
+SHA256sum: 3f102d02ecb0dca7b3359b67a4d1dc08c5b209510d052fca201a277733c54dc4
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: corkscrew
@@ -89,10 +89,10 @@ Section: net
 SourceDateEpoch: 1686562428
 Maintainer: Galih Prastowo Aji <galih.prastowo@gmail.com>
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 3106
+Installed-Size: 3018
 Filename: corkscrew_2.0-1_arm_arm1176jzf-s_vfp.ipk
-Size: 3852
-SHA256sum: 6898a647050e09041c3a49c55e3ad520a89a1a127f7e54cd72b5576c106440d9
+Size: 3779
+SHA256sum: efed3220cf5d59241d3bc769ad9f2db0ac34b05682779b8578883aac6c24444e
 Description:  Tunneling SSH through HTTP proxies.
 
 Package: dns2socks
@@ -102,13 +102,13 @@ Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/dns2sock
 SourceName: dns2socks
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1694528054
+SourceDateEpoch: 1695358879
 Maintainer: ghostmaker
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 10777
+Installed-Size: 10698
 Filename: dns2socks_2.1-2_arm_arm1176jzf-s_vfp.ipk
-Size: 11604
-SHA256sum: 11da3ff0e6f6cc1fe090e679635866a20471ef4e6795405a10344fb481522b7e
+Size: 11529
+SHA256sum: 1f6a02ac5d2e6c1d099c9143bf45b1117f813d2641aa7f1657f3c9e3208f9429
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -120,13 +120,13 @@ SourceName: dns2tcp
 License: AGPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1694528054
+SourceDateEpoch: 1695358879
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 11377
+Installed-Size: 11235
 Filename: dns2tcp_1.1.0-1_arm_arm1176jzf-s_vfp.ipk
-Size: 12207
-SHA256sum: 5c0e6995ad8f25fd600258fd1a0b1939ce87135726a8015162685e2d29f8ca24
+Size: 12085
+SHA256sum: bd67ff53697477da8ccf81f13c6022abfe28ebfde1c387176e7db84188d3f9b5
 Description:  utility to convert dns query from udp to tcp
 
 Package: dnsforwarder
@@ -137,13 +137,13 @@ SourceName: dnsforwarder
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1694692560
+SourceDateEpoch: 1695122103
 Maintainer: Dennis <openwrt@tossp.com>
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 80757
+Installed-Size: 83907
 Filename: dnsforwarder_6.5.2-1_arm_arm1176jzf-s_vfp.ipk
-Size: 81599
-SHA256sum: a01269fb64e823fb535d58fba4fea8ad6eb8306fb8b407e881ba89fea318f71e
+Size: 84716
+SHA256sum: 38445c3de9d428e991293f2142ec72b88be39920517040e52872d6ae81168424
 Description:  Forwarding queries to customized domains (and their subdomains) to specified servers
  over a specified protocol (UDP or TCP). non-standard ports are supported.
 
@@ -175,13 +175,13 @@ SourceName: ethstatus
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1694605814
+SourceDateEpoch: 1695113084
 Maintainer: Paul Spooren <mail@aparcar.org>
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 7589
+Installed-Size: 7431
 Filename: ethstatus_0.4.9-1_arm_arm1176jzf-s_vfp.ipk
-Size: 8531
-SHA256sum: e7d89d5a5c186c302b56cb18230f720460927f841761db66cabb0a14c294533a
+Size: 8394
+SHA256sum: 2c2aed1e4bfd0139e3d40dfcf4c9b72dc96751380cd0e16eb5d16cdd9f8d0051
 Description:  Ethstatus is a console-based monitoring utility for
  displaying statistical data of the ethernet interface
  on a quantity basis. It is similar to iptraf but is meant
@@ -214,12 +214,12 @@ Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/ipt2sock
 SourceName: ipt2socks
 License: AGPL-3.0
 Section: net
-SourceDateEpoch: 1694528054
+SourceDateEpoch: 1695358879
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 26669
+Installed-Size: 27448
 Filename: ipt2socks_1.1.3-3_arm_arm1176jzf-s_vfp.ipk
-Size: 27442
-SHA256sum: 1c482b1efee019e8f50d06d4f6553e1df39bde44b8344932b33ca983e888e10f
+Size: 28209
+SHA256sum: f9c8d4ed0b78fd13082ba24639059b78d6a790405d00b77083a33066ddd50500
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: lua-maxminddb
@@ -232,29 +232,29 @@ Section: lang
 SourceDateEpoch: 1634959980
 Maintainer: fabled
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 2280
+Installed-Size: 2234
 Filename: lua-maxminddb_0.2-1_arm_arm1176jzf-s_vfp.ipk
-Size: 2996
-SHA256sum: a2d686280dff03968e3e0b99e1cdb96984acfd7951eab87dff8fc7b352c46a36
+Size: 2963
+SHA256sum: 5ac4b4b29620cf0b7170f4817aa94f5a9465aac49fdab7e263b5ad829c1a5e44
 Description:  libmaxminddb bindings for lua
 
 Package: microsocks
 Version: 1.0.3-1
-Depends: libc
-Source: feeds/packages/net/microsocks
+Depends: libc, libpthread
+Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/microsocks
 SourceName: microsocks
 License: MIT
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1680935934
-Maintainer: Mateusz Korniak <matkorgithubcom@ant.gliwice.pl>
+SourceDateEpoch: 1695358879
+Maintainer: lean
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 5557
+Installed-Size: 5231
 Filename: microsocks_1.0.3-1_arm_arm1176jzf-s_vfp.ipk
-Size: 6404
-SHA256sum: 00bcc63c6a7d39b3ce67a72465bba6a7ac3a0133e87f85d0a21adf71909de96a
-Description:  Low resource SOCKS5 proxy.
- Supports only SOCKS5 protocol and forwarding only TCP/IP connections.
+Size: 6063
+SHA256sum: f136f9beb5f048e0570a20072d7a9be3f7914b6dc240bfe95d87107082b2ddf0
+Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
+ through them, if for some reason SSH doesn't cut it for you.
 
 Package: mrtg
 Version: 2.17.10-1
@@ -262,12 +262,12 @@ Depends: libc, libgd, libpng, zlib, perl, perlbase-essential, perlbase-findbin, 
 Source: /home/ubuntu/wrt-project/custom-feeds/modemfeed/packages/net/mrtg
 SourceName: mrtg
 Section: net
-SourceDateEpoch: 1694605814
+SourceDateEpoch: 1695113084
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 545200
+Installed-Size: 544414
 Filename: mrtg_2.17.10-1_arm_arm1176jzf-s_vfp.ipk
-Size: 545887
-SHA256sum: 6e6a068401ed695a60431a20ff41a5a868c3d8f896e2425130d18c8838a6d7e9
+Size: 545060
+SHA256sum: e3b606ad8d3df7e3c1b4a0e8b8f830bbece8c8970f1d446f379115a22e4664c5
 Description:  The Multi Router Traffic Grapher, or just simply MRTG, is free software for
  monitoring and measuring the traffic load on network links. It allows the
  user to see traffic load on a network over time in graphical form. It was
@@ -283,13 +283,13 @@ SourceName: naiveproxy
 License: BSD 3-Clause
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1694528054
+SourceDateEpoch: 1695358879
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 3150912
+Installed-Size: 3148592
 Filename: naiveproxy_113.0.5672.62-1-1_arm_arm1176jzf-s_vfp.ipk
-Size: 3142433
-SHA256sum: 6f1f320b49ad9729e75c009ec4f0de1597a41b9133b40ed20664804611bb5db2
+Size: 3140287
+SHA256sum: 992e7f47770d2afaf00ab91ad0e0c91606766a5c547f8293134faad74b6b6dbb
 Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
  censorship resistance and low detectability. Reusing Chrome's stack also
  ensures best practices in performance and security.
@@ -297,19 +297,20 @@ Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with
 Package: nload
 Version: 0.7.4-1
 Depends: libc, libncurses6, libstdcpp6
-Source: feeds/packages/admin/nload
+Source: /home/ubuntu/wrt-project/custom-feeds/modemfeed/packages/net/nload
 SourceName: nload
-License: GPL-2.0-only
+License: LICENSE
 LicenseFiles: COPYING
-Section: admin
-SourceDateEpoch: 1682110018
-Maintainer: Jacky Guo <leickwell@hotmail.com>
+Section: net
+SourceDateEpoch: 1695113084
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 36088
+Installed-Size: 33922
 Filename: nload_0.7.4-1_arm_arm1176jzf-s_vfp.ipk
-Size: 36699
-SHA256sum: 0cd420ab94fb63223f697e3859a0243f17a71e79e1352fb739321885529159a0
-Description:  Monitors network traffic and bandwidth usage.
+Size: 34881
+SHA256sum: e4be85dbdff09e6338b273bf750a6ab909f2c6ce253dd68be2261d6098a07dbb
+Description:  nload is a console application which monitors network traffic and bandwidth usage in real time.
+ It visualizes the in- and outgoing traffic using two graphs and provides additional info like total amount of transfered data and min/max network usage.
 
 Package: ookla-speedtest
 Version: 1.2.0-0
@@ -317,13 +318,13 @@ Depends: libc
 Source: /home/ubuntu/wrt-project/custom-feeds/modemfeed/packages/net/ookla-speedtest
 SourceName: ookla-speedtest
 Section: net
-SourceDateEpoch: 1694605814
+SourceDateEpoch: 1695113084
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 1032040
+Installed-Size: 1032039
 Filename: ookla-speedtest_1.2.0-0_arm_arm1176jzf-s_vfp.ipk
-Size: 1031617
-SHA256sum: c9c868684d874b46947deb2c94b7babe42b66957ef98fc8e8e0ce123d7ff5159
+Size: 1031704
+SHA256sum: be67a78827774808fda9dbc26edee6270d3a6c31e6910ef54c39edd90421e96d
 Description:  Speedtest CLI brings the trusted technology and global server network behind Speedtest to the command line.
  Built for software developers, system administrators and computer enthusiasts alike,
  Speedtest CLI is the first official Linux-native Speedtest application backed by Ookla®.
@@ -334,12 +335,12 @@ Depends: libc, libpthread
 Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/pdnsd-alt
 SourceName: pdnsd-alt
 Section: net
-SourceDateEpoch: 1694528054
+SourceDateEpoch: 1695358879
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 89037
+Installed-Size: 86265
 Filename: pdnsd-alt_1.2.9b-par-3_arm_arm1176jzf-s_vfp.ipk
-Size: 89898
-SHA256sum: a81516fbd6a22b47f99a1a3cad5e11c41fbbd632e4c8042ab09bcdb3677bb3a3
+Size: 87202
+SHA256sum: f274c784816def6e37608a5f755f8caea2fb5408c4bc290821c42442cc3ff12e
 Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
  contents are written to hard disk on exit) that is designed to cope with
  unreachable or down DNS servers (for example in dial-in networking).
@@ -350,19 +351,19 @@ Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching 
 
 Package: redsocks2
 Version: 0.67-5
-Depends: libc, libevent2-7, libopenssl3
+Depends: libc, libevent2-7, libopenssl1.1
 Source: /home/ubuntu/wrt-project/custom-feeds/redsocks2
 SourceName: redsocks2
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1694692560
+SourceDateEpoch: 1695122103
 Maintainer: semigodking <semigodking@gmail.com>
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 53728
+Installed-Size: 52578
 Filename: redsocks2_0.67-5_arm_arm1176jzf-s_vfp.ipk
-Size: 54503
-SHA256sum: ed95b6db4badd0b38231abaf8f4053d9695613b380afd3f7d2439730b41a9c7a
+Size: 53493
+SHA256sum: b513026fc000125a246fe464155b5ab027437511d2e4e9222678275b51f874a4
 Description:  This is a modified version of original redsocks.
  Transparent redirector of any TCP/UDP connection to proxy.
 
@@ -374,13 +375,13 @@ SourceName: shadowsocks-rust-sslocal
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1694528054
+SourceDateEpoch: 1695358879
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 3340797
+Installed-Size: 3340796
 Filename: shadowsocks-rust-sslocal_1.16.1-1_arm_arm1176jzf-s_vfp.ipk
-Size: 3325887
-SHA256sum: b9cfb2837e9689ea99fcfa37ae5a5ce77a7121ebf21fbf1e65f2619785619497
+Size: 3325651
+SHA256sum: 7e3546394b0b2033572e7bd195a566a99efed4794ed953f2f962b9c94966d67f
 Description:  shadowsocks-rust sslocal
 
 Package: shadowsocks-rust-ssmanager
@@ -391,13 +392,13 @@ SourceName: shadowsocks-rust-ssmanager
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1694528054
+SourceDateEpoch: 1695358879
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 2373278
+Installed-Size: 2373289
 Filename: shadowsocks-rust-ssmanager_1.16.1-1_arm_arm1176jzf-s_vfp.ipk
-Size: 2363261
-SHA256sum: e292afcd04312ed0c00a507a1b733f2c417e198d5fa117d8d8a93e5381b697d5
+Size: 2363082
+SHA256sum: 26bff7f38c84547adcc64241fae45c997b3705816afc76852ae3c27287dc0d4e
 Description:  shadowsocks-rust ssmanager
 
 Package: shadowsocks-rust-ssserver
@@ -408,13 +409,13 @@ SourceName: shadowsocks-rust-ssserver
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1694528054
+SourceDateEpoch: 1695358879
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 2302132
+Installed-Size: 2302145
 Filename: shadowsocks-rust-ssserver_1.16.1-1_arm_arm1176jzf-s_vfp.ipk
-Size: 2291406
-SHA256sum: 7897f09681a09fd91c069134424e94acd0b9f5fc2deeb727cbc34cd09a5113b3
+Size: 2291433
+SHA256sum: be96c424dbff57d256ca10af6861c3c8d59dfd2fcb8b4afd31ae17ba41cdd1b0
 Description:  shadowsocks-rust ssserver
 
 Package: shadowsocks-rust-ssservice
@@ -425,13 +426,13 @@ SourceName: shadowsocks-rust-ssservice
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1694528054
+SourceDateEpoch: 1695358879
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 3592235
+Installed-Size: 3592307
 Filename: shadowsocks-rust-ssservice_1.16.1-1_arm_arm1176jzf-s_vfp.ipk
-Size: 3578615
-SHA256sum: acd1460d9c1abe18351c6f25e1323ef35740680808576abff9d7af5d60b60fc9
+Size: 3579317
+SHA256sum: 6814b2b463598e4cedcceaf0842d3a1722d5671ab2a85b0d15ffc300593e58c8
 Description:  shadowsocks-rust ssservice
 
 Package: shadowsocks-rust-ssurl
@@ -442,93 +443,93 @@ SourceName: shadowsocks-rust-ssurl
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1694528054
+SourceDateEpoch: 1695358879
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: arm_arm1176jzf-s_vfp
 Installed-Size: 1157550
 Filename: shadowsocks-rust-ssurl_1.16.1-1_arm_arm1176jzf-s_vfp.ipk
-Size: 1148303
-SHA256sum: bdd6f05cfcfea69e9eb7068ef0b90b40582d4abc909854ed99090da7c2cc26f3
+Size: 1148229
+SHA256sum: 567332a26043ccb53de65469da6c34299c7a4ed6c1f3af1abe57da70ffb3656b
 Description:  shadowsocks-rust ssurl
 
 Package: shadowsocksr-libev-ssr-check
 Version: 2.5.6-9
-Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
 Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocksr-libev
 SourceName: shadowsocksr-libev-ssr-check
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1694528054
+SourceDateEpoch: 1695358879
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 2255
+Installed-Size: 2235
 Filename: shadowsocksr-libev-ssr-check_2.5.6-9_arm_arm1176jzf-s_vfp.ipk
-Size: 3048
-SHA256sum: 8e8ffaf17bbea67f88fb72480d668cf13a0ebdb943b0fe65065554d8366a4d31
+Size: 3051
+SHA256sum: 498839027987af481845063f2c6342474235b64db12f96c0a8536c34c3321381
 Description:  shadowsocksr-libev ssr-check
 
 Package: shadowsocksr-libev-ssr-local
 Version: 2.5.6-9
-Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
 Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocksr-libev
 SourceName: shadowsocksr-libev-ssr-local
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1694528054
+SourceDateEpoch: 1695358879
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 60057
+Installed-Size: 59020
 Filename: shadowsocksr-libev-ssr-local_2.5.6-9_arm_arm1176jzf-s_vfp.ipk
-Size: 60857
-SHA256sum: 5efaa81fb3cfad7dbd7d4426799a723a3cd4924d6fb8ec053ae3d84bd6b06811
+Size: 59716
+SHA256sum: 2a0ab4c2e6277fac14c1b95d7d9aa951cc0de7f23a59ab842432d1a52923c23c
 Description:  shadowsocksr-libev ssr-local
 
 Package: shadowsocksr-libev-ssr-nat
 Version: 2.5.6-9
-Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
 Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocksr-libev
 SourceName: shadowsocksr-libev-ssr-nat
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1694528054
+SourceDateEpoch: 1695358879
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 2224
+Installed-Size: 2237
 Filename: shadowsocksr-libev-ssr-nat_2.5.6-9_arm_arm1176jzf-s_vfp.ipk
-Size: 3018
-SHA256sum: ce25c68ceae63a67cff34e624cfa4061791b6f5621e741309755e20dc53b15ec
+Size: 3049
+SHA256sum: e2121b2b38c1e605a2f0a987548853636dec24998a6da4fd779952c2a1ecd35b
 Description:  shadowsocksr-libev ssr-nat
 
 Package: shadowsocksr-libev-ssr-redir
 Version: 2.5.6-9
-Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
 Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocksr-libev
 SourceName: shadowsocksr-libev-ssr-redir
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1694528054
+SourceDateEpoch: 1695358879
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 54254
+Installed-Size: 53525
 Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_arm_arm1176jzf-s_vfp.ipk
-Size: 55012
-SHA256sum: bf5b61a1c3519db7f7b9e2810611aeb9956cca16a777c268131e8f60bcfe1bfe
+Size: 54258
+SHA256sum: b6f3a48d3ec49c8ec1363f7f8cffdd6da35913bafa8abe48db1dd9990ede0667
 Description:  shadowsocksr-libev ssr-redir
 
 Package: shadowsocksr-libev-ssr-server
 Version: 2.5.6-9
-Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
 Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/shadowsocksr-libev
 SourceName: shadowsocksr-libev-ssr-server
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1694528054
+SourceDateEpoch: 1695358879
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 63253
+Installed-Size: 62541
 Filename: shadowsocksr-libev-ssr-server_2.5.6-9_arm_arm1176jzf-s_vfp.ipk
-Size: 64063
-SHA256sum: 462cab416bbe3afee8e842c677277d57974d15e2ba91d1831de0aa71d844338a
+Size: 63302
+SHA256sum: 9a5a4d0aeb921ada6127f5a2e24b5790d923c99371f6fadcc9de00b669a4c17b
 Description:  shadowsocksr-libev ssr-server
 
 Package: simple-obfs-server
@@ -539,13 +540,13 @@ SourceName: simple-obfs-server
 License: GPL-3.0-or-later
 LicenseFiles: COPYING LICENSE
 Section: net
-SourceDateEpoch: 1694528054
+SourceDateEpoch: 1695358879
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 30000
+Installed-Size: 29794
 Filename: simple-obfs-server_0.0.5-1_arm_arm1176jzf-s_vfp.ipk
-Size: 30867
-SHA256sum: 50c228af7120aaebd03c30cb4b526d63235da1ffb6e1124f6fb0a1a90c266ef7
+Size: 30646
+SHA256sum: 916561bfb2dffa092b972f7df679d98c7c1248cf3aaec476a9d0f2e4c130e9d5
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: simple-obfs
@@ -556,13 +557,13 @@ SourceName: simple-obfs
 License: GPL-3.0-or-later
 LicenseFiles: COPYING LICENSE
 Section: net
-SourceDateEpoch: 1694528054
+SourceDateEpoch: 1695358879
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 27688
+Installed-Size: 27464
 Filename: simple-obfs_0.0.5-1_arm_arm1176jzf-s_vfp.ipk
-Size: 28491
-SHA256sum: ca634ec3e31af5a203c48f8a1c61aab32fdc90b5265d06a8d2192674e5239f2c
+Size: 28341
+SHA256sum: e51515dc8fa0881582b2f1cacb896fc85db6ad3d596e173873e4472fef8bd44b
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: simpleproxy
@@ -573,83 +574,80 @@ SourceName: simpleproxy
 License: GPLv2
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1694605814
+SourceDateEpoch: 1695113084
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 10505
+Installed-Size: 10322
 Filename: simpleproxy_3.5_arm_arm1176jzf-s_vfp.ipk
-Size: 11361
-SHA256sum: 89012e9451b144b5488861cc6ddc7f4ad55cf273149c19fb97621680ec194679
+Size: 11187
+SHA256sum: 130a4740f532f20791006165100fde316848e8d963d4ff3bb28a930d4204c5c6
 Description:  Simpleproxy is a simple TCP proxy. It accepts connections on a local
  TCP port and forward them to anoter port on a remote host via TCP.
 
 Package: sms-tool
 Version: 2022-03-21-f07699ab-1
 Depends: libc
-Source: feeds/packages/utils/sms-tool
+Source: /home/ubuntu/wrt-project/custom-feeds/luci-app-modemband/sms-tool
 SourceName: sms-tool
-License: Apache-2.0
-LicenseFiles: LICENSE-2.0.txt
 Section: utils
-SourceDateEpoch: 1682110018
-Maintainer: Andrey Butirsky <butirsky@gmail.com>
+SourceDateEpoch: 1694672542
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 8030
+Installed-Size: 8061
 Filename: sms-tool_2022-03-21-f07699ab-1_arm_arm1176jzf-s_vfp.ipk
-Size: 8843
-SHA256sum: 544576647f587f85db0c33ea3c1c59130db65a867b9e9a9cf9a049f619f359ce
+Size: 8859
+SHA256sum: 30ac952e54571e06bffd542ab1298cd785ce22a2ec72510bbfb9872549223383
 Description:  SMS Tool for 3G/4G modem
 
 Package: speedtestpp
 Version: 1.14-1
-Depends: libc, libcurl4, libxml2, libopenssl3, libstdcpp6
+Depends: libc, libcurl4, libxml2, libopenssl1.1, libstdcpp6
 Source: /home/ubuntu/wrt-project/custom-feeds/modemfeed/packages/net/speedtestpp
 SourceName: speedtestpp
 License: MIT
 Section: net
-SourceDateEpoch: 1694605814
+SourceDateEpoch: 1695113084
 Maintainer: Konstantine Shevlakov <shevlyakov@132lan.ru>
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 27032
+Installed-Size: 24533
 Filename: speedtestpp_1.14-1_arm_arm1176jzf-s_vfp.ipk
-Size: 27811
-SHA256sum: f5f54fe6c80415961d1a57d5066a98b9965a7fc16fd83c2b3ae140102aca4e7b
+Size: 25239
+SHA256sum: 9a6c2224f999b2903c766ac3dc6b6cab54c3e5d74688248bc31854afc176041b
 Description:  Yet another unofficial speedtest.net client cli interface
 
 Package: ssocks
 Version: 0.0.14-3
-Depends: libc, libopenssl3
+Depends: libc, libopenssl1.1
 Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/ssocks
 SourceName: ssocks
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1694528054
+SourceDateEpoch: 1695358879
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 13253
+Installed-Size: 13201
 Filename: ssocks_0.0.14-3_arm_arm1176jzf-s_vfp.ipk
-Size: 14100
-SHA256sum: aa65cb9c1584faec248d3ae7834272af4e935b77687b7ff830bc503e6c948e65
+Size: 14066
+SHA256sum: 52cd0e8189c7063f908a0367d655f8aecc0b40d0830f9b6de62f7f23e955c1ac
 Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
  RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
  and a socks5 relay.
 
 Package: ssocksd
 Version: 0.0.14-3
-Depends: libc, libopenssl3
+Depends: libc, libopenssl1.1
 Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/ssocks
 SourceName: ssocksd
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1694528054
+SourceDateEpoch: 1695358879
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 13458
+Installed-Size: 13441
 Filename: ssocksd_0.0.14-3_arm_arm1176jzf-s_vfp.ipk
-Size: 14317
-SHA256sum: 64217c4aa102f7d31edd09e569de82d7068f98e00d3bc217623872d0c57024b2
+Size: 14319
+SHA256sum: 91d57a73270903e4246ab2163d46aa138834554e5feb1820a8327a7a66d957fb
 Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
  RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
  and a socks5 relay.
@@ -662,12 +660,12 @@ SourceName: tcping
 License: GPL-2.0-only
 LicenseFiles: license.txt
 Section: net
-SourceDateEpoch: 1694528054
+SourceDateEpoch: 1695358879
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 3504
+Installed-Size: 3334
 Filename: tcping_0.3-1_arm_arm1176jzf-s_vfp.ipk
-Size: 4238
-SHA256sum: b652232c0251d754726f54de203c0a27fa5b8a851fdc5d334e7fb5d92acac605
+Size: 4089
+SHA256sum: a92798db92c8a861a3a794ee72cc0e787513fe1065b158bce8108964bf26be00
 Description:  tcping measures the latency of a tcp-connection
 
 Package: trojan-go
@@ -690,34 +688,34 @@ Description:  Trojan features multiple protocols over TLS to avoid both
 
 Package: trojan-plus
 Version: 10.0.3-2
-Depends: libc, libpthread, libstdcpp6, libopenssl3, boost, boost-system, boost-program_options
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options
 Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/trojan-plus
 SourceName: trojan-plus
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1694528054
+SourceDateEpoch: 1695358879
 Maintainer: Trojan-Plus-Group
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 380262
+Installed-Size: 350878
 Filename: trojan-plus_10.0.3-2_arm_arm1176jzf-s_vfp.ipk
-Size: 380688
-SHA256sum: 6aaa53576914e3adb74d342713aecd897e3d012b0b7f11461a551475a9c8b880
+Size: 351346
+SHA256sum: 0ed3b11ffe5bac159b21647760120d7745c73d15f3522c1596e11811f47773c4
 Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
 
 Package: trojan
 Version: 1.16.0-2
-Depends: libc, libpthread, libstdcpp6, libopenssl3, boost, boost-system, boost-program_options, boost-date_time
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options, boost-date_time
 Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/trojan
 SourceName: trojan
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1694528054
+SourceDateEpoch: 1695358879
 Maintainer: GreaterFire
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 272961
+Installed-Size: 255460
 Filename: trojan_1.16.0-2_arm_arm1176jzf-s_vfp.ipk
-Size: 273457
-SHA256sum: ba80cd3b4fed47c813edaf69356a16f95f9a1b55df9e8ad8a842b5d50b2227b3
+Size: 255726
+SHA256sum: a3b28462e46a31ed82bf5e456b81447e41a67a6847ea7ed5ddd162de16dda86d
 Description:  An unidentifiable mechanism that helps you bypass GFW
 
 Package: tuic-client
@@ -727,13 +725,13 @@ Source: /home/ubuntu/wrt-project/custom-feeds/openwrt-passwall-packages/tuic-cli
 SourceName: tuic-client
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1694910278
+SourceDateEpoch: 1695358879
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 943381
+Installed-Size: 943386
 Filename: tuic-client_1.0.0-1_arm_arm1176jzf-s_vfp.ipk
-Size: 943184
-SHA256sum: 601e55d46397d0d880a76c1b49e1f0abfab7f23fa292569cfe015adaffcfa329
+Size: 943237
+SHA256sum: 65b4ac1f1cda0f66aa70017986323a3a79f7551c812100ccf84c16b5d76faa90
 Description:  Delicately-TUICed 0-RTT proxy protocol
 
 Package: v2ray-core
@@ -779,13 +777,13 @@ SourceName: vlmcsd
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1694692560
+SourceDateEpoch: 1695122103
 Maintainer: fuyumi <280604399@qq.com>
 Architecture: arm_arm1176jzf-s_vfp
-Installed-Size: 24312
+Installed-Size: 24351
 Filename: vlmcsd_svn1113-3_arm_arm1176jzf-s_vfp.ipk
-Size: 25011
-SHA256sum: 7af2fad9833a38d58d50208689cdea0919889114f3f8d11b96efc4bbb048c159
+Size: 25130
+SHA256sum: dfd8cd3e8749d4277a59c23fca312576e5e915c37d6a66484fb02d8d0f50a359
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: xray-plugin

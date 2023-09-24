@@ -3,10 +3,10 @@ Version: 2.7-20200315
 Depends: libc
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 455216
+Installed-Size: 455270
 Filename: adbyby_2.7-20200315_aarch64_cortex-a72.ipk
-Size: 455564
-SHA256sum: 5a128e0c916a1b633018d88248e0536d031b55fd9ca0c9713663a7b26b68785b
+Size: 455684
+SHA256sum: a14cbe9569a159e2c44c3f1b6583a2fe6b8410bd40e25ac2b05d5231671c7b8c
 Description:  Adbyby is a powerful adblock module to block ad,just like adblock.
 
 Package: atinout
@@ -15,22 +15,22 @@ Depends: libc
 License: GPLv2
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 3475
+Installed-Size: 3356
 Filename: atinout_0.9.1_aarch64_cortex-a72.ipk
-Size: 4144
-SHA256sum: 6ab70b58c1f08b3db3bcad4326f2b03c24d4b9fe8717df0b7e73c12d5cb78a72
+Size: 4172
+SHA256sum: 58a645175264d248454388128f7e7f0e8e9bc412fb6db1828c1bdb9974dfdbab
 Description:  Atinout is a program that will execute AT commands in sequence and
  capture the response from the modem.
 
 Package: badvpn
 Version: 1.999.130-1
-Depends: libc, librt, libpthread, libudev, libudev-zero, libnss, libopenssl3, coreutils, coreutils-stdbuf, openssl-util
+Depends: libc, librt, libpthread, libudev, libudev-zero, libnss, libopenssl1.1, coreutils, coreutils-stdbuf, openssl-util
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 135283
+Installed-Size: 137146
 Filename: badvpn_1.999.130-1_aarch64_cortex-a72.ipk
-Size: 135942
-SHA256sum: 0c4a36195b0f5031e483d4bdfc292e63845b9022d65cbb6c72be4f06ebda9255
+Size: 137912
+SHA256sum: 8e13fecc39d2527f2b1fa9562af60304f72c376de96abef3c3d764b23bb439c8
 Description:  BadVPN
 
 Package: brook
@@ -52,10 +52,10 @@ Depends: libc, ipset
 License: AGPL-3.0-only
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 27946
+Installed-Size: 33831
 Filename: chinadns-ng_2023.06.01-1_aarch64_cortex-a72.ipk
-Size: 28783
-SHA256sum: bd7ecf8131e116d81682efcfe7c5c53993d771a26c8bdbfdb739973d6be6527a
+Size: 34733
+SHA256sum: d349400b744129e67ab9de77c5345c2ccc77c5cdc48d3d0acfec128716ecf9c4
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: corkscrew
@@ -63,10 +63,10 @@ Version: 2.0-1
 Depends: libc
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 3533
+Installed-Size: 3341
 Filename: corkscrew_2.0-1_aarch64_cortex-a72.ipk
-Size: 4135
-SHA256sum: d1211bc9f5c1a8745440703e6b514f91f3ffc3b9c0ede147c6f880dfd5e02745
+Size: 4094
+SHA256sum: 0d06b48d0ad32b83ab57e4e61fadb561256b364f0f91e389133c95e08308f39f
 Description:  Tunneling SSH through HTTP proxies.
 
 Package: dns2socks
@@ -75,10 +75,10 @@ Depends: libc, libpthread
 License: BSD-3-Clause
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 11207
+Installed-Size: 11227
 Filename: dns2socks_2.1-2_aarch64_cortex-a72.ipk
-Size: 11867
-SHA256sum: 419cbfa5989e1ab73e83dfbddd52636bf2e04b3b7c39bc273e5a3d8cdcb2cd25
+Size: 12073
+SHA256sum: d68ffb8d64740f2e4c16047e4e95d28f209e53072b1d2bbaed4b9b7e95510823
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
@@ -88,10 +88,10 @@ Depends: libc
 License: AGPL-3.0-only
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 11936
+Installed-Size: 12090
 Filename: dns2tcp_1.1.0-1_aarch64_cortex-a72.ipk
-Size: 12707
-SHA256sum: 2caa19d818def224cf04a6cc879d67b3d7d61bc0d052bbcc2e56653916149845
+Size: 12912
+SHA256sum: 275de87408a9531d1abeb6d62ff888958463527fae02deae6eec1c5b6611b09a
 Description:  utility to convert dns query from udp to tcp
 
 Package: dnsforwarder
@@ -100,10 +100,10 @@ Depends: libc, coreutils, coreutils-base64, dnsmasq-full, libpthread, wget-ssl
 License: GPL-3.0
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 88059
+Installed-Size: 93624
 Filename: dnsforwarder_6.5.2-1_aarch64_cortex-a72.ipk
-Size: 88557
-SHA256sum: 17443ae31dbed2e63d6095b25f262312919938071bd75abc5906975505a453b7
+Size: 94330
+SHA256sum: d6cc0088f1292c12f0c69f76d7bc9cc6c790cc817f07c21cc4770cd11c4221b6
 Description:  Forwarding queries to customized domains (and their subdomains) to specified servers
  over a specified protocol (UDP or TCP). non-standard ports are supported.
 
@@ -127,10 +127,10 @@ Depends: libc, libncurses6
 License: GPL-2.0-only
 Section: utils
 Architecture: aarch64_cortex-a72
-Installed-Size: 8556
+Installed-Size: 8425
 Filename: ethstatus_0.4.9-1_aarch64_cortex-a72.ipk
-Size: 9350
-SHA256sum: 4f0e97cd06efd9e033801ae75dfff12f6f7b0ac57ddb55db0f4d1af029fb3b3e
+Size: 9328
+SHA256sum: 3bd6b0ca34d04c41517d799845ffff322b8a8c567d9ec50f67aaf5b49acc2cdb
 Description:  Ethstatus is a console-based monitoring utility for
  displaying statistical data of the ethernet interface
  on a quantity basis. It is similar to iptraf but is meant
@@ -158,10 +158,10 @@ Depends: libc, libpthread
 License: AGPL-3.0
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 25984
+Installed-Size: 28222
 Filename: ipt2socks_1.1.3-3_aarch64_cortex-a72.ipk
-Size: 26596
-SHA256sum: 9f5aa3d31f3391068544df5c5ea1547df222f878260158ba641b9220130c611a
+Size: 29011
+SHA256sum: 2769385c28ce47faa5cc4c7e06ae91040b4427dd862c9e4c2771ae5ebd0286d7
 Description:  Utility for converting iptables (redirect/tproxy) to socks5.
 
 Package: lua-maxminddb
@@ -170,46 +170,46 @@ Depends: libc, lua, libmaxminddb
 License: MIT
 Section: lang
 Architecture: aarch64_cortex-a72
-Installed-Size: 2822
+Installed-Size: 2640
 Filename: lua-maxminddb_0.2-1_aarch64_cortex-a72.ipk
-Size: 3430
-SHA256sum: 587c7fc8012856db41437862a780819e1ecf90450f8fbcf39c0c1a035b02b60f
+Size: 3384
+SHA256sum: 3ec86ab2cbca14cbff743e0288e69a76d78ed177823f3783055a463606a39c15
 Description:  libmaxminddb bindings for lua
 
 Package: luci-app-oled
 Version: 20230823
-Depends: libc, libconfig11, luci-lua-runtime
+Depends: libc, libconfig11
 License: GPLv3
 Section: luci
 Architecture: aarch64_cortex-a72
-Installed-Size: 20141
+Installed-Size: 19836
 Filename: luci-app-oled_20230823_aarch64_cortex-a72.ipk
-Size: 20882
-SHA256sum: f5b9133c21acd9964bfadbbce860fb5263fb34d59d9c13294101d6fc6690588d
+Size: 20738
+SHA256sum: 5a32f75261be1c77def9cbea4f02c34951e62a757523b3e4df92e86b70cc467f
 Description:  LuCI luci-app-oled app
 
 Package: microsocks
 Version: 1.0.3-1
-Depends: libc
+Depends: libc, libpthread
 License: MIT
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 5975
+Installed-Size: 5831
 Filename: microsocks_1.0.3-1_aarch64_cortex-a72.ipk
-Size: 6741
-SHA256sum: 6f9bc5891c650871eccc0c0d30de286f6e913273873884cbd4ca679749f27dc5
-Description:  Low resource SOCKS5 proxy.
- Supports only SOCKS5 protocol and forwarding only TCP/IP connections.
+Size: 6669
+SHA256sum: 3243da6a0f1a1de45c367c16de8a78ffc408a3e973e9d0739d379f042e52092b
+Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
+ through them, if for some reason SSH doesn't cut it for you.
 
 Package: mrtg
 Version: 2.17.10-1
 Depends: libc, libgd, libpng, zlib, perl, perlbase-essential, perlbase-findbin, perlbase-cwd, perlbase-config, perlbase-file, perlbase-getopt, perlbase-math, perlbase-integer, perlbase-xsloader, perlbase-pod, perlbase-universal, perlbase-socket, perlbase-posix, perlbase-autoloader, perlbase-fcntl, perlbase-tie, perlbase-io, perlbase-symbol, perlbase-selectsaver, perlbase-errno, perlbase-scalar, perlbase-list, perlbase-base, perlbase-storable
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 541465
+Installed-Size: 541913
 Filename: mrtg_2.17.10-1_aarch64_cortex-a72.ipk
-Size: 542190
-SHA256sum: 3a649b0517c1c559dd3b49fb54ae893cdff896ba48fadd7ea0136e6554f50c60
+Size: 542378
+SHA256sum: 20b9dd5e1c767f0c0c573b5a954a3204ff6277a2456969e26717fda4deb80440
 Description:  The Multi Router Traffic Grapher, or just simply MRTG, is free software for
  monitoring and measuring the traffic load on network links. It allows the
  user to see traffic load on a network over time in graphical form. It was
@@ -223,10 +223,10 @@ Depends: libc, libatomic1
 License: BSD 3-Clause
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 2889898
+Installed-Size: 2876382
 Filename: naiveproxy_113.0.5672.62-1-1_aarch64_cortex-a72.ipk
-Size: 2887122
-SHA256sum: dff73562f805a639cdc0813c2181035d5762c180b34be8d485924094b14ce1c3
+Size: 2873783
+SHA256sum: 5b340495109c3743bfb5e63642433303e650e333054aff49275bfafa112bcb1b
 Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with strong
  censorship resistance and low detectability. Reusing Chrome's stack also
  ensures best practices in performance and security.
@@ -234,24 +234,25 @@ Description:  NaïveProxy uses Chrome's network stack to camouflage traffic with
 Package: nload
 Version: 0.7.4-1
 Depends: libc, libncurses6, libstdcpp6
-License: GPL-2.0-only
-Section: admin
+License: LICENSE
+Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 37132
+Installed-Size: 38653
 Filename: nload_0.7.4-1_aarch64_cortex-a72.ipk
-Size: 37629
-SHA256sum: 13a7e0d8681b447bdde5edbcdd235970c1a3098dfb6e732a469eb7a95ecb1fcd
-Description:  Monitors network traffic and bandwidth usage.
+Size: 39563
+SHA256sum: a609e6cfa92fe3b5c343219eb6b18c9dba1dabe8f73e01d2dc2a7ec4b66cd306
+Description:  nload is a console application which monitors network traffic and bandwidth usage in real time.
+ It visualizes the in- and outgoing traffic using two graphs and provides additional info like total amount of transfered data and min/max network usage.
 
 Package: ookla-speedtest
 Version: 1.2.0-0
 Depends: libc
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 1076214
+Installed-Size: 1076208
 Filename: ookla-speedtest_1.2.0-0_aarch64_cortex-a72.ipk
-Size: 1075826
-SHA256sum: bcd5b36959d742ea0aab3d210d79ea0e4dc833cea602995fb8b39fce8667fcaf
+Size: 1075886
+SHA256sum: eab015e6333e815f0efc726e085f05c8e8caca63ab512fa51ccff9a9007da1bf
 Description:  Speedtest CLI brings the trusted technology and global server network behind Speedtest to the command line.
  Built for software developers, system administrators and computer enthusiasts alike,
  Speedtest CLI is the first official Linux-native Speedtest application backed by Ookla®.
@@ -261,10 +262,10 @@ Version: 1.2.9b-par-3
 Depends: libc, libpthread
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 94118
+Installed-Size: 92383
 Filename: pdnsd-alt_1.2.9b-par-3_aarch64_cortex-a72.ipk
-Size: 94756
-SHA256sum: 2232766dfba1b0b710db2a2488665313c3590a2f79d95e76bf9775030f86d2f1
+Size: 93335
+SHA256sum: bcf94644796a7042434de5009f4070997c2c3fe55de8f1c37262b24a2025b02d
 Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching (the cache
  contents are written to hard disk on exit) that is designed to cope with
  unreachable or down DNS servers (for example in dial-in networking).
@@ -275,14 +276,14 @@ Description:  pdnsd, is an IPv6 capable proxy DNS server with permanent caching 
 
 Package: redsocks2
 Version: 0.67-5
-Depends: libc, libevent2-7, libopenssl3
+Depends: libc, libevent2-7, libopenssl1.1
 License: Apache-2.0
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 57652
+Installed-Size: 57912
 Filename: redsocks2_0.67-5_aarch64_cortex-a72.ipk
-Size: 58542
-SHA256sum: 374dea421e304e622bc3b9231806b4229c411a48126578534e537596aab81891
+Size: 58873
+SHA256sum: 62d14971bb812fcfab21b09e7d2e2075ca003fc14b0a2d142ec356f4fb9d3df6
 Description:  This is a modified version of original redsocks.
  Transparent redirector of any TCP/UDP connection to proxy.
 
@@ -292,10 +293,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 3015322
+Installed-Size: 3015437
 Filename: shadowsocks-rust-sslocal_1.16.1-1_aarch64_cortex-a72.ipk
-Size: 3000530
-SHA256sum: 0b1a4d14568e90676b417fd8d8ae02b3a6398366ef0d7d47e1be1b9057f4265d
+Size: 3000477
+SHA256sum: 94281c92767a775dd45f692914282c33ce97e3e096ed48e088dc5c49ca4cc066
 Description:  shadowsocks-rust sslocal
 
 Package: shadowsocks-rust-ssmanager
@@ -304,10 +305,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 2212829
+Installed-Size: 2212843
 Filename: shadowsocks-rust-ssmanager_1.16.1-1_aarch64_cortex-a72.ipk
-Size: 2203279
-SHA256sum: ddcdc16f2586f3f3c9a29a15d55bbe2ed05ce9ed488d150a3a7e8471d24e5de7
+Size: 2202874
+SHA256sum: b65d48f7620d9072fcdae984b0528b6f068fc6b565abc5615af2e55b0040510e
 Description:  shadowsocks-rust ssmanager
 
 Package: shadowsocks-rust-ssserver
@@ -316,10 +317,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 2148877
+Installed-Size: 2148885
 Filename: shadowsocks-rust-ssserver_1.16.1-1_aarch64_cortex-a72.ipk
-Size: 2138746
-SHA256sum: 0f383b6837cfcd1cb1237069526a47c6e51b23ad3bf6808aa33f835ccc0dfb01
+Size: 2138539
+SHA256sum: a14999f67e2ba4c4effbe8c9e09b0ef9b1fb9fc69cfedce2772d96e20c2fb826
 Description:  shadowsocks-rust ssserver
 
 Package: shadowsocks-rust-ssservice
@@ -328,10 +329,10 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 3238380
+Installed-Size: 3238569
 Filename: shadowsocks-rust-ssservice_1.16.1-1_aarch64_cortex-a72.ipk
-Size: 3224071
-SHA256sum: a0996dbe66c3265d792ae9f93039f2c3ebbd08127e09490efc9511bc50cd4a3b
+Size: 3225102
+SHA256sum: 3694a96ee12b315668b6f528fce58fba42796afbe04847b27c373a55702fc3b4
 Description:  shadowsocks-rust ssservice
 
 Package: shadowsocks-rust-ssurl
@@ -340,70 +341,70 @@ Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 1125410
+Installed-Size: 1125429
 Filename: shadowsocks-rust-ssurl_1.16.1-1_aarch64_cortex-a72.ipk
-Size: 1115926
-SHA256sum: ab4efe4b074d4ef9eb142f0404d0df8c14e615540bab897a4c3ab3b647b6e8c8
+Size: 1116326
+SHA256sum: 8193a244b46bdd1980877c97eb2f77322f55fdb28529bfec570a10d4bbfec24c
 Description:  shadowsocks-rust ssurl
 
 Package: shadowsocksr-libev-ssr-check
 Version: 2.5.6-9
-Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
 License: GPL-3.0
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 2720
+Installed-Size: 2590
 Filename: shadowsocksr-libev-ssr-check_2.5.6-9_aarch64_cortex-a72.ipk
-Size: 3366
-SHA256sum: 5987cf60dffc20920b24e2659758e8237c171632150aa672f38ec47eae93f340
+Size: 3370
+SHA256sum: 5a7249493c94e16af5492d0236c6dfc3c9c37103efcaff8bc74e5ec6e8e32916
 Description:  shadowsocksr-libev ssr-check
 
 Package: shadowsocksr-libev-ssr-local
 Version: 2.5.6-9
-Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
 License: GPL-3.0
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 62940
+Installed-Size: 62022
 Filename: shadowsocksr-libev-ssr-local_2.5.6-9_aarch64_cortex-a72.ipk
-Size: 63570
-SHA256sum: e987ecc97531ae5a35db6d56e18480b0e4f55300012c91deca06d38521bb4f4f
+Size: 62824
+SHA256sum: 446e4563ea5a91fbc27c1a29e37fabc89be9b130ac578d732cd152db4a7f9115
 Description:  shadowsocksr-libev ssr-local
 
 Package: shadowsocksr-libev-ssr-nat
 Version: 2.5.6-9
-Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
 License: GPL-3.0
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 2224
+Installed-Size: 2237
 Filename: shadowsocksr-libev-ssr-nat_2.5.6-9_aarch64_cortex-a72.ipk
-Size: 3014
-SHA256sum: ddcf59a7fa1608b05a0302afcd6e95d28c2fed07bebf44b3995788ca890cbfcc
+Size: 3050
+SHA256sum: 428c37990132ff38d5ba869ce0e67bde30eb280b1f653b78e649fd0da08a1f7a
 Description:  shadowsocksr-libev ssr-nat
 
 Package: shadowsocksr-libev-ssr-redir
 Version: 2.5.6-9
-Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
 License: GPL-3.0
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 56297
+Installed-Size: 55721
 Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_aarch64_cortex-a72.ipk
-Size: 57018
-SHA256sum: 1989ac194f9800b0e2d6b7e94c7c0608b4b1daecf26b2053cbd38887211d0826
+Size: 56470
+SHA256sum: 226f2fd28c7d1ec9fd0a5453bd3459583f178f6e549ee8d4218544ebf8d1e8a7
 Description:  shadowsocksr-libev ssr-redir
 
 Package: shadowsocksr-libev-ssr-server
 Version: 2.5.6-9
-Depends: libc, libev, libsodium, libopenssl3, libpthread, libpcre, libudns, zlib
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
 License: GPL-3.0
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 66065
+Installed-Size: 64915
 Filename: shadowsocksr-libev-ssr-server_2.5.6-9_aarch64_cortex-a72.ipk
-Size: 66725
-SHA256sum: 6cb4fa0f74866d5f0c40ede330de2c22b56e7fee1d9f3e32e49c762a873b5c1e
+Size: 65706
+SHA256sum: f2af95ed298c55ef51a67b68ca7164288e176bf12efefe97eea82cbdf6afd40a
 Description:  shadowsocksr-libev ssr-server
 
 Package: simple-obfs-server
@@ -412,10 +413,10 @@ Depends: libc, libpthread, libev
 License: GPL-3.0-or-later
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 34111
+Installed-Size: 33577
 Filename: simple-obfs-server_0.0.5-1_aarch64_cortex-a72.ipk
-Size: 34664
-SHA256sum: 2be6d8801c4e90f9aa33047324c9dc52d28371afddb62878735dec79b3168253
+Size: 34487
+SHA256sum: 6148d3b187e639db65424f711ab251ccfc27dcfb7d29ebdb7e1f8daabd5c87d8
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: simple-obfs
@@ -424,10 +425,10 @@ Depends: libc, libpthread, libev
 License: GPL-3.0-or-later
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 31733
+Installed-Size: 31230
 Filename: simple-obfs_0.0.5-1_aarch64_cortex-a72.ipk
-Size: 32175
-SHA256sum: f950a50096c33a351f8f78e8a5713ed216772fce819a37151b2b93efb4d97f07
+Size: 31999
+SHA256sum: 766d06f7a2fa448873d6e3d62788add7088408fcd82e16091abd348bee18ceb9
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
 Package: simpleproxy
@@ -436,61 +437,60 @@ Depends: libc
 License: GPLv2
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 11992
+Installed-Size: 11763
 Filename: simpleproxy_3.5_aarch64_cortex-a72.ipk
-Size: 12657
-SHA256sum: eb36e0308ca7101aff32881f626576be185a9f768f9d10823ea0695167bab78c
+Size: 12604
+SHA256sum: 7f11320c8e6839f3d31398d5cab655e37609083309785d8577e68c3196e28fd0
 Description:  Simpleproxy is a simple TCP proxy. It accepts connections on a local
  TCP port and forward them to anoter port on a remote host via TCP.
 
 Package: sms-tool
 Version: 2022-03-21-f07699ab-1
 Depends: libc
-License: Apache-2.0
 Section: utils
 Architecture: aarch64_cortex-a72
-Installed-Size: 8995
+Installed-Size: 8929
 Filename: sms-tool_2022-03-21-f07699ab-1_aarch64_cortex-a72.ipk
-Size: 9651
-SHA256sum: e59e6b7a678f610627a3f82ed5f448bf8004c3eae3cae3a310dbb2e6bf007334
+Size: 9669
+SHA256sum: 10bd5b1accaaab863163e4a763a7877a149548ed006ea03a81afc0aba551853a
 Description:  SMS Tool for 3G/4G modem
 
 Package: speedtestpp
 Version: 1.14-1
-Depends: libc, libcurl4, libxml2, libopenssl3, libstdcpp6
+Depends: libc, libcurl4, libxml2, libopenssl1.1, libstdcpp6
 License: MIT
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 28013
+Installed-Size: 26426
 Filename: speedtestpp_1.14-1_aarch64_cortex-a72.ipk
-Size: 28796
-SHA256sum: 8016cc520a21a0fe95797790d2b246171c1d32379be9010595672189b0da75c2
+Size: 27146
+SHA256sum: 391f56c2d864e52430f18a5efcabff902df5cbee1bcaed3812bca2b30c9245bf
 Description:  Yet another unofficial speedtest.net client cli interface
 
 Package: ssocks
 Version: 0.0.14-3
-Depends: libc, libopenssl3
+Depends: libc, libopenssl1.1
 License: MIT
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 15289
+Installed-Size: 15511
 Filename: ssocks_0.0.14-3_aarch64_cortex-a72.ipk
-Size: 15994
-SHA256sum: 7efebf39fad64f2c1869a3377bd36f5a0b008cbdc1f5cbe455ca389b2e9c3569
+Size: 16380
+SHA256sum: 4c804bd40fda8f82f9eafaac5a1ef61cb6b17799575b0d5376627c252ffccfe6
 Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
  RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
  and a socks5 relay.
 
 Package: ssocksd
 Version: 0.0.14-3
-Depends: libc, libopenssl3
+Depends: libc, libopenssl1.1
 License: MIT
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 15519
+Installed-Size: 15757
 Filename: ssocksd_0.0.14-3_aarch64_cortex-a72.ipk
-Size: 16226
-SHA256sum: cae4ff7a9bfc17b001a329acac58dc2811ee2c2fb9be494c2b8ab1fcaae3207a
+Size: 16637
+SHA256sum: ea429dff9c09c45f617ddac444135c8ee2abe8c957fa8be4a2557aacbaba9a7e
 Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and
  RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool
  and a socks5 relay.
@@ -501,10 +501,10 @@ Depends: libc
 License: GPL-2.0-only
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 3723
+Installed-Size: 3538
 Filename: tcping_0.3-1_aarch64_cortex-a72.ipk
-Size: 4320
-SHA256sum: f480f837f392032f8d37aeb7d0702a77b9cfd18f59f661698e621e8fb77b19e8
+Size: 4288
+SHA256sum: 7c80185a06c79f980d725fe0945d7dab2dc66f4b3d0f732dfdb6d7d4cca2cc8b
 Description:  tcping measures the latency of a tcp-connection
 
 Package: trojan-go
@@ -522,26 +522,26 @@ Description:  Trojan features multiple protocols over TLS to avoid both
 
 Package: trojan-plus
 Version: 10.0.3-2
-Depends: libc, libpthread, libstdcpp6, libopenssl3, boost, boost-system, boost-program_options
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options
 License: GPL-3.0
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 389053
+Installed-Size: 367966
 Filename: trojan-plus_10.0.3-2_aarch64_cortex-a72.ipk
-Size: 389584
-SHA256sum: 1c49156d9bc33e04fb6df2cd21a649450abd9f5f74cbf8220fa0ab0b910d3f9e
+Size: 368786
+SHA256sum: dc603bdf52cf2ad6db79f9bc5a87f572c01067b52f999a91a4142fb9221f7a13
 Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
 
 Package: trojan
 Version: 1.16.0-2
-Depends: libc, libpthread, libstdcpp6, libopenssl3, boost, boost-system, boost-program_options, boost-date_time
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options, boost-date_time
 License: GPL-3.0
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 279699
+Installed-Size: 261254
 Filename: trojan_1.16.0-2_aarch64_cortex-a72.ipk
-Size: 280439
-SHA256sum: cd23c534f75a10bb0cb5e2042b88ac92c66556e0ab45aa717ce8af43f4422167
+Size: 262056
+SHA256sum: 3d49b2dd61d87cd8e583cab6818283f0bfa571eddf41d91faf06bd81e7ceed41
 Description:  An unidentifiable mechanism that helps you bypass GFW
 
 Package: tuic-client
@@ -549,10 +549,10 @@ Version: 1.0.0-1
 Depends: libc
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 1044944
+Installed-Size: 1044956
 Filename: tuic-client_1.0.0-1_aarch64_cortex-a72.ipk
-Size: 1043171
-SHA256sum: 20074a6f438e2b36c9a332a7268ff1d08698a709ecb3b3910cb1c0a2231839c1
+Size: 1043242
+SHA256sum: 6109ad44aa0d17b0d41d1dbe9a2b34f845ccfb0bf5c11d00f7c549b085e53cec
 Description:  Delicately-TUICed 0-RTT proxy protocol
 
 Package: v2ray-core
@@ -586,10 +586,10 @@ Depends: libc, libpthread
 License: MIT
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 23828
+Installed-Size: 23965
 Filename: vlmcsd_svn1113-3_aarch64_cortex-a72.ipk
-Size: 24516
-SHA256sum: e29c796ded09337a74eea39da125bd2ca2454b4c7d9cc42d8d6923be0239d161
+Size: 24658
+SHA256sum: b8cc372bd3ff3ac277b979a30f6692a5977436d6312f0b988b4f19fa2c4de732
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: xray-plugin
